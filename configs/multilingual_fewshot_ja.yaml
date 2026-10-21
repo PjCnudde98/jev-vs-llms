@@ -1,0 +1,11 @@
+# Does showing 3 Japanese examples per label close Jev's (and the LLMs') gap to English?
+# Compare with configs/multilingual_ja.yaml (zero-shot) on the same items.
+name: multilingual-fewshot-ja
+dataset: massive_ja
+splits: [calibration, eval]
+concurrency: 8
+max_cost_usd: 12.0
+arms:
+  - {name: jev-3shot, kind: jev, model: jev-1.13.0, params: {examples_per_label: 3}}
+  - {name: haiku-5.5-3shot, kind: anthropic, model: claude-haiku-5-5, params: {effort: low, examples_per_label: 3}}
+  - {name: opus-5.5-3shot, kind: anthropic, model: claude-opus-5-5, params: {effort: low, examples_per_label: 3}}

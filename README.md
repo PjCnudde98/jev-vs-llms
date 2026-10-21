@@ -57,9 +57,10 @@ config). Every call is cached, so rerunning a config, or running `metrics`,
 | Do few-shot examples change the picture? | E1 variant | `configs/fewshot_clinc150.yaml` | `report` |
 | Many classes | E3 stress | `configs/stress/clinc150_classes_{10,25,77}.yaml` | `report` with all runs |
 | Long or messy input | E3 stress | `configs/stress/clinc150_messy.yaml` | `report` with the clean run |
+| Does it work in French, Dutch and Japanese? | E5 multilingual | `prepare massive`, then `configs/multilingual_{en,fr,nl,ja}.yaml` (smoke: `configs/smoke_multilingual_*.yaml`; few-shot: `configs/multilingual_fewshot_ja.yaml`) | `compare` for paired tests, `report` with all four runs (adds a by-language section) |
 | In-house triage set | E1-E3 on client-like data | copy `tasks/triage.example.yaml`, then `prepare triage --source ...` | as above |
 
-Not automated yet: Dutch/French translations, unseen classes, reasoning-heavy rules,
+Not automated yet: native NL/FR support tickets, unseen classes, reasoning-heavy rules,
 and the build-effort log (E4). See [docs/methodology.md](docs/methodology.md#what-is-not-automated-yet).
 
 ## Commands
@@ -71,6 +72,8 @@ and the build-effort log (E4). See [docs/methodology.md](docs/methodology.md#wha
 | `jev-eval run <config> [--run-id ID]` | Run every arm, store raw predictions, print metrics | Yes, capped by `max_cost_usd` |
 | `jev-eval metrics <results/ID>` | Recompute all metrics from stored predictions | No |
 | `jev-eval cascade <results/ID> --primary A --fallback B` | Simulate "A first, B when unsure" from stored predictions | No |
+| `jev-eval compare <results/ID>:<arm> <results/ID>:<arm>` | Paired accuracy difference with bootstrap interval and McNemar p-value, across arms or languages | No |
+| `jev-eval business <results/ID> [--volumes N...] [--cost-per-error USD] [--reference ARM]` | Monthly API cost, mistakes, break-even price per mistake and dominated arms; writes `business.json` | No |
 | `jev-eval report <results/ID>... [-o file]` | Build the HTML report | No |
 
 ## Layout
@@ -85,8 +88,9 @@ src/jev_eval/
   runner.py       concurrency, retries, call cache, budget guard
   metrics.py      accuracy, macro-F1, bootstrap CIs, ECE, cost, latency, consistency
   cascade.py      threshold sweep and operating points
+  business.py     monthly cost, mistakes, break-even and dominated arms at your volume
   stress.py       class subsampling, typos, email boilerplate
-  report.py       the HTML report
+  report.py       the HTML report: summary, by language, significance, cost calculator
 results/<run-id>/ config.yaml, manifest.json, <split>/<arm>.jsonl, metrics.json, cascade/, verdict.md
 report/           generated reports
 tests/            pytest suite; no API keys needed
@@ -111,7 +115,7 @@ docs/             methodology, configuration, extending, Typesafe API notes
 ## Development
 
 ```bash
-uv run pytest            # 20 tests, offline (mocked HTTP for Typesafe and Anthropic)
+uv run pytest            # offline (mocked HTTP for Typesafe and Anthropic)
 uv run ruff check src tests
 uv run ruff format src tests
 ```

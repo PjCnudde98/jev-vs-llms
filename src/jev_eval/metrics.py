@@ -19,6 +19,7 @@ from pathlib import Path
 
 import numpy as np
 import yaml
+from scipy.stats import binomtest
 from sklearn.metrics import f1_score, precision_recall_fscore_support
 
 from jev_eval.config import ROOT, RunConfig
@@ -111,6 +112,40 @@ def field_metrics(rows: list[dict], field: str, labels: list[str], oos_label: st
     return out
 
 
+def _correct_by_item(rows: list[dict], field: str) -> dict[str, float]:
+    return {
+        r["item_id"]: float((r["answers"].get(field) or {}).get("label") == r["gold"][field])
+        for r in rows
+        if r.get("repeat", 0) == 0
+    }
+
+
+def paired_difference(rows_a: list[dict], rows_b: list[dict], field: str) -> dict:
+    """Accuracy of A minus accuracy of B on the items both answered, with a paired test.
+
+    Works for two arms in one run and for the same arm across runs (e.g. Jev in English vs
+    Japanese on the paired MASSIVE items). The interval is a paired bootstrap over items;
+    the p-value is an exact McNemar test on the items where exactly one of A and B is right.
+    """
+    a, b = _correct_by_item(rows_a, field), _correct_by_item(rows_b, field)
+    ids = sorted(set(a) & set(b))
+    if not ids:
+        raise ValueError("The two result sets share no items; paired comparison needs the same item ids.")
+    diff = np.array([a[i] - b[i] for i in ids])
+    only_a, only_b = int((diff > 0).sum()), int((diff < 0).sum())
+    p_value = binomtest(only_a, only_a + only_b, 0.5).pvalue if only_a + only_b else 1.0
+    return {
+        "n": len(ids),
+        "accuracy_a": float(np.mean([a[i] for i in ids])),
+        "accuracy_b": float(np.mean([b[i] for i in ids])),
+        "difference": float(diff.mean()),
+        "difference_ci": _bootstrap(diff, np.mean),
+        "only_a_right": only_a,
+        "only_b_right": only_b,
+        "p_value": float(p_value),
+    }
+
+
 def arm_metrics(rows: list[dict], task: TaskSpec) -> dict:
     first = [r for r in rows if r.get("repeat", 0) == 0]
     valid_lat = np.array([r["latency_s"] for r in rows if r["valid"] and r["latency_s"] > 0])
@@ -134,6 +169,8 @@ def arm_metrics(rows: list[dict], task: TaskSpec) -> dict:
         "latency": {
             q: (float(np.percentile(valid_lat, int(q[1:]))) if len(valid_lat) else None) for q in ("p50", "p95", "p99")
         },
+        # Share of items where every field is right; the figure cost per 1k correct is based on.
+        "task_accuracy": all_correct / len(first) if first else None,
         "fields": fields,
     }
 

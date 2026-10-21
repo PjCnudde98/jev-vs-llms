@@ -22,15 +22,19 @@ class BaselineArm(Arm):
         super().__init__(*args, **kwargs)
         self._models: dict[str, Pipeline] = {}
 
+    def _vectorizer(self) -> TfidfVectorizer:
+        # Word n-grams by default. `analyzer: char_wb` (character 2-5 grams) is for
+        # languages without spaces between words, such as Japanese.
+        if self.params.get("analyzer", "word") == "char_wb":
+            return TfidfVectorizer(analyzer="char_wb", ngram_range=(2, 5), sublinear_tf=True, min_df=1)
+        return TfidfVectorizer(ngram_range=(1, 2), sublinear_tf=True, min_df=1)
+
     def fit(self, train: list[Item]) -> None:
         if not train:
             raise ValueError("The baseline arm needs the train split.")
         texts = [i.text for i in train]
         for field in self.task.fields:
-            model = make_pipeline(
-                TfidfVectorizer(ngram_range=(1, 2), sublinear_tf=True, min_df=1),
-                LogisticRegression(max_iter=3000, C=self.params.get("C", 10.0)),
-            )
+            model = make_pipeline(self._vectorizer(), LogisticRegression(max_iter=3000, C=self.params.get("C", 10.0)))
             model.fit(texts, [i.labels[field.name] for i in train])
             self._models[field.name] = model
 

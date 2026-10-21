@@ -1,0 +1,300 @@
+{"id": "massive-0", "text": "maak me deze week om vijf uur in de ochtend wakker", "labels": {"intent": "alarm_set"}, "meta": {"language": "nl", "massive_id": "0"}}
+{"id": "massive-10045", "text": "kan je me een recept geven voor zelfgemaakte noedelsoep met kip", "labels": {"intent": "cooking_recipe"}, "meta": {"language": "nl", "massive_id": "10045"}}
+{"id": "massive-10078", "text": "wat zal ik voor het avondeten koken", "labels": {"intent": "cooking_recipe"}, "meta": {"language": "nl", "massive_id": "10078"}}
+{"id": "massive-10100", "text": "weet je een recept voor risotto", "labels": {"intent": "cooking_recipe"}, "meta": {"language": "nl", "massive_id": "10100"}}
+{"id": "massive-10182", "text": "hoeveel eieren heb ik voor een omelet nodig", "labels": {"intent": "cooking_recipe"}, "meta": {"language": "nl", "massive_id": "10182"}}
+{"id": "massive-10268", "text": "laten we global thermonuclear war gaan spelen", "labels": {"intent": "play_game"}, "meta": {"language": "nl", "massive_id": "10268"}}
+{"id": "massive-1030", "text": "dim de lichten in de woonkamer", "labels": {"intent": "iot_hue_lightdim"}, "meta": {"language": "nl", "massive_id": "1030"}}
+{"id": "massive-10302", "text": "lanceer spel", "labels": {"intent": "play_game"}, "meta": {"language": "nl", "massive_id": "10302"}}
+{"id": "massive-10349", "text": "laten we you'll be the keeper and never change position spelen", "labels": {"intent": "play_game"}, "meta": {"language": "nl", "massive_id": "10349"}}
+{"id": "massive-10350", "text": "speel racen", "labels": {"intent": "play_game"}, "meta": {"language": "nl", "massive_id": "10350"}}
+{"id": "massive-10381", "text": "begin een competitieve kruiswoord voor ons", "labels": {"intent": "play_game"}, "meta": {"language": "nl", "massive_id": "10381"}}
+{"id": "massive-10442", "text": "verwijder gebeurtenissen van mijn lijst", "labels": {"intent": "lists_remove"}, "meta": {"language": "nl", "massive_id": "10442"}}
+{"id": "massive-10444", "text": "verwijder item", "labels": {"intent": "lists_remove"}, "meta": {"language": "nl", "massive_id": "10444"}}
+{"id": "massive-10455", "text": "wat staat er op mijn te doen lijst", "labels": {"intent": "lists_query"}, "meta": {"language": "nl", "massive_id": "10455"}}
+{"id": "massive-1048", "text": "het luidspreker volume verlagen", "labels": {"intent": "audio_volume_down"}, "meta": {"language": "nl", "massive_id": "1048"}}
+{"id": "massive-10512", "text": "geef een overzicht van alles wat nog over is van mijn vraag", "labels": {"intent": "lists_query"}, "meta": {"language": "nl", "massive_id": "10512"}}
+{"id": "massive-1065", "text": "waar is de volume instelling", "labels": {"intent": "audio_volume_other"}, "meta": {"language": "nl", "massive_id": "1065"}}
+{"id": "massive-10699", "text": "informeer me over de items op de lijst", "labels": {"intent": "lists_query"}, "meta": {"language": "nl", "massive_id": "10699"}}
+{"id": "massive-1076", "text": "speel geen heavy metal", "labels": {"intent": "music_dislikeness"}, "meta": {"language": "nl", "massive_id": "1076"}}
+{"id": "massive-10808", "text": "verwijder het laatste item lijst", "labels": {"intent": "lists_remove"}, "meta": {"language": "nl", "massive_id": "10808"}}
+{"id": "massive-10816", "text": "creëer een afspeellijst", "labels": {"intent": "lists_createoradd"}, "meta": {"language": "nl", "massive_id": "10816"}}
+{"id": "massive-10858", "text": "nieuwe lijst", "labels": {"intent": "lists_createoradd"}, "meta": {"language": "nl", "massive_id": "10858"}}
+{"id": "massive-10895", "text": "verwijder object van mijn lijst", "labels": {"intent": "lists_remove"}, "meta": {"language": "nl", "massive_id": "10895"}}
+{"id": "massive-10915", "text": "begin een nieuw lijst", "labels": {"intent": "lists_createoradd"}, "meta": {"language": "nl", "massive_id": "10915"}}
+{"id": "massive-10938", "text": "voeg alsjeblieft suiker aan mijn boodschappen lijst toe", "labels": {"intent": "lists_createoradd"}, "meta": {"language": "nl", "massive_id": "10938"}}
+{"id": "massive-10981", "text": "laat me de lijst weten", "labels": {"intent": "lists_query"}, "meta": {"language": "nl", "massive_id": "10981"}}
+{"id": "massive-11026", "text": "voeg een item toe aan de lijst", "labels": {"intent": "lists_createoradd"}, "meta": {"language": "nl", "massive_id": "11026"}}
+{"id": "massive-11053", "text": "verwijder de lijst google", "labels": {"intent": "lists_remove"}, "meta": {"language": "nl", "massive_id": "11053"}}
+{"id": "massive-11172", "text": "geef me alle beschikbare lijsten", "labels": {"intent": "lists_query"}, "meta": {"language": "nl", "massive_id": "11172"}}
+{"id": "massive-11361", "text": "speel het shadi special podcast", "labels": {"intent": "play_podcasts"}, "meta": {"language": "nl", "massive_id": "11361"}}
+{"id": "massive-11366", "text": "ga terug naar de vorige aflevering van podcast", "labels": {"intent": "play_podcasts"}, "meta": {"language": "nl", "massive_id": "11366"}}
+{"id": "massive-11424", "text": "radio tien", "labels": {"intent": "play_podcasts"}, "meta": {"language": "nl", "massive_id": "11424"}}
+{"id": "massive-11460", "text": "ik wil luisteren naar een sport podcast", "labels": {"intent": "play_podcasts"}, "meta": {"language": "nl", "massive_id": "11460"}}
+{"id": "massive-11483", "text": "begin met de taalstaat af te spelen", "labels": {"intent": "play_podcasts"}, "meta": {"language": "nl", "massive_id": "11483"}}
+{"id": "massive-1160", "text": "hoe koud wordt het deze week elke nacht", "labels": {"intent": "weather_query"}, "meta": {"language": "nl", "massive_id": "1160"}}
+{"id": "massive-11628", "text": "waar is de apotheek in nijmegen", "labels": {"intent": "recommendation_locations"}, "meta": {"language": "nl", "massive_id": "11628"}}
+{"id": "massive-11634", "text": "welke film zal ik vandaag kijken", "labels": {"intent": "recommendation_movies"}, "meta": {"language": "nl", "massive_id": "11634"}}
+{"id": "massive-11685", "text": "ik zou blij zijn als je me op de hoogte zou brengen van de evenementen in onze omgeving", "labels": {"intent": "recommendation_events"}, "meta": {"language": "nl", "massive_id": "11685"}}
+{"id": "massive-11695", "text": "heb je suggesties voor actie films", "labels": {"intent": "recommendation_movies"}, "meta": {"language": "nl", "massive_id": "11695"}}
+{"id": "massive-11744", "text": "olly welke nieuwe drama films zijn er te zien vanaf zit weekeinde", "labels": {"intent": "recommendation_movies"}, "meta": {"language": "nl", "massive_id": "11744"}}
+{"id": "massive-11778", "text": "waar bevindt zich een goed wijncafé nabij me", "labels": {"intent": "recommendation_locations"}, "meta": {"language": "nl", "massive_id": "11778"}}
+{"id": "massive-11841", "text": "zijn er nog ambachtsbeurzen gaande in deze omgeving", "labels": {"intent": "recommendation_events"}, "meta": {"language": "nl", "massive_id": "11841"}}
+{"id": "massive-11916", "text": "wat zijn enkele themaparken in de buurt", "labels": {"intent": "recommendation_events"}, "meta": {"language": "nl", "massive_id": "11916"}}
+{"id": "massive-11920", "text": "welke films komen er deze week uit", "labels": {"intent": "recommendation_movies"}, "meta": {"language": "nl", "massive_id": "11920"}}
+{"id": "massive-11932", "text": "wat moet ik vandaag zien", "labels": {"intent": "recommendation_movies"}, "meta": {"language": "nl", "massive_id": "11932"}}
+{"id": "massive-12054", "text": "wat is er te doen in de stad", "labels": {"intent": "recommendation_events"}, "meta": {"language": "nl", "massive_id": "12054"}}
+{"id": "massive-12098", "text": "laat mij muzikale evenementen dichtbij zien", "labels": {"intent": "recommendation_events"}, "meta": {"language": "nl", "massive_id": "12098"}}
+{"id": "massive-12127", "text": "ik moet naar amsterdam met de trein op zondag om vijf uur in de morgen", "labels": {"intent": "transport_ticket"}, "meta": {"language": "nl", "massive_id": "12127"}}
+{"id": "massive-12161", "text": "kun je een uber boeken zodra ik op weg ben naar kantoor", "labels": {"intent": "transport_taxi"}, "meta": {"language": "nl", "massive_id": "12161"}}
+{"id": "massive-12166", "text": "boek mijn trein kaartje van leiden naar utrecht", "labels": {"intent": "transport_ticket"}, "meta": {"language": "nl", "massive_id": "12166"}}
+{"id": "massive-1217", "text": "olly verander de verlichting naar blauw", "labels": {"intent": "iot_hue_lightchange"}, "meta": {"language": "nl", "massive_id": "1217"}}
+{"id": "massive-12182", "text": "wat is de verkeerssituatie op de a twaalf", "labels": {"intent": "transport_traffic"}, "meta": {"language": "nl", "massive_id": "12182"}}
+{"id": "massive-12248", "text": "ollie vind de dichtstbijzijnde uber", "labels": {"intent": "transport_taxi"}, "meta": {"language": "nl", "massive_id": "12248"}}
+{"id": "massive-12264", "text": "venlo", "labels": {"intent": "transport_query"}, "meta": {"language": "nl", "massive_id": "12264"}}
+{"id": "massive-12299", "text": "bel me een taxi olly", "labels": {"intent": "transport_taxi"}, "meta": {"language": "nl", "massive_id": "12299"}}
+{"id": "massive-12329", "text": "bel een taxi", "labels": {"intent": "transport_taxi"}, "meta": {"language": "nl", "massive_id": "12329"}}
+{"id": "massive-12343", "text": "controleer de tijd van de ice trein van station schiedam op dinsdag", "labels": {"intent": "transport_query"}, "meta": {"language": "nl", "massive_id": "12343"}}
+{"id": "massive-12409", "text": "waar is het dichtstbijzijnde tankstation", "labels": {"intent": "recommendation_locations"}, "meta": {"language": "nl", "massive_id": "12409"}}
+{"id": "massive-12629", "text": "om hoe laat vertrekt de eerste trein uit utrecht", "labels": {"intent": "transport_query"}, "meta": {"language": "nl", "massive_id": "12629"}}
+{"id": "massive-1264", "text": "is mijn wekker geinstalleerd voor morgen ochtend", "labels": {"intent": "alarm_query"}, "meta": {"language": "nl", "massive_id": "1264"}}
+{"id": "massive-12672", "text": "hoe is het verkeer in de stad", "labels": {"intent": "transport_traffic"}, "meta": {"language": "nl", "massive_id": "12672"}}
+{"id": "massive-12716", "text": "bel een uberpool om me naar café wijnhaven te brengen", "labels": {"intent": "transport_taxi"}, "meta": {"language": "nl", "massive_id": "12716"}}
+{"id": "massive-12717", "text": "hoe is het nu op de weg", "labels": {"intent": "transport_traffic"}, "meta": {"language": "nl", "massive_id": "12717"}}
+{"id": "massive-12789", "text": "kun je me over het verkeer inlichten", "labels": {"intent": "transport_traffic"}, "meta": {"language": "nl", "massive_id": "12789"}}
+{"id": "massive-12813", "text": "alsjeblieft boek een ticket voor de trein intercity naar amsterdam van utrecht", "labels": {"intent": "transport_ticket"}, "meta": {"language": "nl", "massive_id": "12813"}}
+{"id": "massive-12824", "text": "geef alle treintijden voor amsterdam weer", "labels": {"intent": "transport_query"}, "meta": {"language": "nl", "massive_id": "12824"}}
+{"id": "massive-12838", "text": "hoe is het verkeer op dit moment", "labels": {"intent": "transport_traffic"}, "meta": {"language": "nl", "massive_id": "12838"}}
+{"id": "massive-12874", "text": "treinkaartje s. v. p.", "labels": {"intent": "transport_ticket"}, "meta": {"language": "nl", "massive_id": "12874"}}
+{"id": "massive-1300", "text": "snel", "labels": {"intent": "audio_volume_up"}, "meta": {"language": "nl", "massive_id": "1300"}}
+{"id": "massive-13101", "text": "wat is één plus één", "labels": {"intent": "qa_maths"}, "meta": {"language": "nl", "massive_id": "13101"}}
+{"id": "massive-13122", "text": "wat is de faculteit van tien", "labels": {"intent": "qa_maths"}, "meta": {"language": "nl", "massive_id": "13122"}}
+{"id": "massive-13154", "text": "weet jij het telefoonnummer van jessica snout", "labels": {"intent": "qa_factoid"}, "meta": {"language": "nl", "massive_id": "13154"}}
+{"id": "massive-13166", "text": "spellen en definiëren oscilleren", "labels": {"intent": "qa_definition"}, "meta": {"language": "nl", "massive_id": "13166"}}
+{"id": "massive-13223", "text": "waarom ziet sofia vergara er zo jong uit", "labels": {"intent": "general_quirky"}, "meta": {"language": "nl", "massive_id": "13223"}}
+{"id": "massive-13297", "text": "wie is beroemd", "labels": {"intent": "qa_factoid"}, "meta": {"language": "nl", "massive_id": "13297"}}
+{"id": "massive-13312", "text": "alexa ik heb dollars voor de maand hoeveel kan ik deze maand elke dag uitgeven", "labels": {"intent": "qa_maths"}, "meta": {"language": "nl", "massive_id": "13312"}}
+{"id": "massive-13372", "text": "hoe laat zijn de hockeywedstrijden vanavond", "labels": {"intent": "general_quirky"}, "meta": {"language": "nl", "massive_id": "13372"}}
+{"id": "massive-13548", "text": "ik verzoek je de t. v. aan te zetten", "labels": {"intent": "iot_wemo_on"}, "meta": {"language": "nl", "massive_id": "13548"}}
+{"id": "massive-13684", "text": "wat is de dollar prijs in euro", "labels": {"intent": "qa_currency"}, "meta": {"language": "nl", "massive_id": "13684"}}
+{"id": "massive-13705", "text": "wat is een elektronisch emissiesysteem", "labels": {"intent": "qa_definition"}, "meta": {"language": "nl", "massive_id": "13705"}}
+{"id": "massive-13722", "text": "geef de wisselkoers van vandaag voor de u. s. dollar tegen de japanse yen", "labels": {"intent": "qa_currency"}, "meta": {"language": "nl", "massive_id": "13722"}}
+{"id": "massive-13847", "text": "wat is de wisselkoers voor mexicaans geld", "labels": {"intent": "qa_currency"}, "meta": {"language": "nl", "massive_id": "13847"}}
+{"id": "massive-13854", "text": "wanneer stierf elvis", "labels": {"intent": "qa_factoid"}, "meta": {"language": "nl", "massive_id": "13854"}}
+{"id": "massive-13858", "text": "geef een overzicht van het aandeel apple op dit moment", "labels": {"intent": "qa_stock"}, "meta": {"language": "nl", "massive_id": "13858"}}
+{"id": "massive-14", "text": "en de duisternis is gevallen", "labels": {"intent": "iot_hue_lighton"}, "meta": {"language": "nl", "massive_id": "14"}}
+{"id": "massive-14015", "text": "wat zijn de coördinaten van de evenaar", "labels": {"intent": "qa_factoid"}, "meta": {"language": "nl", "massive_id": "14015"}}
+{"id": "massive-14025", "text": "één plus twee gelijk", "labels": {"intent": "qa_maths"}, "meta": {"language": "nl", "massive_id": "14025"}}
+{"id": "massive-14179", "text": "hoe ver is canada van mijn huidige locatie", "labels": {"intent": "qa_factoid"}, "meta": {"language": "nl", "massive_id": "14179"}}
+{"id": "massive-14348", "text": "google wat zijn de basisdingen die mensen nodig hebben", "labels": {"intent": "general_quirky"}, "meta": {"language": "nl", "massive_id": "14348"}}
+{"id": "massive-1454", "text": "zet het alarm uit", "labels": {"intent": "alarm_remove"}, "meta": {"language": "nl", "massive_id": "1454"}}
+{"id": "massive-14592", "text": "geef me de beschrijving van een smartphone circuit", "labels": {"intent": "qa_definition"}, "meta": {"language": "nl", "massive_id": "14592"}}
+{"id": "massive-14644", "text": "aandelenprijs", "labels": {"intent": "qa_stock"}, "meta": {"language": "nl", "massive_id": "14644"}}
+{"id": "massive-14668", "text": "beschrijf item xy", "labels": {"intent": "qa_definition"}, "meta": {"language": "nl", "massive_id": "14668"}}
+{"id": "massive-14757", "text": "verdeel zesenzeventig in twee delen", "labels": {"intent": "qa_maths"}, "meta": {"language": "nl", "massive_id": "14757"}}
+{"id": "massive-14761", "text": "geef me de definitie van het woord pontificeren", "labels": {"intent": "qa_definition"}, "meta": {"language": "nl", "massive_id": "14761"}}
+{"id": "massive-14762", "text": "dollar naar euro wisselkoers", "labels": {"intent": "qa_currency"}, "meta": {"language": "nl", "massive_id": "14762"}}
+{"id": "massive-14792", "text": "waar is een wandelpad vlakbij mij", "labels": {"intent": "recommendation_locations"}, "meta": {"language": "nl", "massive_id": "14792"}}
+{"id": "massive-14874", "text": "controleer de aandelenkoers voor dunkin' donuts", "labels": {"intent": "qa_stock"}, "meta": {"language": "nl", "massive_id": "14874"}}
+{"id": "massive-14919", "text": "hoe hebben philips aandelen het afgelopen week gedaan", "labels": {"intent": "qa_stock"}, "meta": {"language": "nl", "massive_id": "14919"}}
+{"id": "massive-14926", "text": "hoeveel zou het kosten om aandelen in apple te kopen", "labels": {"intent": "qa_stock"}, "meta": {"language": "nl", "massive_id": "14926"}}
+{"id": "massive-15010", "text": "hoeveel is een amerikaanse dollar waard in engeland", "labels": {"intent": "qa_currency"}, "meta": {"language": "nl", "massive_id": "15010"}}
+{"id": "massive-1511", "text": "toon me alle beschikbare kleuren voor de lichten", "labels": {"intent": "iot_hue_lightchange"}, "meta": {"language": "nl", "massive_id": "1511"}}
+{"id": "massive-15203", "text": "nieuwe updates", "labels": {"intent": "social_query"}, "meta": {"language": "nl", "massive_id": "15203"}}
+{"id": "massive-15205", "text": "geef me elke drie uur mijn facebook update", "labels": {"intent": "social_query"}, "meta": {"language": "nl", "massive_id": "15205"}}
+{"id": "massive-15216", "text": "tweet iets voor mij", "labels": {"intent": "social_post"}, "meta": {"language": "nl", "massive_id": "15216"}}
+{"id": "massive-15274", "text": "scan alsjeblieft mijn sociale media en vertel me wat er gebeurt", "labels": {"intent": "social_query"}, "meta": {"language": "nl", "massive_id": "15274"}}
+{"id": "massive-15280", "text": "facebook", "labels": {"intent": "social_query"}, "meta": {"language": "nl", "massive_id": "15280"}}
+{"id": "massive-15337", "text": "post deze video op facebook", "labels": {"intent": "social_post"}, "meta": {"language": "nl", "massive_id": "15337"}}
+{"id": "massive-15364", "text": "kun je amazon laten weten dat dit nieuwe telefoonhoesje rommel is", "labels": {"intent": "social_post"}, "meta": {"language": "nl", "massive_id": "15364"}}
+{"id": "massive-15503", "text": "nieuwe tweet aan consumenten service", "labels": {"intent": "social_post"}, "meta": {"language": "nl", "massive_id": "15503"}}
+{"id": "massive-1551", "text": "zet de philips aan", "labels": {"intent": "iot_wemo_on"}, "meta": {"language": "nl", "massive_id": "1551"}}
+{"id": "massive-1554", "text": "zet de lampen uit", "labels": {"intent": "iot_hue_lightoff"}, "meta": {"language": "nl", "massive_id": "1554"}}
+{"id": "massive-15693", "text": "tweet dat er een insect in het chocolade pakket zat", "labels": {"intent": "social_post"}, "meta": {"language": "nl", "massive_id": "15693"}}
+{"id": "massive-1579", "text": "vind voor mij een mop met betrekking tot honkbal", "labels": {"intent": "general_joke"}, "meta": {"language": "nl", "massive_id": "1579"}}
+{"id": "massive-15890", "text": "controleer om te zien of ik wat nieuwe e-mails van mijn vader heb", "labels": {"intent": "email_query"}, "meta": {"language": "nl", "massive_id": "15890"}}
+{"id": "massive-15982", "text": "geef me tom's telefoonnummer", "labels": {"intent": "email_querycontact"}, "meta": {"language": "nl", "massive_id": "15982"}}
+{"id": "massive-15995", "text": "email karin over de budgetvergadering", "labels": {"intent": "email_sendemail"}, "meta": {"language": "nl", "massive_id": "15995"}}
+{"id": "massive-16032", "text": "alsjeblieft zend een e-mail naar sally over de vergadering van morgen", "labels": {"intent": "email_sendemail"}, "meta": {"language": "nl", "massive_id": "16032"}}
+{"id": "massive-16296", "text": "stuur een e-mail aan mama om haar te vertellen dat eriks verjaardagsfeestje op zondag is", "labels": {"intent": "email_sendemail"}, "meta": {"language": "nl", "massive_id": "16296"}}
+{"id": "massive-16317", "text": "kreeg ik nieuwe e-mails van sarah", "labels": {"intent": "email_query"}, "meta": {"language": "nl", "massive_id": "16317"}}
+{"id": "massive-16373", "text": "heb ik e-mails met trackingnummers ontvangen", "labels": {"intent": "email_query"}, "meta": {"language": "nl", "massive_id": "16373"}}
+{"id": "massive-16455", "text": "voeg nieuwe e-mail toe aan mijn contacten macs apenstaartje gmail punt com", "labels": {"intent": "email_addcontact"}, "meta": {"language": "nl", "massive_id": "16455"}}
+{"id": "massive-16470", "text": "voeg alstublieft deze email toe aan mijn contacten", "labels": {"intent": "email_addcontact"}, "meta": {"language": "nl", "massive_id": "16470"}}
+{"id": "massive-16532", "text": "doe een telefoontje naar", "labels": {"intent": "email_querycontact"}, "meta": {"language": "nl", "massive_id": "16532"}}
+{"id": "massive-16535", "text": "kun je een e-mail schrijven naar jasmijn", "labels": {"intent": "email_sendemail"}, "meta": {"language": "nl", "massive_id": "16535"}}
+{"id": "massive-16583", "text": "heeft mijn bedrijfsmedewerker een telefoonnummer thuis", "labels": {"intent": "email_querycontact"}, "meta": {"language": "nl", "massive_id": "16583"}}
+{"id": "massive-16711", "text": "zijn mijn contacten meestal vrouwelijk of mannelijk", "labels": {"intent": "email_querycontact"}, "meta": {"language": "nl", "massive_id": "16711"}}
+{"id": "massive-1675", "text": "verwijder dinsdag wekker voor negen uur in de ochtend", "labels": {"intent": "alarm_remove"}, "meta": {"language": "nl", "massive_id": "1675"}}
+{"id": "massive-16781", "text": "voeg dit emailadres toe aan mijn contacten en verzend een email", "labels": {"intent": "email_addcontact"}, "meta": {"language": "nl", "massive_id": "16781"}}
+{"id": "massive-16814", "text": "controleer e-mails", "labels": {"intent": "email_query"}, "meta": {"language": "nl", "massive_id": "16814"}}
+{"id": "massive-16846", "text": "voeg een e-mail voor john doe toe aan mijn contacten johndoe apenstaartje yahoo punt com", "labels": {"intent": "email_addcontact"}, "meta": {"language": "nl", "massive_id": "16846"}}
+{"id": "massive-16930", "text": "toon laatste email", "labels": {"intent": "email_query"}, "meta": {"language": "nl", "massive_id": "16930"}}
+{"id": "massive-16975", "text": "zoek een contact nummer van jayesh en vertel het me", "labels": {"intent": "email_querycontact"}, "meta": {"language": "nl", "massive_id": "16975"}}
+{"id": "massive-17011", "text": "kun je een email sturen naar", "labels": {"intent": "email_sendemail"}, "meta": {"language": "nl", "massive_id": "17011"}}
+{"id": "massive-17054", "text": "voeg gewoon een nieuwe e-mail toe aan mijn contacten van michael", "labels": {"intent": "email_addcontact"}, "meta": {"language": "nl", "massive_id": "17054"}}
+{"id": "massive-1715", "text": "volume met vijftig procent verlagen", "labels": {"intent": "audio_volume_down"}, "meta": {"language": "nl", "massive_id": "1715"}}
+{"id": "massive-1750", "text": "doe alle lichten uit", "labels": {"intent": "iot_hue_lightoff"}, "meta": {"language": "nl", "massive_id": "1750"}}
+{"id": "massive-1804", "text": "meer lichten alsjeblieft", "labels": {"intent": "iot_hue_lightup"}, "meta": {"language": "nl", "massive_id": "1804"}}
+{"id": "massive-1807", "text": "song titel", "labels": {"intent": "music_query"}, "meta": {"language": "nl", "massive_id": "1807"}}
+{"id": "massive-1812", "text": "maak alsjeblieft koffie voor me zonder zoetstof", "labels": {"intent": "iot_coffee"}, "meta": {"language": "nl", "massive_id": "1812"}}
+{"id": "massive-1830", "text": "ik wil graag pittig eten", "labels": {"intent": "takeaway_order"}, "meta": {"language": "nl", "massive_id": "1830"}}
+{"id": "massive-1862", "text": "om hoe laat gaat mijn wekker af", "labels": {"intent": "alarm_query"}, "meta": {"language": "nl", "massive_id": "1862"}}
+{"id": "massive-1872", "text": "lekker liedje voor onderweg", "labels": {"intent": "music_likeness"}, "meta": {"language": "nl", "massive_id": "1872"}}
+{"id": "massive-2056", "text": "ik wil dat nummer nooit meer horen", "labels": {"intent": "music_dislikeness"}, "meta": {"language": "nl", "massive_id": "2056"}}
+{"id": "massive-2082", "text": "verhoog het licht", "labels": {"intent": "iot_hue_lightup"}, "meta": {"language": "nl", "massive_id": "2082"}}
+{"id": "massive-2085", "text": "alexa ik zou graag wat klassiek horen maar geen bach of schubert", "labels": {"intent": "play_music"}, "meta": {"language": "nl", "massive_id": "2085"}}
+{"id": "massive-2094", "text": "wat is de muziek nu aan het spelen", "labels": {"intent": "music_query"}, "meta": {"language": "nl", "massive_id": "2094"}}
+{"id": "massive-2128", "text": "de kleur van het licht moet gedimd helder zijn", "labels": {"intent": "iot_hue_lightdim"}, "meta": {"language": "nl", "massive_id": "2128"}}
+{"id": "massive-2168", "text": "stop mijn wekker", "labels": {"intent": "alarm_remove"}, "meta": {"language": "nl", "massive_id": "2168"}}
+{"id": "massive-2198", "text": "welke dag van de week was vier december negentien tweeëntachtig", "labels": {"intent": "datetime_query"}, "meta": {"language": "nl", "massive_id": "2198"}}
+{"id": "massive-2206", "text": "vanaf nu stil", "labels": {"intent": "audio_volume_mute"}, "meta": {"language": "nl", "massive_id": "2206"}}
+{"id": "massive-2309", "text": "het is zeven uur 's ochtends in de pacifische standaard tijd", "labels": {"intent": "datetime_convert"}, "meta": {"language": "nl", "massive_id": "2309"}}
+{"id": "massive-2336", "text": "één pak noedels om af te halen", "labels": {"intent": "takeaway_order"}, "meta": {"language": "nl", "massive_id": "2336"}}
+{"id": "massive-2350", "text": "zet donkere kleuren in plaats van lichtere in het huis", "labels": {"intent": "iot_hue_lightchange"}, "meta": {"language": "nl", "massive_id": "2350"}}
+{"id": "massive-2354", "text": "welk soort muziek het is", "labels": {"intent": "music_query"}, "meta": {"language": "nl", "massive_id": "2354"}}
+{"id": "massive-2414", "text": "ik wil pizza bestellen van michael's pizza", "labels": {"intent": "takeaway_order"}, "meta": {"language": "nl", "massive_id": "2414"}}
+{"id": "massive-2434", "text": "start robotstofzuiger", "labels": {"intent": "iot_cleaning"}, "meta": {"language": "nl", "massive_id": "2434"}}
+{"id": "massive-2498", "text": "siri welke datum is het vandaag", "labels": {"intent": "datetime_query"}, "meta": {"language": "nl", "massive_id": "2498"}}
+{"id": "massive-2517", "text": "hoe start ik de robotstofzuiger", "labels": {"intent": "iot_cleaning"}, "meta": {"language": "nl", "massive_id": "2517"}}
+{"id": "massive-2566", "text": "zet mijn philips stopcontact uit", "labels": {"intent": "iot_wemo_off"}, "meta": {"language": "nl", "massive_id": "2566"}}
+{"id": "massive-258", "text": "ik kan je niet horen", "labels": {"intent": "audio_volume_up"}, "meta": {"language": "nl", "massive_id": "258"}}
+{"id": "massive-261", "text": "ik kan je nauwelijks horen", "labels": {"intent": "audio_volume_up"}, "meta": {"language": "nl", "massive_id": "261"}}
+{"id": "massive-2610", "text": "ik heb de bestelling van de febo afgezegd is dit doorgekomen", "labels": {"intent": "takeaway_query"}, "meta": {"language": "nl", "massive_id": "2610"}}
+{"id": "massive-263", "text": "laten we de lichten blauw maken", "labels": {"intent": "iot_hue_lightchange"}, "meta": {"language": "nl", "massive_id": "263"}}
+{"id": "massive-2647", "text": "kun je alsjeblieft een pandora kanaal maken voor adele", "labels": {"intent": "music_settings"}, "meta": {"language": "nl", "massive_id": "2647"}}
+{"id": "massive-2690", "text": "zet het stopcontact uit", "labels": {"intent": "iot_wemo_off"}, "meta": {"language": "nl", "massive_id": "2690"}}
+{"id": "massive-2774", "text": "zet uit de lampen", "labels": {"intent": "iot_hue_lightoff"}, "meta": {"language": "nl", "massive_id": "2774"}}
+{"id": "massive-286", "text": "doe de verlichting aan in de keuken", "labels": {"intent": "iot_hue_lighton"}, "meta": {"language": "nl", "massive_id": "286"}}
+{"id": "massive-2870", "text": "olly vertel mij welke wekkers ik heb", "labels": {"intent": "alarm_query"}, "meta": {"language": "nl", "massive_id": "2870"}}
+{"id": "massive-2921", "text": "wat zijn de nieuwsberichten op de c. n. n. website", "labels": {"intent": "news_query"}, "meta": {"language": "nl", "massive_id": "2921"}}
+{"id": "massive-2957", "text": "is er een alarm voor tien uur in de ochtend", "labels": {"intent": "alarm_query"}, "meta": {"language": "nl", "massive_id": "2957"}}
+{"id": "massive-2975", "text": "verander de licht kleur naar rood alsjeblieft", "labels": {"intent": "iot_hue_lightchange"}, "meta": {"language": "nl", "massive_id": "2975"}}
+{"id": "massive-2985", "text": "verwijderd alarm", "labels": {"intent": "alarm_remove"}, "meta": {"language": "nl", "massive_id": "2985"}}
+{"id": "massive-3011", "text": "haal het licht voor mij terug", "labels": {"intent": "iot_hue_lightup"}, "meta": {"language": "nl", "massive_id": "3011"}}
+{"id": "massive-3020", "text": "doet chinees indisch restaurant de gouden leeuw aan afhaal", "labels": {"intent": "takeaway_query"}, "meta": {"language": "nl", "massive_id": "3020"}}
+{"id": "massive-3029", "text": "ik haat dit liedje", "labels": {"intent": "music_dislikeness"}, "meta": {"language": "nl", "massive_id": "3029"}}
+{"id": "massive-3060", "text": "wat is het nieuws van die nieuwsbron", "labels": {"intent": "news_query"}, "meta": {"language": "nl", "massive_id": "3060"}}
+{"id": "massive-3096", "text": "hoe is het weer in maastricht", "labels": {"intent": "weather_query"}, "meta": {"language": "nl", "massive_id": "3096"}}
+{"id": "massive-3103", "text": "speel dit nummer niet nog een keer", "labels": {"intent": "music_dislikeness"}, "meta": {"language": "nl", "massive_id": "3103"}}
+{"id": "massive-315", "text": "wees alsjeblieft nog een uur stil", "labels": {"intent": "audio_volume_mute"}, "meta": {"language": "nl", "massive_id": "315"}}
+{"id": "massive-317", "text": "spreek vandaag niet", "labels": {"intent": "audio_volume_mute"}, "meta": {"language": "nl", "massive_id": "317"}}
+{"id": "massive-3196", "text": "olly kun je alsjeblieft een romige koffie voor mij maken", "labels": {"intent": "iot_coffee"}, "meta": {"language": "nl", "massive_id": "3196"}}
+{"id": "massive-3204", "text": "houd er rekening mee dat ik van jazz houd en disco haat", "labels": {"intent": "music_likeness"}, "meta": {"language": "nl", "massive_id": "3204"}}
+{"id": "massive-3222", "text": "ik wil gedimd licht", "labels": {"intent": "iot_hue_lightdim"}, "meta": {"language": "nl", "massive_id": "3222"}}
+{"id": "massive-3276", "text": "olly bezorgt shibaru sushi", "labels": {"intent": "takeaway_query"}, "meta": {"language": "nl", "massive_id": "3276"}}
+{"id": "massive-3326", "text": "zet de stekker uit", "labels": {"intent": "iot_wemo_off"}, "meta": {"language": "nl", "massive_id": "3326"}}
+{"id": "massive-3349", "text": "waar is de auto", "labels": {"intent": "audio_volume_up"}, "meta": {"language": "nl", "massive_id": "3349"}}
+{"id": "massive-3474", "text": "verlaag alstublieft het muziek volume", "labels": {"intent": "audio_volume_down"}, "meta": {"language": "nl", "massive_id": "3474"}}
+{"id": "massive-3486", "text": "spreek zachter alstublieft", "labels": {"intent": "audio_volume_down"}, "meta": {"language": "nl", "massive_id": "3486"}}
+{"id": "massive-3522", "text": "zet mijn balkon lampen aan alsjeblieft", "labels": {"intent": "iot_hue_lighton"}, "meta": {"language": "nl", "massive_id": "3522"}}
+{"id": "massive-3581", "text": "zet het geluid uit", "labels": {"intent": "audio_volume_mute"}, "meta": {"language": "nl", "massive_id": "3581"}}
+{"id": "massive-3605", "text": "wat is het laatste nieuws op nederland één", "labels": {"intent": "news_query"}, "meta": {"language": "nl", "massive_id": "3605"}}
+{"id": "massive-3669", "text": "vertel me de tijd ergens", "labels": {"intent": "datetime_convert"}, "meta": {"language": "nl", "massive_id": "3669"}}
+{"id": "massive-3762", "text": "verhoog de lichten", "labels": {"intent": "iot_hue_lightup"}, "meta": {"language": "nl", "massive_id": "3762"}}
+{"id": "massive-3838", "text": "zet de geluiden uit", "labels": {"intent": "audio_volume_mute"}, "meta": {"language": "nl", "massive_id": "3838"}}
+{"id": "massive-393", "text": "speel een retro lied in mijn afspeellijst", "labels": {"intent": "play_music"}, "meta": {"language": "nl", "massive_id": "393"}}
+{"id": "massive-4013", "text": "laten we het stof wegzuigen", "labels": {"intent": "iot_cleaning"}, "meta": {"language": "nl", "massive_id": "4013"}}
+{"id": "massive-4017", "text": "doe al mijn huidige wekkers weg", "labels": {"intent": "alarm_remove"}, "meta": {"language": "nl", "massive_id": "4017"}}
+{"id": "massive-4026", "text": "uitzetten", "labels": {"intent": "iot_wemo_off"}, "meta": {"language": "nl", "massive_id": "4026"}}
+{"id": "massive-4040", "text": "speel het nummer waar ik het meest naar geluisterd heb", "labels": {"intent": "play_music"}, "meta": {"language": "nl", "massive_id": "4040"}}
+{"id": "massive-411", "text": "kun je me een grap vertellen", "labels": {"intent": "general_joke"}, "meta": {"language": "nl", "massive_id": "411"}}
+{"id": "massive-4155", "text": "verander het volume naar vijfendertig procent", "labels": {"intent": "audio_volume_other"}, "meta": {"language": "nl", "massive_id": "4155"}}
+{"id": "massive-4166", "text": "wijzig het volumeniveau naar maximum", "labels": {"intent": "audio_volume_other"}, "meta": {"language": "nl", "massive_id": "4166"}}
+{"id": "massive-4201", "text": "wemo aanzetten", "labels": {"intent": "iot_wemo_on"}, "meta": {"language": "nl", "massive_id": "4201"}}
+{"id": "massive-4216", "text": "vertel me de grappigste mop die ooit is verteld", "labels": {"intent": "general_joke"}, "meta": {"language": "nl", "massive_id": "4216"}}
+{"id": "massive-4217", "text": "ik wil graag een paar goede grappige moppen horen", "labels": {"intent": "general_joke"}, "meta": {"language": "nl", "massive_id": "4217"}}
+{"id": "massive-4240", "text": "doe de stofzuiger aan", "labels": {"intent": "iot_cleaning"}, "meta": {"language": "nl", "massive_id": "4240"}}
+{"id": "massive-426", "text": "zet stopcontact één aan", "labels": {"intent": "iot_wemo_on"}, "meta": {"language": "nl", "massive_id": "426"}}
+{"id": "massive-4268", "text": "ga naar het volgende nummer in de lijst", "labels": {"intent": "music_settings"}, "meta": {"language": "nl", "massive_id": "4268"}}
+{"id": "massive-4271", "text": "maak nu koffie klaar", "labels": {"intent": "iot_coffee"}, "meta": {"language": "nl", "massive_id": "4271"}}
+{"id": "massive-4272", "text": "mijn koffie is koud maak alstublieft meer koffie", "labels": {"intent": "iot_coffee"}, "meta": {"language": "nl", "massive_id": "4272"}}
+{"id": "massive-4334", "text": "hoe ziet mijn facebook feed eruit", "labels": {"intent": "social_query"}, "meta": {"language": "nl", "massive_id": "4334"}}
+{"id": "massive-4347", "text": "stop de werkende lichten", "labels": {"intent": "iot_hue_lightoff"}, "meta": {"language": "nl", "massive_id": "4347"}}
+{"id": "massive-4428", "text": "herken nummer", "labels": {"intent": "music_query"}, "meta": {"language": "nl", "massive_id": "4428"}}
+{"id": "massive-4461", "text": "kun je bij de walrus alleen ter plekke eten", "labels": {"intent": "takeaway_query"}, "meta": {"language": "nl", "massive_id": "4461"}}
+{"id": "massive-4547", "text": "start de hondenwandeling afspeellijst", "labels": {"intent": "play_music"}, "meta": {"language": "nl", "massive_id": "4547"}}
+{"id": "massive-4550", "text": "hey olly ik hou van muziek van frans bauer", "labels": {"intent": "music_likeness"}, "meta": {"language": "nl", "massive_id": "4550"}}
+{"id": "massive-46", "text": "wat is er olly", "labels": {"intent": "general_greet"}, "meta": {"language": "nl", "massive_id": "46"}}
+{"id": "massive-4618", "text": "zet het slimme stopcontact aan", "labels": {"intent": "iot_wemo_on"}, "meta": {"language": "nl", "massive_id": "4618"}}
+{"id": "massive-4638", "text": "verander de volume instellingen naar beneden alexa", "labels": {"intent": "audio_volume_other"}, "meta": {"language": "nl", "massive_id": "4638"}}
+{"id": "massive-4680", "text": "moet ik sandalen of schoenen met sokken dragen", "labels": {"intent": "weather_query"}, "meta": {"language": "nl", "massive_id": "4680"}}
+{"id": "massive-4702", "text": "alsjeblieft zet mijn speakers aan google", "labels": {"intent": "audio_volume_up"}, "meta": {"language": "nl", "massive_id": "4702"}}
+{"id": "massive-4845", "text": "hoeveel uur is de afstand tussen mijn locatie en new york", "labels": {"intent": "datetime_convert"}, "meta": {"language": "nl", "massive_id": "4845"}}
+{"id": "massive-50", "text": "olly vertel me de tijd in g. m. t. plus vijf", "labels": {"intent": "datetime_convert"}, "meta": {"language": "nl", "massive_id": "50"}}
+{"id": "massive-5047", "text": "alexa zet de lichten lager in het huis", "labels": {"intent": "iot_hue_lightdim"}, "meta": {"language": "nl", "massive_id": "5047"}}
+{"id": "massive-508", "text": "welke wekkers zijn ingesteld", "labels": {"intent": "alarm_query"}, "meta": {"language": "nl", "massive_id": "508"}}
+{"id": "massive-5082", "text": "zet een nieuw alarm voor zes uur in de ochtend", "labels": {"intent": "alarm_set"}, "meta": {"language": "nl", "massive_id": "5082"}}
+{"id": "massive-5116", "text": "ik wil geen alarmen aanhebben", "labels": {"intent": "alarm_remove"}, "meta": {"language": "nl", "massive_id": "5116"}}
+{"id": "massive-5128", "text": "bevestig het reisticket naar duitsland", "labels": {"intent": "transport_ticket"}, "meta": {"language": "nl", "massive_id": "5128"}}
+{"id": "massive-5152", "text": "alsjeblieft twee liedjes overslaan", "labels": {"intent": "music_settings"}, "meta": {"language": "nl", "massive_id": "5152"}}
+{"id": "massive-5204", "text": "zet acht uur 's morgens manilla tijd om in new york tijd", "labels": {"intent": "datetime_convert"}, "meta": {"language": "nl", "massive_id": "5204"}}
+{"id": "massive-5221", "text": "stop het trillen van de luidspreker", "labels": {"intent": "audio_volume_mute"}, "meta": {"language": "nl", "massive_id": "5221"}}
+{"id": "massive-525", "text": "maar de bestelling zo snel mogelijk klaar", "labels": {"intent": "takeaway_query"}, "meta": {"language": "nl", "massive_id": "525"}}
+{"id": "massive-5258", "text": "sla dit nummer op in afspeellijst", "labels": {"intent": "music_likeness"}, "meta": {"language": "nl", "massive_id": "5258"}}
+{"id": "massive-5292", "text": "repareer alarm", "labels": {"intent": "alarm_set"}, "meta": {"language": "nl", "massive_id": "5292"}}
+{"id": "massive-5330", "text": "zet de stofzuiger nu aan en maak de woonkamer schoon", "labels": {"intent": "iot_cleaning"}, "meta": {"language": "nl", "massive_id": "5330"}}
+{"id": "massive-5523", "text": "converteer half negen van g. m. t. plus vier uur naar g. m. t. plus vijf en een half uur", "labels": {"intent": "datetime_convert"}, "meta": {"language": "nl", "massive_id": "5523"}}
+{"id": "massive-5579", "text": "kun je het volume wijzigen op", "labels": {"intent": "audio_volume_other"}, "meta": {"language": "nl", "massive_id": "5579"}}
+{"id": "massive-5584", "text": "zet de lichten uit alsjeblieft", "labels": {"intent": "iot_hue_lightoff"}, "meta": {"language": "nl", "massive_id": "5584"}}
+{"id": "massive-5611", "text": "volume verminderen", "labels": {"intent": "audio_volume_down"}, "meta": {"language": "nl", "massive_id": "5611"}}
+{"id": "massive-5652", "text": "zet wemo stopcontact uit", "labels": {"intent": "iot_wemo_off"}, "meta": {"language": "nl", "massive_id": "5652"}}
+{"id": "massive-5688", "text": "vertel me alsjeblieft de nieuwskoppen", "labels": {"intent": "news_query"}, "meta": {"language": "nl", "massive_id": "5688"}}
+{"id": "massive-5707", "text": "ik luister naar mijn favorieten", "labels": {"intent": "play_music"}, "meta": {"language": "nl", "massive_id": "5707"}}
+{"id": "massive-5727", "text": "maak de lamp in de hal feller", "labels": {"intent": "iot_hue_lightup"}, "meta": {"language": "nl", "massive_id": "5727"}}
+{"id": "massive-5812", "text": "stel de standaard audio instelling in", "labels": {"intent": "audio_volume_other"}, "meta": {"language": "nl", "massive_id": "5812"}}
+{"id": "massive-5823", "text": "verlaag twintig procent", "labels": {"intent": "audio_volume_down"}, "meta": {"language": "nl", "massive_id": "5823"}}
+{"id": "massive-5911", "text": "herhaal de muziek", "labels": {"intent": "music_settings"}, "meta": {"language": "nl", "massive_id": "5911"}}
+{"id": "massive-5912", "text": "verwijder de nummers in deze muziek", "labels": {"intent": "music_settings"}, "meta": {"language": "nl", "massive_id": "5912"}}
+{"id": "massive-5917", "text": "maak een koffie alsjeblieft", "labels": {"intent": "iot_coffee"}, "meta": {"language": "nl", "massive_id": "5917"}}
+{"id": "massive-5966", "text": "can je wat eten voor mij bestellen alsjeblieft", "labels": {"intent": "takeaway_order"}, "meta": {"language": "nl", "massive_id": "5966"}}
+{"id": "massive-5988", "text": "stel de lichten in op een lagere stand alstublieft", "labels": {"intent": "iot_hue_lightdim"}, "meta": {"language": "nl", "massive_id": "5988"}}
+{"id": "massive-5997", "text": "hoe laat is het in de centrale tijdzone", "labels": {"intent": "datetime_query"}, "meta": {"language": "nl", "massive_id": "5997"}}
+{"id": "massive-6014", "text": "welke artiest is dit", "labels": {"intent": "music_query"}, "meta": {"language": "nl", "massive_id": "6014"}}
+{"id": "massive-608", "text": "het dempen opheffen na", "labels": {"intent": "audio_volume_up"}, "meta": {"language": "nl", "massive_id": "608"}}
+{"id": "massive-61", "text": "welke wekkers heb ik gezet", "labels": {"intent": "alarm_query"}, "meta": {"language": "nl", "massive_id": "61"}}
+{"id": "massive-6147", "text": "vind grappige moppen", "labels": {"intent": "general_joke"}, "meta": {"language": "nl", "massive_id": "6147"}}
+{"id": "massive-6151", "text": "ik wil het weer van vandaag weten", "labels": {"intent": "weather_query"}, "meta": {"language": "nl", "massive_id": "6151"}}
+{"id": "massive-6214", "text": "wanneer is mijn vriend zijn verjaardag", "labels": {"intent": "general_quirky"}, "meta": {"language": "nl", "massive_id": "6214"}}
+{"id": "massive-6366", "text": "vertel mij de beste toeristische plaatsen om te bezoeken in amerika", "labels": {"intent": "recommendation_locations"}, "meta": {"language": "nl", "massive_id": "6366"}}
+{"id": "massive-6403", "text": "wanneer gaat de trein naar groningen", "labels": {"intent": "transport_query"}, "meta": {"language": "nl", "massive_id": "6403"}}
+{"id": "massive-6694", "text": "hoi ik heb een slechte dag vandaag wat kan ik kijken om me op te vrolijken", "labels": {"intent": "general_quirky"}, "meta": {"language": "nl", "massive_id": "6694"}}
+{"id": "massive-6713", "text": "zakelijke afspraak woensdag afzeggen", "labels": {"intent": "calendar_remove"}, "meta": {"language": "nl", "massive_id": "6713"}}
+{"id": "massive-6761", "text": "verwijder de vergadering om negen uur 's ochtends uit mijn agenda", "labels": {"intent": "calendar_remove"}, "meta": {"language": "nl", "massive_id": "6761"}}
+{"id": "massive-680", "text": "houd mij op de hoogte van de bitcoin prijs", "labels": {"intent": "news_query"}, "meta": {"language": "nl", "massive_id": "680"}}
+{"id": "massive-6806", "text": "toon mijn agenda evenement voor deze vrijdagmiddag", "labels": {"intent": "calendar_query"}, "meta": {"language": "nl", "massive_id": "6806"}}
+{"id": "massive-686", "text": "hoelaat is het nu in new york", "labels": {"intent": "datetime_query"}, "meta": {"language": "nl", "massive_id": "686"}}
+{"id": "massive-71", "text": "ik hou van sinatra liedjes", "labels": {"intent": "music_likeness"}, "meta": {"language": "nl", "massive_id": "71"}}
+{"id": "massive-7111", "text": "hoe laat is mijn doktersafspraak op éénendertig maart", "labels": {"intent": "calendar_query"}, "meta": {"language": "nl", "massive_id": "7111"}}
+{"id": "massive-7232", "text": "wat zijn de evenementen volgende week", "labels": {"intent": "calendar_query"}, "meta": {"language": "nl", "massive_id": "7232"}}
+{"id": "massive-7355", "text": "herinner me om de stoofpot tecontroleren om zes uur", "labels": {"intent": "calendar_set"}, "meta": {"language": "nl", "massive_id": "7355"}}
+{"id": "massive-738", "text": "hoe koud is het buiten vandaag", "labels": {"intent": "weather_query"}, "meta": {"language": "nl", "massive_id": "738"}}
+{"id": "massive-7499", "text": "maak een nieuw schema voor de vergadering van morgen", "labels": {"intent": "calendar_set"}, "meta": {"language": "nl", "massive_id": "7499"}}
+{"id": "massive-7528", "text": "dertien juni is de dag van de verkiezingsuitslag maak een herinnering aan", "labels": {"intent": "calendar_set"}, "meta": {"language": "nl", "massive_id": "7528"}}
+{"id": "massive-7680", "text": "verwijder al mijn golfevenementen voor de huidige maand uit mijn agenda", "labels": {"intent": "calendar_remove"}, "meta": {"language": "nl", "massive_id": "7680"}}
+{"id": "massive-7711", "text": "hé annuleer al mijn andere vergaderingen en telefoontjes voor twee maart omdat het de jim's verjaardag is en tag het als een evenement in je agenda", "labels": {"intent": "calendar_set"}, "meta": {"language": "nl", "massive_id": "7711"}}
+{"id": "massive-7751", "text": "herinner me er elke maandag aan om het vuilnis buiten te zetten", "labels": {"intent": "calendar_set"}, "meta": {"language": "nl", "massive_id": "7751"}}
+{"id": "massive-8044", "text": "wat is mijn schema voor vandaag", "labels": {"intent": "calendar_query"}, "meta": {"language": "nl", "massive_id": "8044"}}
+{"id": "massive-8119", "text": "waar wordt het verjaardagsfeest van marie gehouden", "labels": {"intent": "calendar_query"}, "meta": {"language": "nl", "massive_id": "8119"}}
+{"id": "massive-8343", "text": "is het woensdag", "labels": {"intent": "datetime_query"}, "meta": {"language": "nl", "massive_id": "8343"}}
+{"id": "massive-8562", "text": "verwijder mijn afspraak voor twee uur vanmiddag", "labels": {"intent": "calendar_remove"}, "meta": {"language": "nl", "massive_id": "8562"}}
+{"id": "massive-8731", "text": "zet een herhalende herinnering wekker voor het facebook event van zeven april waar ik aanwezig moet zijn", "labels": {"intent": "alarm_set"}, "meta": {"language": "nl", "massive_id": "8731"}}
+{"id": "massive-8771", "text": "verwijder het winkeluitje dat ik gepland had voor drieëntwintig maart", "labels": {"intent": "calendar_remove"}, "meta": {"language": "nl", "massive_id": "8771"}}
+{"id": "massive-8781", "text": "ben ik vrij om vier uur vanmiddag", "labels": {"intent": "calendar_query"}, "meta": {"language": "nl", "massive_id": "8781"}}
+{"id": "massive-8867", "text": "olly zet de alarm voor herinnering", "labels": {"intent": "alarm_set"}, "meta": {"language": "nl", "massive_id": "8867"}}
+{"id": "massive-8888", "text": "verwijder het", "labels": {"intent": "calendar_remove"}, "meta": {"language": "nl", "massive_id": "8888"}}
+{"id": "massive-89", "text": "kan je sushi bestellen voor het avondeten vanavond", "labels": {"intent": "takeaway_order"}, "meta": {"language": "nl", "massive_id": "89"}}
+{"id": "massive-9156", "text": "herinner", "labels": {"intent": "calendar_set"}, "meta": {"language": "nl", "massive_id": "9156"}}
+{"id": "massive-9204", "text": "b. b. c. radio starten", "labels": {"intent": "play_radio"}, "meta": {"language": "nl", "massive_id": "9204"}}
+{"id": "massive-939", "text": "zet mijn alarm om zeven uur in de ochtend", "labels": {"intent": "alarm_set"}, "meta": {"language": "nl", "massive_id": "939"}}
+{"id": "massive-9406", "text": "start radio kanaal sirius xm", "labels": {"intent": "play_radio"}, "meta": {"language": "nl", "massive_id": "9406"}}
+{"id": "massive-9426", "text": "ik wil een radiozender horen die r en b afspeelt", "labels": {"intent": "play_radio"}, "meta": {"language": "nl", "massive_id": "9426"}}
+{"id": "massive-9577", "text": "verander het station naar tweeëntachtig punt vier", "labels": {"intent": "play_radio"}, "meta": {"language": "nl", "massive_id": "9577"}}
+{"id": "massive-9632", "text": "radio alsjeblieft", "labels": {"intent": "play_radio"}, "meta": {"language": "nl", "massive_id": "9632"}}
+{"id": "massive-9689", "text": "pauzeer het boek", "labels": {"intent": "play_audiobook"}, "meta": {"language": "nl", "massive_id": "9689"}}
+{"id": "massive-9718", "text": "hervat animal farm", "labels": {"intent": "play_audiobook"}, "meta": {"language": "nl", "massive_id": "9718"}}
+{"id": "massive-9746", "text": "speel pride and prejudice af", "labels": {"intent": "play_audiobook"}, "meta": {"language": "nl", "massive_id": "9746"}}
+{"id": "massive-9881", "text": "maak audioboek open", "labels": {"intent": "play_audiobook"}, "meta": {"language": "nl", "massive_id": "9881"}}
+{"id": "massive-9885", "text": "speel the notebook audio af", "labels": {"intent": "play_audiobook"}, "meta": {"language": "nl", "massive_id": "9885"}}
+{"id": "massive-9931", "text": "olly hoe lang moet ik een ei koken", "labels": {"intent": "cooking_recipe"}, "meta": {"language": "nl", "massive_id": "9931"}}
+{"id": "massive-9962", "text": "wat is de beste manier om pasta al dente te koken", "labels": {"intent": "cooking_recipe"}, "meta": {"language": "nl", "massive_id": "9962"}}

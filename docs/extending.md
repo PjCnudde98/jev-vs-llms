@@ -22,11 +22,30 @@ Write a `prepare_<name>(root)` function in `datasets.py` that loads the raw data
 dict, and calls `_write`. Register it in `PUBLIC`. Keep the seed and split sizes, so
 results stay comparable across datasets.
 
+For a dataset that exists in several languages, follow `prepare_massive`: draw the
+eval and calibration ids once from one language and reuse them in every other, write
+one dataset per language (`<name>_<code>`), and store `meta: {"language": code}` on
+each item. The report finds that field and adds its by-language section when two or
+more such runs are passed to it. Use `_balanced_sample` instead of
+`_stratified_sample` when some labels have a single item.
+
 ## Add a metric
 
 Add it to `field_metrics` (per output field) or `arm_metrics` (per arm) in
 `metrics.py`. Metrics are computed from stored predictions only, so a new metric
 needs no new API calls: run `jev-eval metrics results/<run-id>`.
+
+Comparisons between two arms or two runs belong in `paired_difference`, which aligns
+answers by item id. The report's summary, significance and by-language sections use it.
+
+## Add a report section or cost scenario
+
+Cost scenarios live in `business.py` (`analyse` takes plain arm dicts and returns
+JSON, so it is easy to test). The report calls it with default volumes; the "Your
+numbers" calculator in `report.py` redoes the same arithmetic in JavaScript from the
+embedded arm data, so change both together. Add the new payload field in
+`report._run_payload`, render it in a `_..._section` function, and cover it in
+`tests/test_business_report.py`.
 
 ## Add a stress test
 

@@ -1,0 +1,13 @@
+# Experiment E5 (multilingual): MASSIVE in ja. The same 300 eval and 150 calibration
+# utterances exist in en, fr, nl and ja, so results are paired across languages.
+# English labels and descriptions, input text in the target language.
+name: multilingual-ja
+dataset: massive_ja
+splits: [calibration, eval]
+concurrency: 8
+max_cost_usd: 8.0
+arms:
+  - {name: jev, kind: jev, model: jev-1.13.0}
+  - {name: haiku-5.5, kind: anthropic, model: claude-haiku-5-5, params: {effort: low}}
+  - {name: opus-5.5, kind: anthropic, model: claude-opus-5-5, params: {effort: low}}
+  - {name: baseline, kind: baseline, model: baseline-tfidf-logreg, params: {analyzer: char_wb}}

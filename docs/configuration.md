@@ -29,7 +29,7 @@ arms:
 | `jev` | `jev-1.13.0`, `jev-1.14.0`, `jev-latest`, `jev-preview` | `examples_per_label` (0), `timeout` seconds (30) |
 | `anthropic` | `claude-haiku-5-5`, `claude-haiku-4-5`, `claude-sonnet-5-5`, `claude-opus-5-5` | `effort` (`low`...`max`; leave out for Haiku 4.5), `max_tokens` (4096, includes thinking), `prompt_cache` (true), `examples_per_label` (0), `timeout` (120) |
 | `openai` | any chat model with JSON-schema output | `reasoning_effort`, `max_completion_tokens` (4096), `examples_per_label`, `timeout`. Needs `uv sync --extra openai` and a price row |
-| `baseline` | `baseline-tfidf-logreg` | `C` (10.0), the regularisation strength |
+| `baseline` | `baseline-tfidf-logreg` | `C` (10.0), the regularisation strength; `analyzer`: `word` (default) or `char_wb` (character 2-5 grams, use for Japanese) |
 
 Changing any parameter changes the arm's fingerprint, so its calls are not served
 from the cache of the old setup.
