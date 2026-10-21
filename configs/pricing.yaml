@@ -18,7 +18,10 @@ claude-opus-5-5: {input: 4.00, output: 20.00, cache_read: 0.20, source: "Anthrop
 
 # OpenAI arms are optional. Fill in the model IDs and prices from
 # https://openai.com/api/pricing before enabling them in a run config.
+# gpt-5.6-sol is on a promotional price (list was $5 / $30) reported to run at least to 2026-11-21;
+# re-check before a run after that date. Cached-input prices are OpenAI's published ones.
+gpt-5-mini: {input: 0.25, output: 2.00, cache_read: 0.025, source: "https://developers.openai.com/api/docs/pricing (via third-party trackers, verify)", as_of: "2026-10-21"}
+gpt-5.6-sol: {input: 4.00, output: 20.00, cache_read: 0.40, source: "https://developers.openai.com/api/docs/models/GPT-5.6", as_of: "2026-10-21"}
 # gpt-5.6-terra: {input: 0.0, output: 0.0, source: "https://openai.com/api/pricing", as_of: ""}
-# gpt-5.6-mini: {input: 0.0, output: 0.0, source: "https://openai.com/api/pricing", as_of: ""}
 
 baseline-tfidf-logreg: {input: 0.0, output: 0.0, source: "runs locally", as_of: ""}

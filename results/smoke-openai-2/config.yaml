@@ -1,0 +1,33 @@
+name: smoke-openai
+dataset: massive_ja
+splits:
+- eval
+limit: 20
+repeats: 1
+concurrency: 4
+use_cache: true
+max_cost_usd: 1.0
+stress:
+  max_classes: null
+  typos: 0.0
+  boilerplate: false
+arms:
+- name: jev
+  kind: jev
+  model: jev-1.13.0
+  params: {}
+- name: gpt-5-mini
+  kind: openai
+  model: gpt-5-mini
+  params:
+    reasoning_effort: low
+- name: gpt-5.6-sol
+  kind: openai
+  model: gpt-5.6-sol
+  params:
+    reasoning_effort: low
+- name: baseline
+  kind: baseline
+  model: baseline-tfidf-logreg
+  params:
+    analyzer: char_wb

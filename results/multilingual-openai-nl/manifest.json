@@ -1,0 +1,67 @@
+{
+  "run_id": "multilingual-openai-nl",
+  "config": "configs/multilingual_openai_nl.yaml",
+  "started": "2026-10-21T11:53:42.430924+00:00",
+  "packages": {
+    "jev-eval": "0.1.0",
+    "typesafe-sdk": "0.7.5",
+    "anthropic": "1.17.0",
+    "openai": "3.35.1"
+  },
+  "task": "massive_nl",
+  "n_labels": {
+    "intent": 60
+  },
+  "arms": {
+    "jev": {
+      "kind": "jev",
+      "model": "jev-1.13.0",
+      "params": {},
+      "model_versions": [
+        "jev-1.13.0"
+      ],
+      "fingerprint": "b9eac93e9ce7a780",
+      "new_spend_usd": 0.025437,
+      "wall_clock_s": 15.51
+    },
+    "gpt-5-mini": {
+      "kind": "openai",
+      "model": "gpt-5-mini",
+      "params": {
+        "reasoning_effort": "low"
+      },
+      "model_versions": [
+        "gpt-5-mini-2025-08-07"
+      ],
+      "fingerprint": "856e5023e2a512f8",
+      "new_spend_usd": 0.157553,
+      "wall_clock_s": 95.07
+    },
+    "gpt-5.6-sol": {
+      "kind": "openai",
+      "model": "gpt-5.6-sol",
+      "params": {
+        "reasoning_effort": "low"
+      },
+      "model_versions": [
+        "gpt-5.6-sol"
+      ],
+      "fingerprint": "8601bbf499210706",
+      "new_spend_usd": 2.045388,
+      "wall_clock_s": 80.83
+    },
+    "baseline": {
+      "kind": "baseline",
+      "model": "baseline-tfidf-logreg",
+      "params": {},
+      "model_versions": [
+        "baseline-tfidf-logreg"
+      ],
+      "fingerprint": "5960f6c3adf0840f",
+      "new_spend_usd": 0.0,
+      "wall_clock_s": 0.38
+    }
+  },
+  "finished": "2026-10-21T11:57:02.930483+00:00",
+  "new_spend_usd": 2.228378
+}

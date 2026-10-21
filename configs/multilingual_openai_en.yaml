@@ -1,0 +1,12 @@
+# Experiment E5 (multilingual) in en with OpenAI models instead of Claude (no Anthropic key yet).
+# Same items as configs/multilingual_en.yaml. Jev and baseline calls are reused from the cache when both run.
+name: multilingual-openai-en
+dataset: massive_en
+splits: [calibration, eval]
+concurrency: 8
+max_cost_usd: 8.0
+arms:
+  - {name: jev, kind: jev, model: jev-1.13.0}
+  - {name: gpt-5-mini, kind: openai, model: gpt-5-mini, params: {reasoning_effort: low}}
+  - {name: gpt-5.6-sol, kind: openai, model: gpt-5.6-sol, params: {reasoning_effort: low}}
+  - {name: baseline, kind: baseline, model: baseline-tfidf-logreg}

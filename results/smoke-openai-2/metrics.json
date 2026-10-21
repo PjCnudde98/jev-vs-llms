@@ -1,0 +1,1074 @@
+{
+  "run": "smoke-openai-2",
+  "dataset": "massive_ja",
+  "task": {
+    "name": "massive_ja",
+    "context": "Requests a user spoke or typed to a voice assistant, written in Japanese.",
+    "fields": [
+      {
+        "name": "intent",
+        "instruction": "Which intent does the user's request express?",
+        "labels": [
+          "alarm_query",
+          "alarm_remove",
+          "alarm_set",
+          "audio_volume_down",
+          "audio_volume_mute",
+          "audio_volume_other",
+          "audio_volume_up",
+          "calendar_query",
+          "calendar_remove",
+          "calendar_set",
+          "cooking_query",
+          "cooking_recipe",
+          "datetime_convert",
+          "datetime_query",
+          "email_addcontact",
+          "email_query",
+          "email_querycontact",
+          "email_sendemail",
+          "general_greet",
+          "general_joke",
+          "general_quirky",
+          "iot_cleaning",
+          "iot_coffee",
+          "iot_hue_lightchange",
+          "iot_hue_lightdim",
+          "iot_hue_lightoff",
+          "iot_hue_lighton",
+          "iot_hue_lightup",
+          "iot_wemo_off",
+          "iot_wemo_on",
+          "lists_createoradd",
+          "lists_query",
+          "lists_remove",
+          "music_dislikeness",
+          "music_likeness",
+          "music_query",
+          "music_settings",
+          "news_query",
+          "play_audiobook",
+          "play_game",
+          "play_music",
+          "play_podcasts",
+          "play_radio",
+          "qa_currency",
+          "qa_definition",
+          "qa_factoid",
+          "qa_maths",
+          "qa_stock",
+          "recommendation_events",
+          "recommendation_locations",
+          "recommendation_movies",
+          "social_post",
+          "social_query",
+          "takeaway_order",
+          "takeaway_query",
+          "transport_query",
+          "transport_taxi",
+          "transport_ticket",
+          "transport_traffic",
+          "weather_query"
+        ],
+        "descriptions": {
+          "alarm_query": "Alarm: query",
+          "alarm_remove": "Alarm: remove",
+          "alarm_set": "Alarm: set",
+          "audio_volume_down": "Audio: volume down",
+          "audio_volume_mute": "Audio: volume mute",
+          "audio_volume_other": "Audio: volume other",
+          "audio_volume_up": "Audio: volume up",
+          "calendar_query": "Calendar: query",
+          "calendar_remove": "Calendar: remove",
+          "calendar_set": "Calendar: set",
+          "cooking_query": "Cooking: query",
+          "cooking_recipe": "Cooking: recipe",
+          "datetime_convert": "Datetime: convert",
+          "datetime_query": "Datetime: query",
+          "email_addcontact": "Email: addcontact",
+          "email_query": "Email: query",
+          "email_querycontact": "Email: querycontact",
+          "email_sendemail": "Email: sendemail",
+          "general_greet": "General: greet",
+          "general_joke": "General: joke",
+          "general_quirky": "General: quirky",
+          "iot_cleaning": "Iot: cleaning",
+          "iot_coffee": "Iot: coffee",
+          "iot_hue_lightchange": "Iot: hue lightchange",
+          "iot_hue_lightdim": "Iot: hue lightdim",
+          "iot_hue_lightoff": "Iot: hue lightoff",
+          "iot_hue_lighton": "Iot: hue lighton",
+          "iot_hue_lightup": "Iot: hue lightup",
+          "iot_wemo_off": "Iot: wemo off",
+          "iot_wemo_on": "Iot: wemo on",
+          "lists_createoradd": "Lists: createoradd",
+          "lists_query": "Lists: query",
+          "lists_remove": "Lists: remove",
+          "music_dislikeness": "Music: dislikeness",
+          "music_likeness": "Music: likeness",
+          "music_query": "Music: query",
+          "music_settings": "Music: settings",
+          "news_query": "News: query",
+          "play_audiobook": "Play: audiobook",
+          "play_game": "Play: game",
+          "play_music": "Play: music",
+          "play_podcasts": "Play: podcasts",
+          "play_radio": "Play: radio",
+          "qa_currency": "Qa: currency",
+          "qa_definition": "Qa: definition",
+          "qa_factoid": "Qa: factoid",
+          "qa_maths": "Qa: maths",
+          "qa_stock": "Qa: stock",
+          "recommendation_events": "Recommendation: events",
+          "recommendation_locations": "Recommendation: locations",
+          "recommendation_movies": "Recommendation: movies",
+          "social_post": "Social: post",
+          "social_query": "Social: query",
+          "takeaway_order": "Takeaway: order",
+          "takeaway_query": "Takeaway: query",
+          "transport_query": "Transport: query",
+          "transport_taxi": "Transport: taxi",
+          "transport_ticket": "Transport: ticket",
+          "transport_traffic": "Transport: traffic",
+          "weather_query": "Weather: query"
+        },
+        "out_of_scope_label": null
+      }
+    ]
+  },
+  "splits": {
+    "eval": {
+      "baseline": {
+        "model": "baseline-tfidf-logreg",
+        "model_versions": [
+          "baseline-tfidf-logreg"
+        ],
+        "n_calls": 20,
+        "invalid_rate": 0.0,
+        "errors": [],
+        "cost_per_1k": 0.0,
+        "cost_per_1k_correct": 0.0,
+        "mean_input_tokens": 0.0,
+        "mean_output_tokens": 0.0,
+        "latency": {
+          "p50": 0.00019972950394731015,
+          "p95": 0.00023896699676697608,
+          "p99": 0.00023972699702426325
+        },
+        "task_accuracy": 0.7,
+        "fields": {
+          "intent": {
+            "n": 20,
+            "accuracy": 0.7,
+            "accuracy_ci": [
+              0.5,
+              0.9
+            ],
+            "macro_f1": 0.6666666666666666,
+            "macro_f1_ci": [
+              0.31764705882352945,
+              0.5980392156862745
+            ],
+            "confidence_coverage": 1.0,
+            "calibration": {
+              "ece": 0.2253351242112908,
+              "brier": 0.1318322589782039,
+              "bins": [
+                {
+                  "lo": 0.2,
+                  "hi": 0.30000000000000004,
+                  "n": 1,
+                  "confidence": 0.21801161450786974,
+                  "accuracy": 0.0
+                },
+                {
+                  "lo": 0.30000000000000004,
+                  "hi": 0.4,
+                  "n": 2,
+                  "confidence": 0.36710296568966044,
+                  "accuracy": 0.0
+                },
+                {
+                  "lo": 0.4,
+                  "hi": 0.5,
+                  "n": 1,
+                  "confidence": 0.46083968290873933,
+                  "accuracy": 0.0
+                },
+                {
+                  "lo": 0.5,
+                  "hi": 0.6000000000000001,
+                  "n": 2,
+                  "confidence": 0.5696353233220076,
+                  "accuracy": 1.0
+                },
+                {
+                  "lo": 0.6000000000000001,
+                  "hi": 0.7000000000000001,
+                  "n": 2,
+                  "confidence": 0.639602875715845,
+                  "accuracy": 0.5
+                },
+                {
+                  "lo": 0.7000000000000001,
+                  "hi": 0.8,
+                  "n": 2,
+                  "confidence": 0.7435980863749623,
+                  "accuracy": 1.0
+                },
+                {
+                  "lo": 0.8,
+                  "hi": 0.9,
+                  "n": 4,
+                  "confidence": 0.8440392770942395,
+                  "accuracy": 1.0
+                },
+                {
+                  "lo": 0.9,
+                  "hi": 1.0,
+                  "n": 6,
+                  "confidence": 0.9695105719615156,
+                  "accuracy": 0.8333333333333334
+                }
+              ]
+            },
+            "per_class": {
+              "alarm_query": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "alarm_set": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "audio_volume_mute": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 2
+              },
+              "audio_volume_other": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 1
+              },
+              "audio_volume_up": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "email_addcontact": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 2
+              },
+              "general_greet": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 1
+              },
+              "general_quirky": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 1
+              },
+              "iot_coffee": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "lists_createoradd": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "music_settings": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "news_query": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 1
+              },
+              "takeaway_order": {
+                "precision": 0.5,
+                "recall": 1.0,
+                "f1": 0.6666666666666666,
+                "support": 1
+              },
+              "takeaway_query": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 2
+              },
+              "transport_query": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "transport_taxi": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "weather_query": {
+                "precision": 0.5,
+                "recall": 1.0,
+                "f1": 0.6666666666666666,
+                "support": 1
+              }
+            },
+            "consistency": null
+          }
+        },
+        "error_examples": {
+          "intent": [
+            {
+              "item_id": "massive-3276",
+              "text": "\u304f\u3089\u5bff\u53f8\u3092\u6ce8\u6587\u3057\u3066",
+              "gold": "takeaway_query",
+              "pred": "takeaway_order",
+              "confidence": 0.9552434702624659,
+              "error": null
+            },
+            {
+              "item_id": "massive-5812",
+              "text": "\u65e2\u5b9a\u306e\u30aa\u30fc\u30c7\u30a3\u30aa\u8a2d\u5b9a\u306b\u3059\u308b",
+              "gold": "audio_volume_other",
+              "pred": "play_audiobook",
+              "confidence": 0.6571664891408168,
+              "error": null
+            },
+            {
+              "item_id": "massive-6214",
+              "text": "\u53cb\u9054\u306e\u8a95\u751f\u65e5\u306f\u3044\u3064\u3067\u3059\u304b",
+              "gold": "general_quirky",
+              "pred": "qa_factoid",
+              "confidence": 0.46083968290873933,
+              "error": null
+            },
+            {
+              "item_id": "massive-46",
+              "text": "\u4f55\u3067\u3059\u304b\u3001\u30aa\u30ea\u2015\u3055\u3093",
+              "gold": "general_greet",
+              "pred": "general_quirky",
+              "confidence": 0.38295723104324053,
+              "error": null
+            },
+            {
+              "item_id": "massive-680",
+              "text": "\u30d3\u30c3\u30c8\u30b3\u30a4\u30f3\u306e\u4fa1\u683c\u306b\u3064\u3044\u3066\u77e5\u3089\u305b\u3066",
+              "gold": "news_query",
+              "pred": "calendar_set",
+              "confidence": 0.35124870033608036,
+              "error": null
+            },
+            {
+              "item_id": "massive-4461",
+              "text": "\u5d0e\u967d\u8ed2\u306f\u30a4\u30fc\u30c8\u30a4\u30f3\u306e\u307f\u3067\u3059\u304b",
+              "gold": "takeaway_query",
+              "pred": "weather_query",
+              "confidence": 0.21801161450786974,
+              "error": null
+            }
+          ]
+        }
+      },
+      "gpt-5-mini": {
+        "model": "gpt-5-mini",
+        "model_versions": [
+          "gpt-5-mini-2025-08-07"
+        ],
+        "n_calls": 20,
+        "invalid_rate": 0.0,
+        "errors": [],
+        "cost_per_1k": 0.36795,
+        "cost_per_1k_correct": 0.4906,
+        "mean_input_tokens": 948.6,
+        "mean_output_tokens": 65.4,
+        "latency": {
+          "p50": 2.340167833499436,
+          "p95": 4.21780155000015,
+          "p99": 4.792269210000231
+        },
+        "task_accuracy": 0.75,
+        "fields": {
+          "intent": {
+            "n": 20,
+            "accuracy": 0.75,
+            "accuracy_ci": [
+              0.55,
+              0.95
+            ],
+            "macro_f1": 0.7450980392156863,
+            "macro_f1_ci": [
+              0.35294117647058826,
+              0.6470588235294118
+            ],
+            "confidence_coverage": 1.0,
+            "calibration": {
+              "ece": 0.2695,
+              "brier": 0.22844500000000006,
+              "bins": [
+                {
+                  "lo": 0.5,
+                  "hi": 0.6000000000000001,
+                  "n": 2,
+                  "confidence": 0.6,
+                  "accuracy": 1.0
+                },
+                {
+                  "lo": 0.7000000000000001,
+                  "hi": 0.8,
+                  "n": 4,
+                  "confidence": 0.7675000000000001,
+                  "accuracy": 1.0
+                },
+                {
+                  "lo": 0.8,
+                  "hi": 0.9,
+                  "n": 8,
+                  "confidence": 0.875,
+                  "accuracy": 0.5
+                },
+                {
+                  "lo": 0.9,
+                  "hi": 1.0,
+                  "n": 6,
+                  "confidence": 0.9433333333333334,
+                  "accuracy": 0.8333333333333334
+                }
+              ]
+            },
+            "per_class": {
+              "alarm_query": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "alarm_set": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "audio_volume_mute": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 2
+              },
+              "audio_volume_other": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "audio_volume_up": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "email_addcontact": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 2
+              },
+              "general_greet": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "general_quirky": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 1
+              },
+              "iot_coffee": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "lists_createoradd": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "music_settings": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 1
+              },
+              "news_query": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 1
+              },
+              "takeaway_order": {
+                "precision": 0.5,
+                "recall": 1.0,
+                "f1": 0.6666666666666666,
+                "support": 1
+              },
+              "takeaway_query": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 2
+              },
+              "transport_query": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "transport_taxi": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "weather_query": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              }
+            },
+            "consistency": null
+          }
+        },
+        "error_examples": {
+          "intent": [
+            {
+              "item_id": "massive-680",
+              "text": "\u30d3\u30c3\u30c8\u30b3\u30a4\u30f3\u306e\u4fa1\u683c\u306b\u3064\u3044\u3066\u77e5\u3089\u305b\u3066",
+              "gold": "news_query",
+              "pred": "qa_stock",
+              "confidence": 0.92,
+              "error": null
+            },
+            {
+              "item_id": "massive-3276",
+              "text": "\u304f\u3089\u5bff\u53f8\u3092\u6ce8\u6587\u3057\u3066",
+              "gold": "takeaway_query",
+              "pred": "takeaway_order",
+              "confidence": 0.9,
+              "error": null
+            },
+            {
+              "item_id": "massive-6214",
+              "text": "\u53cb\u9054\u306e\u8a95\u751f\u65e5\u306f\u3044\u3064\u3067\u3059\u304b",
+              "gold": "general_quirky",
+              "pred": "calendar_query",
+              "confidence": 0.9,
+              "error": null
+            },
+            {
+              "item_id": "massive-4461",
+              "text": "\u5d0e\u967d\u8ed2\u306f\u30a4\u30fc\u30c8\u30a4\u30f3\u306e\u307f\u3067\u3059\u304b",
+              "gold": "takeaway_query",
+              "pred": "recommendation_locations",
+              "confidence": 0.86,
+              "error": null
+            },
+            {
+              "item_id": "massive-5152",
+              "text": "\u4e8c\u66f2\u30b9\u30ad\u30c3\u30d7\u3057\u3066",
+              "gold": "music_settings",
+              "pred": "play_music",
+              "confidence": 0.86,
+              "error": null
+            }
+          ]
+        }
+      },
+      "gpt-5.6-sol": {
+        "model": "gpt-5.6-sol",
+        "model_versions": [
+          "gpt-5.6-sol"
+        ],
+        "n_calls": 20,
+        "invalid_rate": 0.0,
+        "errors": [],
+        "cost_per_1k": 4.6004,
+        "cost_per_1k_correct": 6.571999999999999,
+        "mean_input_tokens": 948.6,
+        "mean_output_tokens": 40.3,
+        "latency": {
+          "p50": 1.5827058960021532,
+          "p95": 2.4339800413545163,
+          "p99": 2.4894347082699824
+        },
+        "task_accuracy": 0.7,
+        "fields": {
+          "intent": {
+            "n": 20,
+            "accuracy": 0.7,
+            "accuracy_ci": [
+              0.5,
+              0.9
+            ],
+            "macro_f1": 0.6372549019607843,
+            "macro_f1_ci": [
+              0.30392156862745096,
+              0.5882352941176471
+            ],
+            "confidence_coverage": 1.0,
+            "calibration": {
+              "ece": 0.21249999999999997,
+              "brier": 0.23841499999999996,
+              "bins": [
+                {
+                  "lo": 0.5,
+                  "hi": 0.6000000000000001,
+                  "n": 2,
+                  "confidence": 0.565,
+                  "accuracy": 0.5
+                },
+                {
+                  "lo": 0.8,
+                  "hi": 0.9,
+                  "n": 3,
+                  "confidence": 0.8533333333333334,
+                  "accuracy": 0.3333333333333333
+                },
+                {
+                  "lo": 0.9,
+                  "hi": 1.0,
+                  "n": 15,
+                  "confidence": 0.9706666666666667,
+                  "accuracy": 0.8
+                }
+              ]
+            },
+            "per_class": {
+              "alarm_query": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "alarm_set": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "audio_volume_mute": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 2
+              },
+              "audio_volume_other": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 1
+              },
+              "audio_volume_up": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "email_addcontact": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 2
+              },
+              "general_greet": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 1
+              },
+              "general_quirky": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 1
+              },
+              "iot_coffee": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "lists_createoradd": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 1
+              },
+              "music_settings": {
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "f1": 0.5,
+                "support": 1
+              },
+              "news_query": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 1
+              },
+              "takeaway_order": {
+                "precision": 0.5,
+                "recall": 1.0,
+                "f1": 0.6666666666666666,
+                "support": 1
+              },
+              "takeaway_query": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1": 0.6666666666666666,
+                "support": 2
+              },
+              "transport_query": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "transport_taxi": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "weather_query": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              }
+            },
+            "consistency": null
+          }
+        },
+        "error_examples": {
+          "intent": [
+            {
+              "item_id": "massive-3276",
+              "text": "\u304f\u3089\u5bff\u53f8\u3092\u6ce8\u6587\u3057\u3066",
+              "gold": "takeaway_query",
+              "pred": "takeaway_order",
+              "confidence": 0.99,
+              "error": null
+            },
+            {
+              "item_id": "massive-10816",
+              "text": "\u30d7\u30ec\u30a4\u30ea\u30b9\u30c8\u3092\u4f5c\u6210",
+              "gold": "lists_createoradd",
+              "pred": "music_settings",
+              "confidence": 0.98,
+              "error": null
+            },
+            {
+              "item_id": "massive-5812",
+              "text": "\u65e2\u5b9a\u306e\u30aa\u30fc\u30c7\u30a3\u30aa\u8a2d\u5b9a\u306b\u3059\u308b",
+              "gold": "audio_volume_other",
+              "pred": "music_settings",
+              "confidence": 0.93,
+              "error": null
+            },
+            {
+              "item_id": "massive-6214",
+              "text": "\u53cb\u9054\u306e\u8a95\u751f\u65e5\u306f\u3044\u3064\u3067\u3059\u304b",
+              "gold": "general_quirky",
+              "pred": "calendar_query",
+              "confidence": 0.88,
+              "error": null
+            },
+            {
+              "item_id": "massive-680",
+              "text": "\u30d3\u30c3\u30c8\u30b3\u30a4\u30f3\u306e\u4fa1\u683c\u306b\u3064\u3044\u3066\u77e5\u3089\u305b\u3066",
+              "gold": "news_query",
+              "pred": "qa_stock",
+              "confidence": 0.82,
+              "error": null
+            },
+            {
+              "item_id": "massive-46",
+              "text": "\u4f55\u3067\u3059\u304b\u3001\u30aa\u30ea\u2015\u3055\u3093",
+              "gold": "general_greet",
+              "pred": "general_quirky",
+              "confidence": 0.55,
+              "error": null
+            }
+          ]
+        }
+      },
+      "jev": {
+        "model": "jev-1.13.0",
+        "model_versions": [
+          "jev-1.13.0"
+        ],
+        "n_calls": 20,
+        "invalid_rate": 0.0,
+        "errors": [],
+        "cost_per_1k": 0.05667690000000001,
+        "cost_per_1k_correct": 0.08096700000000001,
+        "mean_input_tokens": 1349.45,
+        "mean_output_tokens": 573.8,
+        "latency": {
+          "p50": 0.26175154150041635,
+          "p95": 0.33280420274968503,
+          "p99": 0.42281090775068136
+        },
+        "task_accuracy": 0.7,
+        "fields": {
+          "intent": {
+            "n": 20,
+            "accuracy": 0.7,
+            "accuracy_ci": [
+              0.5,
+              0.9
+            ],
+            "macro_f1": 0.6862745098039216,
+            "macro_f1_ci": [
+              0.3235294117647059,
+              0.6274509803921569
+            ],
+            "confidence_coverage": 1.0,
+            "calibration": {
+              "ece": 0.18599999999999992,
+              "brier": 0.21863000000000002,
+              "bins": [
+                {
+                  "lo": 0.4,
+                  "hi": 0.5,
+                  "n": 1,
+                  "confidence": 0.5,
+                  "accuracy": 0.0
+                },
+                {
+                  "lo": 0.5,
+                  "hi": 0.6000000000000001,
+                  "n": 2,
+                  "confidence": 0.5449999999999999,
+                  "accuracy": 0.5
+                },
+                {
+                  "lo": 0.6000000000000001,
+                  "hi": 0.7000000000000001,
+                  "n": 1,
+                  "confidence": 0.62,
+                  "accuracy": 1.0
+                },
+                {
+                  "lo": 0.7000000000000001,
+                  "hi": 0.8,
+                  "n": 4,
+                  "confidence": 0.7625,
+                  "accuracy": 0.75
+                },
+                {
+                  "lo": 0.8,
+                  "hi": 0.9,
+                  "n": 2,
+                  "confidence": 0.875,
+                  "accuracy": 0.5
+                },
+                {
+                  "lo": 0.9,
+                  "hi": 1.0,
+                  "n": 10,
+                  "confidence": 0.9949999999999999,
+                  "accuracy": 0.8
+                }
+              ]
+            },
+            "per_class": {
+              "alarm_query": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "alarm_set": {
+                "precision": 0.5,
+                "recall": 1.0,
+                "f1": 0.6666666666666666,
+                "support": 1
+              },
+              "audio_volume_mute": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1": 0.6666666666666666,
+                "support": 2
+              },
+              "audio_volume_other": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 1
+              },
+              "audio_volume_up": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "email_addcontact": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 2
+              },
+              "general_greet": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "general_quirky": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 1
+              },
+              "iot_coffee": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "lists_createoradd": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "music_settings": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 1
+              },
+              "news_query": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 1
+              },
+              "takeaway_order": {
+                "precision": 0.5,
+                "recall": 1.0,
+                "f1": 0.6666666666666666,
+                "support": 1
+              },
+              "takeaway_query": {
+                "precision": 1.0,
+                "recall": 0.5,
+                "f1": 0.6666666666666666,
+                "support": 2
+              },
+              "transport_query": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "transport_taxi": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              },
+              "weather_query": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "support": 1
+              }
+            },
+            "consistency": null
+          }
+        },
+        "error_examples": {
+          "intent": [
+            {
+              "item_id": "massive-3276",
+              "text": "\u304f\u3089\u5bff\u53f8\u3092\u6ce8\u6587\u3057\u3066",
+              "gold": "takeaway_query",
+              "pred": "takeaway_order",
+              "confidence": 1.0,
+              "error": null
+            },
+            {
+              "item_id": "massive-5152",
+              "text": "\u4e8c\u66f2\u30b9\u30ad\u30c3\u30d7\u3057\u3066",
+              "gold": "music_settings",
+              "pred": "play_music",
+              "confidence": 0.96,
+              "error": null
+            },
+            {
+              "item_id": "massive-680",
+              "text": "\u30d3\u30c3\u30c8\u30b3\u30a4\u30f3\u306e\u4fa1\u683c\u306b\u3064\u3044\u3066\u77e5\u3089\u305b\u3066",
+              "gold": "news_query",
+              "pred": "qa_currency",
+              "confidence": 0.88,
+              "error": null
+            },
+            {
+              "item_id": "massive-5812",
+              "text": "\u65e2\u5b9a\u306e\u30aa\u30fc\u30c7\u30a3\u30aa\u8a2d\u5b9a\u306b\u3059\u308b",
+              "gold": "audio_volume_other",
+              "pred": "music_settings",
+              "confidence": 0.79,
+              "error": null
+            },
+            {
+              "item_id": "massive-315",
+              "text": "\u3082\u3046\u4e00\u6642\u9593\u9759\u304b\u306b\u3057\u3066\u3044\u3066",
+              "gold": "audio_volume_mute",
+              "pred": "alarm_set",
+              "confidence": 0.52,
+              "error": null
+            },
+            {
+              "item_id": "massive-6214",
+              "text": "\u53cb\u9054\u306e\u8a95\u751f\u65e5\u306f\u3044\u3064\u3067\u3059\u304b",
+              "gold": "general_quirky",
+              "pred": "calendar_query",
+              "confidence": 0.5,
+              "error": null
+            }
+          ]
+        }
+      }
+    }
+  }
+}

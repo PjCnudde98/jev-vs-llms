@@ -1,0 +1,13 @@
+# First paid check with the keys available today: 20 Japanese items, a few cents.
+# Validates the Typesafe key, OpenAI structured output and per-call costs.
+name: smoke-openai
+dataset: massive_ja
+splits: [eval]
+limit: 20
+concurrency: 4
+max_cost_usd: 1.0
+arms:
+  - {name: jev, kind: jev, model: jev-1.13.0}
+  - {name: gpt-5-mini, kind: openai, model: gpt-5-mini, params: {reasoning_effort: low}}
+  - {name: gpt-5.6-sol, kind: openai, model: gpt-5.6-sol, params: {reasoning_effort: low}}
+  - {name: baseline, kind: baseline, model: baseline-tfidf-logreg, params: {analyzer: char_wb}}
