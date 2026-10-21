@@ -1,0 +1,300 @@
+{"id": "massive-0", "text": "今週は午前五時に起こして", "labels": {"intent": "alarm_set"}, "meta": {"language": "ja", "massive_id": "0"}}
+{"id": "massive-10045", "text": "家でチキンラーメンを作れるレシピを教えてくれますか", "labels": {"intent": "cooking_recipe"}, "meta": {"language": "ja", "massive_id": "10045"}}
+{"id": "massive-10078", "text": "夜食に何を作ったらいいですか", "labels": {"intent": "cooking_recipe"}, "meta": {"language": "ja", "massive_id": "10078"}}
+{"id": "massive-10100", "text": "リゾットのレシピが分かっていますか", "labels": {"intent": "cooking_recipe"}, "meta": {"language": "ja", "massive_id": "10100"}}
+{"id": "massive-10182", "text": "オムレツを作るのに卵は何個必要ですか", "labels": {"intent": "cooking_recipe"}, "meta": {"language": "ja", "massive_id": "10182"}}
+{"id": "massive-10268", "text": "ウマ娘を再生しよう", "labels": {"intent": "play_game"}, "meta": {"language": "ja", "massive_id": "10268"}}
+{"id": "massive-1030", "text": "居間のライトを薄暗くする", "labels": {"intent": "iot_hue_lightdim"}, "meta": {"language": "ja", "massive_id": "1030"}}
+{"id": "massive-10302", "text": "ゲームを起動する", "labels": {"intent": "play_game"}, "meta": {"language": "ja", "massive_id": "10302"}}
+{"id": "massive-10349", "text": "透明な世界をかけて", "labels": {"intent": "play_game"}, "meta": {"language": "ja", "massive_id": "10349"}}
+{"id": "massive-10350", "text": "レースをしよう", "labels": {"intent": "play_game"}, "meta": {"language": "ja", "massive_id": "10350"}}
+{"id": "massive-10381", "text": "数独をやろう", "labels": {"intent": "play_game"}, "meta": {"language": "ja", "massive_id": "10381"}}
+{"id": "massive-10442", "text": "私のリストからイベントを除く", "labels": {"intent": "lists_remove"}, "meta": {"language": "ja", "massive_id": "10442"}}
+{"id": "massive-10444", "text": "アイテムを削除する", "labels": {"intent": "lists_remove"}, "meta": {"language": "ja", "massive_id": "10444"}}
+{"id": "massive-10455", "text": "私の to-do リストには何が含まれていますか", "labels": {"intent": "lists_query"}, "meta": {"language": "ja", "massive_id": "10455"}}
+{"id": "massive-1048", "text": "スピーカーの音量を小さくする", "labels": {"intent": "audio_volume_down"}, "meta": {"language": "ja", "massive_id": "1048"}}
+{"id": "massive-10512", "text": "クエリに残っているものをすべてリストする", "labels": {"intent": "lists_query"}, "meta": {"language": "ja", "massive_id": "10512"}}
+{"id": "massive-1065", "text": "音量設定はどこ", "labels": {"intent": "audio_volume_other"}, "meta": {"language": "ja", "massive_id": "1065"}}
+{"id": "massive-10699", "text": "そのリストに入っているものを私に教えて", "labels": {"intent": "lists_query"}, "meta": {"language": "ja", "massive_id": "10699"}}
+{"id": "massive-1076", "text": "ロックメタルを再生しない", "labels": {"intent": "music_dislikeness"}, "meta": {"language": "ja", "massive_id": "1076"}}
+{"id": "massive-10808", "text": "リストの最後のアイテムを削除して", "labels": {"intent": "lists_remove"}, "meta": {"language": "ja", "massive_id": "10808"}}
+{"id": "massive-10816", "text": "プレイリストを作成", "labels": {"intent": "lists_createoradd"}, "meta": {"language": "ja", "massive_id": "10816"}}
+{"id": "massive-10858", "text": "新リスト", "labels": {"intent": "lists_createoradd"}, "meta": {"language": "ja", "massive_id": "10858"}}
+{"id": "massive-10895", "text": "私のリストの中のアイテムを削除する", "labels": {"intent": "lists_remove"}, "meta": {"language": "ja", "massive_id": "10895"}}
+{"id": "massive-10915", "text": "新リストを始める", "labels": {"intent": "lists_createoradd"}, "meta": {"language": "ja", "massive_id": "10915"}}
+{"id": "massive-10938", "text": "砂糖を食料品リストに追加してください", "labels": {"intent": "lists_createoradd"}, "meta": {"language": "ja", "massive_id": "10938"}}
+{"id": "massive-10981", "text": "そのリストについて知らせてほしい", "labels": {"intent": "lists_query"}, "meta": {"language": "ja", "massive_id": "10981"}}
+{"id": "massive-11026", "text": "新しいアイテムをリストに追加する", "labels": {"intent": "lists_createoradd"}, "meta": {"language": "ja", "massive_id": "11026"}}
+{"id": "massive-11053", "text": "リストを削除", "labels": {"intent": "lists_remove"}, "meta": {"language": "ja", "massive_id": "11053"}}
+{"id": "massive-11172", "text": "全ての有効なリストを教えて", "labels": {"intent": "lists_query"}, "meta": {"language": "ja", "massive_id": "11172"}}
+{"id": "massive-11361", "text": "霜降り明星のオールナイトニッポンをポッドキャストで再生して", "labels": {"intent": "play_podcasts"}, "meta": {"language": "ja", "massive_id": "11361"}}
+{"id": "massive-11366", "text": "ポッドキャストの前回のエピソードに戻って", "labels": {"intent": "play_podcasts"}, "meta": {"language": "ja", "massive_id": "11366"}}
+{"id": "massive-11424", "text": "オードリーのオールナイトニッポン", "labels": {"intent": "play_podcasts"}, "meta": {"language": "ja", "massive_id": "11424"}}
+{"id": "massive-11460", "text": "スポーツ系のポッドキャストを聴きたい", "labels": {"intent": "play_podcasts"}, "meta": {"language": "ja", "massive_id": "11460"}}
+{"id": "massive-11483", "text": "大人の名品図鑑の再生開始", "labels": {"intent": "play_podcasts"}, "meta": {"language": "ja", "massive_id": "11483"}}
+{"id": "massive-1160", "text": "今週は毎晩肌寒いですか", "labels": {"intent": "weather_query"}, "meta": {"language": "ja", "massive_id": "1160"}}
+{"id": "massive-11628", "text": "大阪の薬局はどこですか", "labels": {"intent": "recommendation_locations"}, "meta": {"language": "ja", "massive_id": "11628"}}
+{"id": "massive-11634", "text": "今日は何の映画を見ようかな", "labels": {"intent": "recommendation_movies"}, "meta": {"language": "ja", "massive_id": "11634"}}
+{"id": "massive-11685", "text": "私たちの地域で起こっているイベントを更新していただければ幸い", "labels": {"intent": "recommendation_events"}, "meta": {"language": "ja", "massive_id": "11685"}}
+{"id": "massive-11695", "text": "お勧めのアクション映画は", "labels": {"intent": "recommendation_movies"}, "meta": {"language": "ja", "massive_id": "11695"}}
+{"id": "massive-11744", "text": "オーリ週末に封切られる新しいドラマ風映画は何があるの", "labels": {"intent": "recommendation_movies"}, "meta": {"language": "ja", "massive_id": "11744"}}
+{"id": "massive-11778", "text": "近所のいいワインバーを教えて", "labels": {"intent": "recommendation_locations"}, "meta": {"language": "ja", "massive_id": "11778"}}
+{"id": "massive-11841", "text": "このあたりで開催中のクラフトフェアはある", "labels": {"intent": "recommendation_events"}, "meta": {"language": "ja", "massive_id": "11841"}}
+{"id": "massive-11916", "text": "ここから近いテーマパークには何があるの", "labels": {"intent": "recommendation_events"}, "meta": {"language": "ja", "massive_id": "11916"}}
+{"id": "massive-11920", "text": "今週公開予定の映画は何", "labels": {"intent": "recommendation_movies"}, "meta": {"language": "ja", "massive_id": "11920"}}
+{"id": "massive-11932", "text": "今日は何を見ればいいか", "labels": {"intent": "recommendation_movies"}, "meta": {"language": "ja", "massive_id": "11932"}}
+{"id": "massive-12054", "text": "街で開催中のイベントは", "labels": {"intent": "recommendation_events"}, "meta": {"language": "ja", "massive_id": "12054"}}
+{"id": "massive-12098", "text": "近くの音楽イベントを見せて", "labels": {"intent": "recommendation_events"}, "meta": {"language": "ja", "massive_id": "12098"}}
+{"id": "massive-12127", "text": "日曜日電車で五所川原へ午前五時に行かなきゃならんのよ", "labels": {"intent": "transport_ticket"}, "meta": {"language": "ja", "massive_id": "12127"}}
+{"id": "massive-12161", "text": "会社に行ったら uber を予約してくれたまえ", "labels": {"intent": "transport_taxi"}, "meta": {"language": "ja", "massive_id": "12161"}}
+{"id": "massive-12166", "text": "東京から大阪への電車チケットの予約", "labels": {"intent": "transport_ticket"}, "meta": {"language": "ja", "massive_id": "12166"}}
+{"id": "massive-1217", "text": "olly 照明を青色に変更", "labels": {"intent": "iot_hue_lightchange"}, "meta": {"language": "ja", "massive_id": "1217"}}
+{"id": "massive-12182", "text": "one hundred and one の交通状態はどうですか", "labels": {"intent": "transport_traffic"}, "meta": {"language": "ja", "massive_id": "12182"}}
+{"id": "massive-12248", "text": "olly 一番近いタクシーを探して", "labels": {"intent": "transport_taxi"}, "meta": {"language": "ja", "massive_id": "12248"}}
+{"id": "massive-12264", "text": "ニューヨーク", "labels": {"intent": "transport_query"}, "meta": {"language": "ja", "massive_id": "12264"}}
+{"id": "massive-12299", "text": "olly タクシーを呼んで", "labels": {"intent": "transport_taxi"}, "meta": {"language": "ja", "massive_id": "12299"}}
+{"id": "massive-12329", "text": "タクシーを呼んで", "labels": {"intent": "transport_taxi"}, "meta": {"language": "ja", "massive_id": "12329"}}
+{"id": "massive-12343", "text": "火曜に博多駅発のソニック二十三号の電車の時刻を調べて", "labels": {"intent": "transport_query"}, "meta": {"language": "ja", "massive_id": "12343"}}
+{"id": "massive-12409", "text": "一番近いガソリンスタンドはどこですか", "labels": {"intent": "recommendation_locations"}, "meta": {"language": "ja", "massive_id": "12409"}}
+{"id": "massive-12629", "text": "始発電車は名古屋から何時に出発しますか", "labels": {"intent": "transport_query"}, "meta": {"language": "ja", "massive_id": "12629"}}
+{"id": "massive-1264", "text": "明日の朝のアラームは設定されているの", "labels": {"intent": "alarm_query"}, "meta": {"language": "ja", "massive_id": "1264"}}
+{"id": "massive-12672", "text": "街の交通状態はどうですか", "labels": {"intent": "transport_traffic"}, "meta": {"language": "ja", "massive_id": "12672"}}
+{"id": "massive-12716", "text": "天ぷら前田に行くために uberpool を呼んで", "labels": {"intent": "transport_taxi"}, "meta": {"language": "ja", "massive_id": "12716"}}
+{"id": "massive-12717", "text": "今の交通状態はどうですか", "labels": {"intent": "transport_traffic"}, "meta": {"language": "ja", "massive_id": "12717"}}
+{"id": "massive-12789", "text": "交通状況について教えて", "labels": {"intent": "transport_traffic"}, "meta": {"language": "ja", "massive_id": "12789"}}
+{"id": "massive-12813", "text": "東京から jr の急行電車のチケットを予約して", "labels": {"intent": "transport_ticket"}, "meta": {"language": "ja", "massive_id": "12813"}}
+{"id": "massive-12824", "text": "東京へのすべての列車の時刻を一覧表示します", "labels": {"intent": "transport_query"}, "meta": {"language": "ja", "massive_id": "12824"}}
+{"id": "massive-12838", "text": "今通行状況はどう", "labels": {"intent": "transport_traffic"}, "meta": {"language": "ja", "massive_id": "12838"}}
+{"id": "massive-12874", "text": "列車チケットお願いします", "labels": {"intent": "transport_ticket"}, "meta": {"language": "ja", "massive_id": "12874"}}
+{"id": "massive-1300", "text": "早く", "labels": {"intent": "audio_volume_up"}, "meta": {"language": "ja", "massive_id": "1300"}}
+{"id": "massive-13101", "text": "一たす一は", "labels": {"intent": "qa_maths"}, "meta": {"language": "ja", "massive_id": "13101"}}
+{"id": "massive-13122", "text": "十の階乗は何ですか", "labels": {"intent": "qa_maths"}, "meta": {"language": "ja", "massive_id": "13122"}}
+{"id": "massive-13154", "text": "宮本花子の電話番号を知っているかな", "labels": {"intent": "qa_factoid"}, "meta": {"language": "ja", "massive_id": "13154"}}
+{"id": "massive-13166", "text": "コンプライアンスの定義は", "labels": {"intent": "qa_definition"}, "meta": {"language": "ja", "massive_id": "13166"}}
+{"id": "massive-13223", "text": "松田聖子が若く見える理由", "labels": {"intent": "general_quirky"}, "meta": {"language": "ja", "massive_id": "13223"}}
+{"id": "massive-13297", "text": "セレブといえば誰", "labels": {"intent": "qa_factoid"}, "meta": {"language": "ja", "massive_id": "13297"}}
+{"id": "massive-13312", "text": "今月の給料をもらったけど毎日いくらまで使えるか計算して", "labels": {"intent": "qa_maths"}, "meta": {"language": "ja", "massive_id": "13312"}}
+{"id": "massive-13372", "text": "今夜のホッケーゲームは何時ですか", "labels": {"intent": "general_quirky"}, "meta": {"language": "ja", "massive_id": "13372"}}
+{"id": "massive-13548", "text": "テレビをつけてほしい", "labels": {"intent": "iot_wemo_on"}, "meta": {"language": "ja", "massive_id": "13548"}}
+{"id": "massive-13684", "text": "ドル対インドルピーの換算レートを確認", "labels": {"intent": "qa_currency"}, "meta": {"language": "ja", "massive_id": "13684"}}
+{"id": "massive-13705", "text": "電気自動車って何", "labels": {"intent": "qa_definition"}, "meta": {"language": "ja", "massive_id": "13705"}}
+{"id": "massive-13722", "text": "アメリカドル対日本円の今日の換算レート", "labels": {"intent": "qa_currency"}, "meta": {"language": "ja", "massive_id": "13722"}}
+{"id": "massive-13847", "text": "メキシコの通貨の交換レートはいくらですか", "labels": {"intent": "qa_currency"}, "meta": {"language": "ja", "massive_id": "13847"}}
+{"id": "massive-13854", "text": "尾崎が亡くなったのはいつ", "labels": {"intent": "qa_factoid"}, "meta": {"language": "ja", "massive_id": "13854"}}
+{"id": "massive-13858", "text": "アップルの株価のリストを見せて", "labels": {"intent": "qa_stock"}, "meta": {"language": "ja", "massive_id": "13858"}}
+{"id": "massive-14", "text": "暗くして", "labels": {"intent": "iot_hue_lighton"}, "meta": {"language": "ja", "massive_id": "14"}}
+{"id": "massive-14015", "text": "赤道の座標は何ですか", "labels": {"intent": "qa_factoid"}, "meta": {"language": "ja", "massive_id": "14015"}}
+{"id": "massive-14025", "text": "一たす二は", "labels": {"intent": "qa_maths"}, "meta": {"language": "ja", "massive_id": "14025"}}
+{"id": "massive-14179", "text": "現在地から日本までの距離", "labels": {"intent": "qa_factoid"}, "meta": {"language": "ja", "massive_id": "14179"}}
+{"id": "massive-14348", "text": "グーグル人間が必要とする基本的なものは何ですか", "labels": {"intent": "general_quirky"}, "meta": {"language": "ja", "massive_id": "14348"}}
+{"id": "massive-1454", "text": "アラームをオフに設定", "labels": {"intent": "alarm_remove"}, "meta": {"language": "ja", "massive_id": "1454"}}
+{"id": "massive-14592", "text": "スマホのサーキットは何なのか教えて", "labels": {"intent": "qa_definition"}, "meta": {"language": "ja", "massive_id": "14592"}}
+{"id": "massive-14644", "text": "株価", "labels": {"intent": "qa_stock"}, "meta": {"language": "ja", "massive_id": "14644"}}
+{"id": "massive-14668", "text": "xy の意味を教えて", "labels": {"intent": "qa_definition"}, "meta": {"language": "ja", "massive_id": "14668"}}
+{"id": "massive-14757", "text": "七十六割る二は", "labels": {"intent": "qa_maths"}, "meta": {"language": "ja", "massive_id": "14757"}}
+{"id": "massive-14761", "text": "法令順守の意味を教えて", "labels": {"intent": "qa_definition"}, "meta": {"language": "ja", "massive_id": "14761"}}
+{"id": "massive-14762", "text": "ドル対ユーロの為替レートは", "labels": {"intent": "qa_currency"}, "meta": {"language": "ja", "massive_id": "14762"}}
+{"id": "massive-14792", "text": "私の近くの散歩道はどこだか", "labels": {"intent": "recommendation_locations"}, "meta": {"language": "ja", "massive_id": "14792"}}
+{"id": "massive-14874", "text": "ミスタードーナツの株価を確認", "labels": {"intent": "qa_stock"}, "meta": {"language": "ja", "massive_id": "14874"}}
+{"id": "massive-14919", "text": "日立の先週の株の動きを確認", "labels": {"intent": "qa_stock"}, "meta": {"language": "ja", "massive_id": "14919"}}
+{"id": "massive-14926", "text": "アップルの株価はいくら", "labels": {"intent": "qa_stock"}, "meta": {"language": "ja", "massive_id": "14926"}}
+{"id": "massive-15010", "text": "一米ドルはイギリスでどれくらいの価値がありますか", "labels": {"intent": "qa_currency"}, "meta": {"language": "ja", "massive_id": "15010"}}
+{"id": "massive-1511", "text": "利用可能な照明の色を表示して", "labels": {"intent": "iot_hue_lightchange"}, "meta": {"language": "ja", "massive_id": "1511"}}
+{"id": "massive-15203", "text": "最新情報", "labels": {"intent": "social_query"}, "meta": {"language": "ja", "massive_id": "15203"}}
+{"id": "massive-15205", "text": "三時間毎に facebook を更新して", "labels": {"intent": "social_query"}, "meta": {"language": "ja", "massive_id": "15205"}}
+{"id": "massive-15216", "text": "何かツイートを書いて", "labels": {"intent": "social_post"}, "meta": {"language": "ja", "massive_id": "15216"}}
+{"id": "massive-15274", "text": "ソーシャルメディアをまわって何が起きているか教えて", "labels": {"intent": "social_query"}, "meta": {"language": "ja", "massive_id": "15274"}}
+{"id": "massive-15280", "text": "facebook", "labels": {"intent": "social_query"}, "meta": {"language": "ja", "massive_id": "15280"}}
+{"id": "massive-15337", "text": "このビデオを facebook に投稿", "labels": {"intent": "social_post"}, "meta": {"language": "ja", "massive_id": "15337"}}
+{"id": "massive-15364", "text": "この新品のスマホケースはジャンク品だと amazon に知らせて", "labels": {"intent": "social_post"}, "meta": {"language": "ja", "massive_id": "15364"}}
+{"id": "massive-15503", "text": "カスタマーサービスに新しいツイート", "labels": {"intent": "social_post"}, "meta": {"language": "ja", "massive_id": "15503"}}
+{"id": "massive-1551", "text": "wemo の電源を入れる", "labels": {"intent": "iot_wemo_on"}, "meta": {"language": "ja", "massive_id": "1551"}}
+{"id": "massive-1554", "text": "電気スタンドを消す", "labels": {"intent": "iot_hue_lightoff"}, "meta": {"language": "ja", "massive_id": "1554"}}
+{"id": "massive-15693", "text": "チョコレートの袋に虫が混入していたと tweet する", "labels": {"intent": "social_post"}, "meta": {"language": "ja", "massive_id": "15693"}}
+{"id": "massive-1579", "text": "野球に関わるジョークを教えて", "labels": {"intent": "general_joke"}, "meta": {"language": "ja", "massive_id": "1579"}}
+{"id": "massive-15890", "text": "私のお父さんからの新着メールが届いたかどうかを確認するためにチェックする", "labels": {"intent": "email_query"}, "meta": {"language": "ja", "massive_id": "15890"}}
+{"id": "massive-15982", "text": "富永の電話番号を教えて", "labels": {"intent": "email_querycontact"}, "meta": {"language": "ja", "massive_id": "15982"}}
+{"id": "massive-15995", "text": "予算会議について花子にメールして", "labels": {"intent": "email_sendemail"}, "meta": {"language": "ja", "massive_id": "15995"}}
+{"id": "massive-16032", "text": "明日の打ち合わせについて聡にメールを送って", "labels": {"intent": "email_sendemail"}, "meta": {"language": "ja", "massive_id": "16032"}}
+{"id": "massive-16296", "text": "俊太郎の誕生日パーティーは日曜日だとお母さんに伝えるためにメールを送って", "labels": {"intent": "email_sendemail"}, "meta": {"language": "ja", "massive_id": "16296"}}
+{"id": "massive-16317", "text": "沙羅から新しいメール", "labels": {"intent": "email_query"}, "meta": {"language": "ja", "massive_id": "16317"}}
+{"id": "massive-16373", "text": "トラックナンバー付きのメールが届きましたか", "labels": {"intent": "email_query"}, "meta": {"language": "ja", "massive_id": "16373"}}
+{"id": "massive-16455", "text": "新しいメール macs at gmail dot com を私の連絡先に追加", "labels": {"intent": "email_addcontact"}, "meta": {"language": "ja", "massive_id": "16455"}}
+{"id": "massive-16470", "text": "このメールを私の連絡先に追加してください", "labels": {"intent": "email_addcontact"}, "meta": {"language": "ja", "massive_id": "16470"}}
+{"id": "massive-16532", "text": "電話をかけて", "labels": {"intent": "email_querycontact"}, "meta": {"language": "ja", "massive_id": "16532"}}
+{"id": "massive-16535", "text": "百合子にメールを書いてくれますか", "labels": {"intent": "email_sendemail"}, "meta": {"language": "ja", "massive_id": "16535"}}
+{"id": "massive-16583", "text": "私の社員は家の電話番号があるか", "labels": {"intent": "email_querycontact"}, "meta": {"language": "ja", "massive_id": "16583"}}
+{"id": "massive-16711", "text": "私の連絡先のほとんどは女性ですか。男性ですか。", "labels": {"intent": "email_querycontact"}, "meta": {"language": "ja", "massive_id": "16711"}}
+{"id": "massive-1675", "text": "火曜日の午前九時のアラームを削除", "labels": {"intent": "alarm_remove"}, "meta": {"language": "ja", "massive_id": "1675"}}
+{"id": "massive-16781", "text": "このメールアドレスを連絡先に追加してメールを送る", "labels": {"intent": "email_addcontact"}, "meta": {"language": "ja", "massive_id": "16781"}}
+{"id": "massive-16814", "text": "メールをチェックして", "labels": {"intent": "email_query"}, "meta": {"language": "ja", "massive_id": "16814"}}
+{"id": "massive-16846", "text": "田村由紀夫のメール yukiotanaka at yahoo dot com を連絡帳に追加して", "labels": {"intent": "email_addcontact"}, "meta": {"language": "ja", "massive_id": "16846"}}
+{"id": "massive-16930", "text": "最近の email を見せて", "labels": {"intent": "email_query"}, "meta": {"language": "ja", "massive_id": "16930"}}
+{"id": "massive-16975", "text": "太郎の連絡先番号を見つけて教えて", "labels": {"intent": "email_querycontact"}, "meta": {"language": "ja", "massive_id": "16975"}}
+{"id": "massive-17011", "text": "メールを送ってくれますか", "labels": {"intent": "email_sendemail"}, "meta": {"language": "ja", "massive_id": "17011"}}
+{"id": "massive-17054", "text": "私の連絡先に直也からの新着メールを追加する", "labels": {"intent": "email_addcontact"}, "meta": {"language": "ja", "massive_id": "17054"}}
+{"id": "massive-1715", "text": "音量を五十パーセント下げる", "labels": {"intent": "audio_volume_down"}, "meta": {"language": "ja", "massive_id": "1715"}}
+{"id": "massive-1750", "text": "すべての照明を消して", "labels": {"intent": "iot_hue_lightoff"}, "meta": {"language": "ja", "massive_id": "1750"}}
+{"id": "massive-1804", "text": "もっと照明を", "labels": {"intent": "iot_hue_lightup"}, "meta": {"language": "ja", "massive_id": "1804"}}
+{"id": "massive-1807", "text": "曲のタイトル", "labels": {"intent": "music_query"}, "meta": {"language": "ja", "massive_id": "1807"}}
+{"id": "massive-1812", "text": "甘味料なしでコーヒーを作ってください", "labels": {"intent": "iot_coffee"}, "meta": {"language": "ja", "massive_id": "1812"}}
+{"id": "massive-1830", "text": "何か辛い物が食べたい", "labels": {"intent": "takeaway_order"}, "meta": {"language": "ja", "massive_id": "1830"}}
+{"id": "massive-1862", "text": "私のアラームいつ止まるんだっけ", "labels": {"intent": "alarm_query"}, "meta": {"language": "ja", "massive_id": "1862"}}
+{"id": "massive-1872", "text": "通勤に最適な曲", "labels": {"intent": "music_likeness"}, "meta": {"language": "ja", "massive_id": "1872"}}
+{"id": "massive-2056", "text": "この曲はもうかけないで", "labels": {"intent": "music_dislikeness"}, "meta": {"language": "ja", "massive_id": "2056"}}
+{"id": "massive-2082", "text": "ライトを明るくする", "labels": {"intent": "iot_hue_lightup"}, "meta": {"language": "ja", "massive_id": "2082"}}
+{"id": "massive-2085", "text": "alexa クラシックが聞きたいです。ただし、バッハとシューベルト以外でお願いします", "labels": {"intent": "play_music"}, "meta": {"language": "ja", "massive_id": "2085"}}
+{"id": "massive-2094", "text": "今かかっている音楽は何", "labels": {"intent": "music_query"}, "meta": {"language": "ja", "massive_id": "2094"}}
+{"id": "massive-2128", "text": "照明は淡く明るくして", "labels": {"intent": "iot_hue_lightdim"}, "meta": {"language": "ja", "massive_id": "2128"}}
+{"id": "massive-2168", "text": "アラームを切る", "labels": {"intent": "alarm_remove"}, "meta": {"language": "ja", "massive_id": "2168"}}
+{"id": "massive-2198", "text": "千九百八十二年十二月四日は何曜日でしたか", "labels": {"intent": "datetime_query"}, "meta": {"language": "ja", "massive_id": "2198"}}
+{"id": "massive-2206", "text": "今からミュートにして", "labels": {"intent": "audio_volume_mute"}, "meta": {"language": "ja", "massive_id": "2206"}}
+{"id": "massive-2309", "text": "太平洋標準時間の午前七時", "labels": {"intent": "datetime_convert"}, "meta": {"language": "ja", "massive_id": "2309"}}
+{"id": "massive-2336", "text": "麺を一皿持ち帰りで", "labels": {"intent": "takeaway_order"}, "meta": {"language": "ja", "massive_id": "2336"}}
+{"id": "massive-2350", "text": "家に明るい色ではなく暗い色を取り入れてください", "labels": {"intent": "iot_hue_lightchange"}, "meta": {"language": "ja", "massive_id": "2350"}}
+{"id": "massive-2354", "text": "どんなジャンルの音楽なの", "labels": {"intent": "music_query"}, "meta": {"language": "ja", "massive_id": "2354"}}
+{"id": "massive-2414", "text": "ピザーラにピザを注文したい", "labels": {"intent": "takeaway_order"}, "meta": {"language": "ja", "massive_id": "2414"}}
+{"id": "massive-2434", "text": "掃除のロボットを開始する", "labels": {"intent": "iot_cleaning"}, "meta": {"language": "ja", "massive_id": "2434"}}
+{"id": "massive-2498", "text": "今日は何日ですか", "labels": {"intent": "datetime_query"}, "meta": {"language": "ja", "massive_id": "2498"}}
+{"id": "massive-2517", "text": "どのようにロボット掃除機を開始することができますか", "labels": {"intent": "iot_cleaning"}, "meta": {"language": "ja", "massive_id": "2517"}}
+{"id": "massive-2566", "text": "wemo ソケットの電源を消す", "labels": {"intent": "iot_wemo_off"}, "meta": {"language": "ja", "massive_id": "2566"}}
+{"id": "massive-258", "text": "聞こえない", "labels": {"intent": "audio_volume_up"}, "meta": {"language": "ja", "massive_id": "258"}}
+{"id": "massive-261", "text": "全然聞こえない", "labels": {"intent": "audio_volume_up"}, "meta": {"language": "ja", "massive_id": "261"}}
+{"id": "massive-2610", "text": "マクドナルドでの注文をキャンセルしましたがうまくいきましたか", "labels": {"intent": "takeaway_query"}, "meta": {"language": "ja", "massive_id": "2610"}}
+{"id": "massive-263", "text": "ライトを青色にしよう", "labels": {"intent": "iot_hue_lightchange"}, "meta": {"language": "ja", "massive_id": "263"}}
+{"id": "massive-2647", "text": "アデルのパンドラチャンネルを作成して", "labels": {"intent": "music_settings"}, "meta": {"language": "ja", "massive_id": "2647"}}
+{"id": "massive-2690", "text": "ソケットの電源を消す", "labels": {"intent": "iot_wemo_off"}, "meta": {"language": "ja", "massive_id": "2690"}}
+{"id": "massive-2774", "text": "電気を消す", "labels": {"intent": "iot_hue_lightoff"}, "meta": {"language": "ja", "massive_id": "2774"}}
+{"id": "massive-286", "text": "台所の電気を点ける", "labels": {"intent": "iot_hue_lighton"}, "meta": {"language": "ja", "massive_id": "286"}}
+{"id": "massive-2870", "text": "アラームを表示", "labels": {"intent": "alarm_query"}, "meta": {"language": "ja", "massive_id": "2870"}}
+{"id": "massive-2921", "text": "n.h.k. のウェブサイトのニュースは何がありますか", "labels": {"intent": "news_query"}, "meta": {"language": "ja", "massive_id": "2921"}}
+{"id": "massive-2957", "text": "午前十時のアラームはありますか", "labels": {"intent": "alarm_query"}, "meta": {"language": "ja", "massive_id": "2957"}}
+{"id": "massive-2975", "text": "ライトの色を赤に変えて", "labels": {"intent": "iot_hue_lightchange"}, "meta": {"language": "ja", "massive_id": "2975"}}
+{"id": "massive-2985", "text": "アラームをキャンセル", "labels": {"intent": "alarm_remove"}, "meta": {"language": "ja", "massive_id": "2985"}}
+{"id": "massive-3011", "text": "明かりを戻してください", "labels": {"intent": "iot_hue_lightup"}, "meta": {"language": "ja", "massive_id": "3011"}}
+{"id": "massive-3020", "text": "ピザーラはテイクアウトをやってますか", "labels": {"intent": "takeaway_query"}, "meta": {"language": "ja", "massive_id": "3020"}}
+{"id": "massive-3029", "text": "私はこのソングが嫌い", "labels": {"intent": "music_dislikeness"}, "meta": {"language": "ja", "massive_id": "3029"}}
+{"id": "massive-3060", "text": "その出所から発信されたニュースは何ですか", "labels": {"intent": "news_query"}, "meta": {"language": "ja", "massive_id": "3060"}}
+{"id": "massive-3096", "text": "大阪の天気はどうですか", "labels": {"intent": "weather_query"}, "meta": {"language": "ja", "massive_id": "3096"}}
+{"id": "massive-3103", "text": "この曲はもうかけないで", "labels": {"intent": "music_dislikeness"}, "meta": {"language": "ja", "massive_id": "3103"}}
+{"id": "massive-315", "text": "もう一時間静かにしていて", "labels": {"intent": "audio_volume_mute"}, "meta": {"language": "ja", "massive_id": "315"}}
+{"id": "massive-317", "text": "今日は静かにして", "labels": {"intent": "audio_volume_mute"}, "meta": {"language": "ja", "massive_id": "317"}}
+{"id": "massive-3196", "text": "へい olly クリームの入ったコーヒーをいれて", "labels": {"intent": "iot_coffee"}, "meta": {"language": "ja", "massive_id": "3196"}}
+{"id": "massive-3204", "text": "ジャズが好きでディスコは嫌い", "labels": {"intent": "music_likeness"}, "meta": {"language": "ja", "massive_id": "3204"}}
+{"id": "massive-3222", "text": "ライトを落として", "labels": {"intent": "iot_hue_lightdim"}, "meta": {"language": "ja", "massive_id": "3222"}}
+{"id": "massive-3276", "text": "くら寿司を注文して", "labels": {"intent": "takeaway_query"}, "meta": {"language": "ja", "massive_id": "3276"}}
+{"id": "massive-3326", "text": "プラグをオフにする", "labels": {"intent": "iot_wemo_off"}, "meta": {"language": "ja", "massive_id": "3326"}}
+{"id": "massive-3349", "text": "車はどこ", "labels": {"intent": "audio_volume_up"}, "meta": {"language": "ja", "massive_id": "3349"}}
+{"id": "massive-3474", "text": "音楽の音量を下げてください", "labels": {"intent": "audio_volume_down"}, "meta": {"language": "ja", "massive_id": "3474"}}
+{"id": "massive-3486", "text": "ちょっと音を下げて下さい", "labels": {"intent": "audio_volume_down"}, "meta": {"language": "ja", "massive_id": "3486"}}
+{"id": "massive-3522", "text": "バルコニーのライトをつけて", "labels": {"intent": "iot_hue_lighton"}, "meta": {"language": "ja", "massive_id": "3522"}}
+{"id": "massive-3581", "text": "音を消す", "labels": {"intent": "audio_volume_mute"}, "meta": {"language": "ja", "massive_id": "3581"}}
+{"id": "massive-3605", "text": "c. n. n. の最新ニュースは何ですか", "labels": {"intent": "news_query"}, "meta": {"language": "ja", "massive_id": "3605"}}
+{"id": "massive-3669", "text": "どこかの時間を言って", "labels": {"intent": "datetime_convert"}, "meta": {"language": "ja", "massive_id": "3669"}}
+{"id": "massive-3762", "text": "光を強くして", "labels": {"intent": "iot_hue_lightup"}, "meta": {"language": "ja", "massive_id": "3762"}}
+{"id": "massive-3838", "text": "音を消す", "labels": {"intent": "audio_volume_mute"}, "meta": {"language": "ja", "massive_id": "3838"}}
+{"id": "massive-393", "text": "私のプレイリストから昔の曲を流して", "labels": {"intent": "play_music"}, "meta": {"language": "ja", "massive_id": "393"}}
+{"id": "massive-4013", "text": "ほこりを吸いましょう", "labels": {"intent": "iot_cleaning"}, "meta": {"language": "ja", "massive_id": "4013"}}
+{"id": "massive-4017", "text": "現在のアラームを削除", "labels": {"intent": "alarm_remove"}, "meta": {"language": "ja", "massive_id": "4017"}}
+{"id": "massive-4026", "text": "電源オフ", "labels": {"intent": "iot_wemo_off"}, "meta": {"language": "ja", "massive_id": "4026"}}
+{"id": "massive-4040", "text": "一番よく聞く曲を再生して", "labels": {"intent": "play_music"}, "meta": {"language": "ja", "massive_id": "4040"}}
+{"id": "massive-411", "text": "ジョークを言ってくれる", "labels": {"intent": "general_joke"}, "meta": {"language": "ja", "massive_id": "411"}}
+{"id": "massive-4155", "text": "音量を三十五パーセントに変える", "labels": {"intent": "audio_volume_other"}, "meta": {"language": "ja", "massive_id": "4155"}}
+{"id": "massive-4166", "text": "音量を最大にする", "labels": {"intent": "audio_volume_other"}, "meta": {"language": "ja", "massive_id": "4166"}}
+{"id": "massive-4201", "text": "wemo の電源を入れる", "labels": {"intent": "iot_wemo_on"}, "meta": {"language": "ja", "massive_id": "4201"}}
+{"id": "massive-4216", "text": "今までで一番面白かったジョークを教えてください", "labels": {"intent": "general_joke"}, "meta": {"language": "ja", "massive_id": "4216"}}
+{"id": "massive-4217", "text": "面白いジョークが聞きたい", "labels": {"intent": "general_joke"}, "meta": {"language": "ja", "massive_id": "4217"}}
+{"id": "massive-4240", "text": "ルンバのスイッチを入れる", "labels": {"intent": "iot_cleaning"}, "meta": {"language": "ja", "massive_id": "4240"}}
+{"id": "massive-426", "text": "プラグソケット一をオンにして", "labels": {"intent": "iot_wemo_on"}, "meta": {"language": "ja", "massive_id": "426"}}
+{"id": "massive-4268", "text": "リストの次の曲に移動", "labels": {"intent": "music_settings"}, "meta": {"language": "ja", "massive_id": "4268"}}
+{"id": "massive-4271", "text": "今コーヒーを準備して", "labels": {"intent": "iot_coffee"}, "meta": {"language": "ja", "massive_id": "4271"}}
+{"id": "massive-4272", "text": "コーヒーが冷たいもっとコーヒーを作ってください", "labels": {"intent": "iot_coffee"}, "meta": {"language": "ja", "massive_id": "4272"}}
+{"id": "massive-4334", "text": "私の facebook フィードはどんな感じ", "labels": {"intent": "social_query"}, "meta": {"language": "ja", "massive_id": "4334"}}
+{"id": "massive-4347", "text": "cease 照明をオンしてください", "labels": {"intent": "iot_hue_lightoff"}, "meta": {"language": "ja", "massive_id": "4347"}}
+{"id": "massive-4428", "text": "曲の確認", "labels": {"intent": "music_query"}, "meta": {"language": "ja", "massive_id": "4428"}}
+{"id": "massive-4461", "text": "崎陽軒はイートインのみですか", "labels": {"intent": "takeaway_query"}, "meta": {"language": "ja", "massive_id": "4461"}}
+{"id": "massive-4547", "text": "読書用プレイリストを開始", "labels": {"intent": "play_music"}, "meta": {"language": "ja", "massive_id": "4547"}}
+{"id": "massive-4550", "text": "私は米津玄師の音楽が好きだ", "labels": {"intent": "music_likeness"}, "meta": {"language": "ja", "massive_id": "4550"}}
+{"id": "massive-46", "text": "何ですか、オリ―さん", "labels": {"intent": "general_greet"}, "meta": {"language": "ja", "massive_id": "46"}}
+{"id": "massive-4618", "text": "スマートソケットを有効にして", "labels": {"intent": "iot_wemo_on"}, "meta": {"language": "ja", "massive_id": "4618"}}
+{"id": "massive-4638", "text": "音量を下げて", "labels": {"intent": "audio_volume_other"}, "meta": {"language": "ja", "massive_id": "4638"}}
+{"id": "massive-4680", "text": "今日はサンダルそれともスニーカーに靴下のほうがいいかな", "labels": {"intent": "weather_query"}, "meta": {"language": "ja", "massive_id": "4680"}}
+{"id": "massive-4702", "text": "スピーカーをオンにしてください", "labels": {"intent": "audio_volume_up"}, "meta": {"language": "ja", "massive_id": "4702"}}
+{"id": "massive-4845", "text": "私の場所とニューヨークの時差は何時間", "labels": {"intent": "datetime_convert"}, "meta": {"language": "ja", "massive_id": "4845"}}
+{"id": "massive-50", "text": "g. m. t. プラス五の時間を教えて", "labels": {"intent": "datetime_convert"}, "meta": {"language": "ja", "massive_id": "50"}}
+{"id": "massive-5047", "text": "家の照明を下げてください", "labels": {"intent": "iot_hue_lightdim"}, "meta": {"language": "ja", "massive_id": "5047"}}
+{"id": "massive-508", "text": "どんなアラームが設定されてる", "labels": {"intent": "alarm_query"}, "meta": {"language": "ja", "massive_id": "508"}}
+{"id": "massive-5082", "text": "午前六時の新しいアラーム", "labels": {"intent": "alarm_set"}, "meta": {"language": "ja", "massive_id": "5082"}}
+{"id": "massive-5116", "text": "アラームはいらない", "labels": {"intent": "alarm_remove"}, "meta": {"language": "ja", "massive_id": "5116"}}
+{"id": "massive-5128", "text": "ドイツへの旅行のチケットを確認する", "labels": {"intent": "transport_ticket"}, "meta": {"language": "ja", "massive_id": "5128"}}
+{"id": "massive-5152", "text": "二曲スキップして", "labels": {"intent": "music_settings"}, "meta": {"language": "ja", "massive_id": "5152"}}
+{"id": "massive-5204", "text": "マニラ時間の午前八時をニューヨーク時間に変換する", "labels": {"intent": "datetime_convert"}, "meta": {"language": "ja", "massive_id": "5204"}}
+{"id": "massive-5221", "text": "スピーカーからバイブレーションをオフにする", "labels": {"intent": "audio_volume_mute"}, "meta": {"language": "ja", "massive_id": "5221"}}
+{"id": "massive-525", "text": "できる限り早く注文を用意する", "labels": {"intent": "takeaway_query"}, "meta": {"language": "ja", "massive_id": "525"}}
+{"id": "massive-5258", "text": "この曲をプレイリストに保存", "labels": {"intent": "music_likeness"}, "meta": {"language": "ja", "massive_id": "5258"}}
+{"id": "massive-5292", "text": "アラームを設定", "labels": {"intent": "alarm_set"}, "meta": {"language": "ja", "massive_id": "5292"}}
+{"id": "massive-5330", "text": "掃除機をオンにして居間を掃除する", "labels": {"intent": "iot_cleaning"}, "meta": {"language": "ja", "massive_id": "5330"}}
+{"id": "massive-5523", "text": "八時半をグリニッジ標準時の四時からグリニッジ標準時の五時半に変換して", "labels": {"intent": "datetime_convert"}, "meta": {"language": "ja", "massive_id": "5523"}}
+{"id": "massive-5579", "text": "音量を変えて", "labels": {"intent": "audio_volume_other"}, "meta": {"language": "ja", "massive_id": "5579"}}
+{"id": "massive-5584", "text": "ライトを消す", "labels": {"intent": "iot_hue_lightoff"}, "meta": {"language": "ja", "massive_id": "5584"}}
+{"id": "massive-5611", "text": "音量を下げる", "labels": {"intent": "audio_volume_down"}, "meta": {"language": "ja", "massive_id": "5611"}}
+{"id": "massive-5652", "text": "wemo プラグソケットのスイッチを切る", "labels": {"intent": "iot_wemo_off"}, "meta": {"language": "ja", "massive_id": "5652"}}
+{"id": "massive-5688", "text": "ニュースの見出しを教えて", "labels": {"intent": "news_query"}, "meta": {"language": "ja", "massive_id": "5688"}}
+{"id": "massive-5707", "text": "私のお気に入りを聞く", "labels": {"intent": "play_music"}, "meta": {"language": "ja", "massive_id": "5707"}}
+{"id": "massive-5727", "text": "玄関のライトを明るくする", "labels": {"intent": "iot_hue_lightup"}, "meta": {"language": "ja", "massive_id": "5727"}}
+{"id": "massive-5812", "text": "既定のオーディオ設定にする", "labels": {"intent": "audio_volume_other"}, "meta": {"language": "ja", "massive_id": "5812"}}
+{"id": "massive-5823", "text": "二十パーセント下げる", "labels": {"intent": "audio_volume_down"}, "meta": {"language": "ja", "massive_id": "5823"}}
+{"id": "massive-5911", "text": "音楽をリプレイ", "labels": {"intent": "music_settings"}, "meta": {"language": "ja", "massive_id": "5911"}}
+{"id": "massive-5912", "text": "この曲をカットして", "labels": {"intent": "music_settings"}, "meta": {"language": "ja", "massive_id": "5912"}}
+{"id": "massive-5917", "text": "コーヒーをください", "labels": {"intent": "iot_coffee"}, "meta": {"language": "ja", "massive_id": "5917"}}
+{"id": "massive-5966", "text": "私に何か料理を注文してください", "labels": {"intent": "takeaway_order"}, "meta": {"language": "ja", "massive_id": "5966"}}
+{"id": "massive-5988", "text": "ライトを低めに設定する", "labels": {"intent": "iot_hue_lightdim"}, "meta": {"language": "ja", "massive_id": "5988"}}
+{"id": "massive-5997", "text": "中部標準時は何時ですか", "labels": {"intent": "datetime_query"}, "meta": {"language": "ja", "massive_id": "5997"}}
+{"id": "massive-6014", "text": "このアーティストは誰", "labels": {"intent": "music_query"}, "meta": {"language": "ja", "massive_id": "6014"}}
+{"id": "massive-608", "text": "ミュートを解除", "labels": {"intent": "audio_volume_up"}, "meta": {"language": "ja", "massive_id": "608"}}
+{"id": "massive-61", "text": "どんなアラームを設定したか", "labels": {"intent": "alarm_query"}, "meta": {"language": "ja", "massive_id": "61"}}
+{"id": "massive-6147", "text": "面白いジョークを言ってみて", "labels": {"intent": "general_joke"}, "meta": {"language": "ja", "massive_id": "6147"}}
+{"id": "massive-6151", "text": "今日の天気が知りたい", "labels": {"intent": "weather_query"}, "meta": {"language": "ja", "massive_id": "6151"}}
+{"id": "massive-6214", "text": "友達の誕生日はいつですか", "labels": {"intent": "general_quirky"}, "meta": {"language": "ja", "massive_id": "6214"}}
+{"id": "massive-6366", "text": "アメリカで一番いい観光地をいくつか教えて", "labels": {"intent": "recommendation_locations"}, "meta": {"language": "ja", "massive_id": "6366"}}
+{"id": "massive-6403", "text": "どこかに行く方法", "labels": {"intent": "transport_query"}, "meta": {"language": "ja", "massive_id": "6403"}}
+{"id": "massive-6694", "text": "ねえ今日は悪い日を過ごしています。私を元気づけるために何を見ることができるか", "labels": {"intent": "general_quirky"}, "meta": {"language": "ja", "massive_id": "6694"}}
+{"id": "massive-6713", "text": "水曜日の仕事の打ち合わせをキャンセル", "labels": {"intent": "calendar_remove"}, "meta": {"language": "ja", "massive_id": "6713"}}
+{"id": "massive-6761", "text": "私の午前九時にカレンダーミーティングから削除する", "labels": {"intent": "calendar_remove"}, "meta": {"language": "ja", "massive_id": "6761"}}
+{"id": "massive-680", "text": "ビットコインの価格について知らせて", "labels": {"intent": "news_query"}, "meta": {"language": "ja", "massive_id": "680"}}
+{"id": "massive-6806", "text": "今週金曜日午後のカレンダーの予定を", "labels": {"intent": "calendar_query"}, "meta": {"language": "ja", "massive_id": "6806"}}
+{"id": "massive-686", "text": "今ニューヨークは何時", "labels": {"intent": "datetime_query"}, "meta": {"language": "ja", "massive_id": "686"}}
+{"id": "massive-71", "text": "私は福山雅治の歌が好きだ", "labels": {"intent": "music_likeness"}, "meta": {"language": "ja", "massive_id": "71"}}
+{"id": "massive-7111", "text": "三月三十一日の診察は何時から", "labels": {"intent": "calendar_query"}, "meta": {"language": "ja", "massive_id": "7111"}}
+{"id": "massive-7232", "text": "来週のイベントは何ですか", "labels": {"intent": "calendar_query"}, "meta": {"language": "ja", "massive_id": "7232"}}
+{"id": "massive-7355", "text": "ちょうど六時にシチューをチェックするリマインドをしてください", "labels": {"intent": "calendar_set"}, "meta": {"language": "ja", "massive_id": "7355"}}
+{"id": "massive-738", "text": "今日は外はどの程度寒いですか", "labels": {"intent": "weather_query"}, "meta": {"language": "ja", "massive_id": "738"}}
+{"id": "massive-7499", "text": "明日の会議に新しいスケジュールを作成する", "labels": {"intent": "calendar_set"}, "meta": {"language": "ja", "massive_id": "7499"}}
+{"id": "massive-7528", "text": "六月十三日を選挙の開票でセットして", "labels": {"intent": "calendar_set"}, "meta": {"language": "ja", "massive_id": "7528"}}
+{"id": "massive-7680", "text": "カレンダーで今月のゴルフの予定をすべて削除する", "labels": {"intent": "calendar_remove"}, "meta": {"language": "ja", "massive_id": "7680"}}
+{"id": "massive-7711", "text": "他のすべての会議をキャンセルして忠の誕生日として三月二日を私のカレンダーのイベントとしてタグ付けする", "labels": {"intent": "calendar_set"}, "meta": {"language": "ja", "massive_id": "7711"}}
+{"id": "massive-7751", "text": "毎週月曜日ゴミ出しをリマインドして", "labels": {"intent": "calendar_set"}, "meta": {"language": "ja", "massive_id": "7751"}}
+{"id": "massive-8044", "text": "今日のスケジュールは", "labels": {"intent": "calendar_query"}, "meta": {"language": "ja", "massive_id": "8044"}}
+{"id": "massive-8119", "text": "裕美子の誕生日会はどこで行われるの", "labels": {"intent": "calendar_query"}, "meta": {"language": "ja", "massive_id": "8119"}}
+{"id": "massive-8343", "text": "水曜日ですか", "labels": {"intent": "datetime_query"}, "meta": {"language": "ja", "massive_id": "8343"}}
+{"id": "massive-8562", "text": "今日の午後二時の会議を削除しする", "labels": {"intent": "calendar_remove"}, "meta": {"language": "ja", "massive_id": "8562"}}
+{"id": "massive-8731", "text": "四月七日に参加しなければならない facebook イベントのリマインダーアラームを繰り返し設定する", "labels": {"intent": "alarm_set"}, "meta": {"language": "ja", "massive_id": "8731"}}
+{"id": "massive-8771", "text": "三月二十三日に予定している買い出しを削除して", "labels": {"intent": "calendar_remove"}, "meta": {"language": "ja", "massive_id": "8771"}}
+{"id": "massive-8781", "text": "午後四時私は時間ある？", "labels": {"intent": "calendar_query"}, "meta": {"language": "ja", "massive_id": "8781"}}
+{"id": "massive-8867", "text": "olly リマインダーのアラームを設定", "labels": {"intent": "alarm_set"}, "meta": {"language": "ja", "massive_id": "8867"}}
+{"id": "massive-8888", "text": "削除して", "labels": {"intent": "calendar_remove"}, "meta": {"language": "ja", "massive_id": "8888"}}
+{"id": "massive-89", "text": "今夜の夜ご飯に寿司を注文してくれませんか", "labels": {"intent": "takeaway_order"}, "meta": {"language": "ja", "massive_id": "89"}}
+{"id": "massive-9156", "text": "リマインドして", "labels": {"intent": "calendar_set"}, "meta": {"language": "ja", "massive_id": "9156"}}
+{"id": "massive-9204", "text": "tokyo f. m. ラジオをつけて", "labels": {"intent": "play_radio"}, "meta": {"language": "ja", "massive_id": "9204"}}
+{"id": "massive-939", "text": "午前七時にアラームを設定", "labels": {"intent": "alarm_set"}, "meta": {"language": "ja", "massive_id": "939"}}
+{"id": "massive-9406", "text": "文化放送の番組を開始する", "labels": {"intent": "play_radio"}, "meta": {"language": "ja", "massive_id": "9406"}}
+{"id": "massive-9426", "text": "r. アンド b. を再生するステーションを聞きたい", "labels": {"intent": "play_radio"}, "meta": {"language": "ja", "massive_id": "9426"}}
+{"id": "massive-9577", "text": "八二 . 四にチャンネルを変更して", "labels": {"intent": "play_radio"}, "meta": {"language": "ja", "massive_id": "9577"}}
+{"id": "massive-9632", "text": "ラジオお願い", "labels": {"intent": "play_radio"}, "meta": {"language": "ja", "massive_id": "9632"}}
+{"id": "massive-9689", "text": "その本を一時停止して", "labels": {"intent": "play_audiobook"}, "meta": {"language": "ja", "massive_id": "9689"}}
+{"id": "massive-9718", "text": "夢をかなえるゾウを再開して", "labels": {"intent": "play_audiobook"}, "meta": {"language": "ja", "massive_id": "9718"}}
+{"id": "massive-9746", "text": "ビジネスモデルの教科書を再生して", "labels": {"intent": "play_audiobook"}, "meta": {"language": "ja", "massive_id": "9746"}}
+{"id": "massive-9881", "text": "オーディオブックを開いて", "labels": {"intent": "play_audiobook"}, "meta": {"language": "ja", "massive_id": "9881"}}
+{"id": "massive-9885", "text": "終電の神様を再生してください", "labels": {"intent": "play_audiobook"}, "meta": {"language": "ja", "massive_id": "9885"}}
+{"id": "massive-9931", "text": "olly 卵はどれくらいゆでたらいいですか", "labels": {"intent": "cooking_recipe"}, "meta": {"language": "ja", "massive_id": "9931"}}
+{"id": "massive-9962", "text": "パスタをアルデンテに茹でるのに一番良い方法は何ですか", "labels": {"intent": "cooking_recipe"}, "meta": {"language": "ja", "massive_id": "9962"}}

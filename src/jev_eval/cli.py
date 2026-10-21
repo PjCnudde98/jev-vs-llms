@@ -78,6 +78,33 @@ def _cmd_cascade(args) -> None:
     _print_metrics(run_dir)
 
 
+def _cmd_compare(args) -> None:
+    from jev_eval import metrics
+    from jev_eval.types import read_jsonl
+
+    def rows(spec: str) -> list[dict]:
+        run_dir, arm = spec.rsplit(":", 1)
+        return read_jsonl(Path(run_dir) / args.split / f"{arm}.jsonl")
+
+    result = metrics.paired_difference(rows(args.a), rows(args.b), args.field)
+    lo, hi = result["difference_ci"]
+    print(
+        f"{args.a} {100 * result['accuracy_a']:.1f}% vs {args.b} {100 * result['accuracy_b']:.1f}% "
+        f"on {result['n']} items\n"
+        f"difference {100 * result['difference']:+.1f} points (95% CI {100 * lo:+.1f} to {100 * hi:+.1f}), "
+        f"McNemar p={result['p_value']:.4f} "
+        f"({result['only_a_right']} only A right, {result['only_b_right']} only B right)"
+    )
+
+
+def _cmd_business(args) -> None:
+    from jev_eval import business
+
+    result = business.run(Path(args.run_dir), args.volumes, args.cost_per_error, args.reference, args.split)
+    print(business.format_table(result))
+    print(f"\nWritten to {Path(args.run_dir) / 'business.json'}")
+
+
 def _cmd_report(args) -> None:
     from jev_eval import report
 
@@ -117,6 +144,21 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument("--fields", nargs="*", help="fields whose confidence decides routing (default: all)")
     p.add_argument("--tolerance", type=float, default=0.005, help="accuracy gap allowed for 'match_fallback'")
     p.set_defaults(func=_cmd_cascade)
+
+    p = sub.add_parser("compare", help="paired significance test between two arms or two runs (free)")
+    p.add_argument("a", help="<run_dir>:<arm>, e.g. results/multilingual-ja:jev")
+    p.add_argument("b", help="<run_dir>:<arm>, e.g. results/multilingual-en:jev")
+    p.add_argument("--split", default="eval")
+    p.add_argument("--field", default="intent")
+    p.set_defaults(func=_cmd_compare)
+
+    p = sub.add_parser("business", help="monthly cost, mistakes and break-even per arm at your volume (free)")
+    p.add_argument("run_dir")
+    p.add_argument("--volumes", type=int, nargs="+", help="calls per month (default: 10k 100k 1M)")
+    p.add_argument("--cost-per-error", type=float, help="what one wrong answer costs you, in USD")
+    p.add_argument("--reference", help="arm to compare with (default: the most accurate LLM)")
+    p.add_argument("--split", default="eval")
+    p.set_defaults(func=_cmd_business)
 
     p = sub.add_parser("report", help="build the HTML report from results folders (free)")
     p.add_argument("run_dirs", nargs="+")

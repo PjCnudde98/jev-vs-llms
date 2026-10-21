@@ -1,0 +1,11 @@
+# First paid check for nl: 20 items, a few cents. Validates keys and structured output on non-English text.
+name: smoke-multilingual-nl
+dataset: massive_nl
+splits: [eval]
+limit: 20
+concurrency: 4
+max_cost_usd: 1.0
+arms:
+  - {name: jev, kind: jev, model: jev-1.13.0}
+  - {name: haiku-5.5, kind: anthropic, model: claude-haiku-5-5, params: {effort: low}}
+  - {name: baseline, kind: baseline, model: baseline-tfidf-logreg}

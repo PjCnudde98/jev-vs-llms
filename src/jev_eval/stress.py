@@ -1,8 +1,8 @@
 """Stress transforms: change one thing about the input and keep the rest fixed.
 
 Each transform is seeded per item, so the stressed set is the same on every rerun
-and for every arm. Translation (NL/FR) and unseen-class tests are not automated yet;
-see docs/methodology.md.
+and for every arm. Unseen-class tests are not automated yet; see docs/methodology.md.
+Language is not a transform: see the MASSIVE datasets.
 """
 
 from __future__ import annotations

@@ -1,0 +1,300 @@
+{"id": "massive-0", "text": "wake me up at five am this week", "labels": {"intent": "alarm_set"}, "meta": {"language": "en", "massive_id": "0"}}
+{"id": "massive-10045", "text": "can you give me a recipe for homemade chicken noodle soup", "labels": {"intent": "cooking_recipe"}, "meta": {"language": "en", "massive_id": "10045"}}
+{"id": "massive-10078", "text": "what should i cook for supper", "labels": {"intent": "cooking_recipe"}, "meta": {"language": "en", "massive_id": "10078"}}
+{"id": "massive-10100", "text": "do you know recipe for risotto", "labels": {"intent": "cooking_recipe"}, "meta": {"language": "en", "massive_id": "10100"}}
+{"id": "massive-10182", "text": "how many eggs do i need for an omelet", "labels": {"intent": "cooking_recipe"}, "meta": {"language": "en", "massive_id": "10182"}}
+{"id": "massive-10268", "text": "let's play global thermonuclear war", "labels": {"intent": "play_game"}, "meta": {"language": "en", "massive_id": "10268"}}
+{"id": "massive-1030", "text": "dim the lights in the living room", "labels": {"intent": "iot_hue_lightdim"}, "meta": {"language": "en", "massive_id": "1030"}}
+{"id": "massive-10302", "text": "launch game", "labels": {"intent": "play_game"}, "meta": {"language": "en", "massive_id": "10302"}}
+{"id": "massive-10349", "text": "let's play you'll be the keeper and never change position", "labels": {"intent": "play_game"}, "meta": {"language": "en", "massive_id": "10349"}}
+{"id": "massive-10350", "text": "play racing", "labels": {"intent": "play_game"}, "meta": {"language": "en", "massive_id": "10350"}}
+{"id": "massive-10381", "text": "start a competitive crossword for us", "labels": {"intent": "play_game"}, "meta": {"language": "en", "massive_id": "10381"}}
+{"id": "massive-10442", "text": "remove events from my list", "labels": {"intent": "lists_remove"}, "meta": {"language": "en", "massive_id": "10442"}}
+{"id": "massive-10444", "text": "delete item", "labels": {"intent": "lists_remove"}, "meta": {"language": "en", "massive_id": "10444"}}
+{"id": "massive-10455", "text": "what's on my to-do list", "labels": {"intent": "lists_query"}, "meta": {"language": "en", "massive_id": "10455"}}
+{"id": "massive-1048", "text": "lower the speaker volume", "labels": {"intent": "audio_volume_down"}, "meta": {"language": "en", "massive_id": "1048"}}
+{"id": "massive-10512", "text": "list everything left on my query", "labels": {"intent": "lists_query"}, "meta": {"language": "en", "massive_id": "10512"}}
+{"id": "massive-1065", "text": "where is volume setting", "labels": {"intent": "audio_volume_other"}, "meta": {"language": "en", "massive_id": "1065"}}
+{"id": "massive-10699", "text": "inform me on the items on the list", "labels": {"intent": "lists_query"}, "meta": {"language": "en", "massive_id": "10699"}}
+{"id": "massive-1076", "text": "do not play rock metal", "labels": {"intent": "music_dislikeness"}, "meta": {"language": "en", "massive_id": "1076"}}
+{"id": "massive-10808", "text": "delete last item listed", "labels": {"intent": "lists_remove"}, "meta": {"language": "en", "massive_id": "10808"}}
+{"id": "massive-10816", "text": "create a playlist", "labels": {"intent": "lists_createoradd"}, "meta": {"language": "en", "massive_id": "10816"}}
+{"id": "massive-10858", "text": "new list", "labels": {"intent": "lists_createoradd"}, "meta": {"language": "en", "massive_id": "10858"}}
+{"id": "massive-10895", "text": "delete item from my list", "labels": {"intent": "lists_remove"}, "meta": {"language": "en", "massive_id": "10895"}}
+{"id": "massive-10915", "text": "begin a new list", "labels": {"intent": "lists_createoradd"}, "meta": {"language": "en", "massive_id": "10915"}}
+{"id": "massive-10938", "text": "please add sugar to my grocery list", "labels": {"intent": "lists_createoradd"}, "meta": {"language": "en", "massive_id": "10938"}}
+{"id": "massive-10981", "text": "let me know the list", "labels": {"intent": "lists_query"}, "meta": {"language": "en", "massive_id": "10981"}}
+{"id": "massive-11026", "text": "add new item to list", "labels": {"intent": "lists_createoradd"}, "meta": {"language": "en", "massive_id": "11026"}}
+{"id": "massive-11053", "text": "get rid of the list google", "labels": {"intent": "lists_remove"}, "meta": {"language": "en", "massive_id": "11053"}}
+{"id": "massive-11172", "text": "give me all available lists", "labels": {"intent": "lists_query"}, "meta": {"language": "en", "massive_id": "11172"}}
+{"id": "massive-11361", "text": "shadi special podcast play it", "labels": {"intent": "play_podcasts"}, "meta": {"language": "en", "massive_id": "11361"}}
+{"id": "massive-11366", "text": "go back to previous episode of podcast", "labels": {"intent": "play_podcasts"}, "meta": {"language": "en", "massive_id": "11366"}}
+{"id": "massive-11424", "text": "vitaly channel", "labels": {"intent": "play_podcasts"}, "meta": {"language": "en", "massive_id": "11424"}}
+{"id": "massive-11460", "text": "i want to listen to a sports podcast", "labels": {"intent": "play_podcasts"}, "meta": {"language": "en", "massive_id": "11460"}}
+{"id": "massive-11483", "text": "start playing ringcast", "labels": {"intent": "play_podcasts"}, "meta": {"language": "en", "massive_id": "11483"}}
+{"id": "massive-1160", "text": "how cold will it get each night this week", "labels": {"intent": "weather_query"}, "meta": {"language": "en", "massive_id": "1160"}}
+{"id": "massive-11628", "text": "where is the pharmacy in leavenworth", "labels": {"intent": "recommendation_locations"}, "meta": {"language": "en", "massive_id": "11628"}}
+{"id": "massive-11634", "text": "what movie should i watch today", "labels": {"intent": "recommendation_movies"}, "meta": {"language": "en", "massive_id": "11634"}}
+{"id": "massive-11685", "text": "i would be happy if you update me the events going on our area", "labels": {"intent": "recommendation_events"}, "meta": {"language": "en", "massive_id": "11685"}}
+{"id": "massive-11695", "text": "do you have any suggestion action movies", "labels": {"intent": "recommendation_movies"}, "meta": {"language": "en", "massive_id": "11695"}}
+{"id": "massive-11744", "text": "olly what are new drama movies opening this weekend", "labels": {"intent": "recommendation_movies"}, "meta": {"language": "en", "massive_id": "11744"}}
+{"id": "massive-11778", "text": "where is a good wine bar near me", "labels": {"intent": "recommendation_locations"}, "meta": {"language": "en", "massive_id": "11778"}}
+{"id": "massive-11841", "text": "are there any crafts fairs happening in this area", "labels": {"intent": "recommendation_events"}, "meta": {"language": "en", "massive_id": "11841"}}
+{"id": "massive-11916", "text": "what are some theme parks nearby", "labels": {"intent": "recommendation_events"}, "meta": {"language": "en", "massive_id": "11916"}}
+{"id": "massive-11920", "text": "what movies are out this week", "labels": {"intent": "recommendation_movies"}, "meta": {"language": "en", "massive_id": "11920"}}
+{"id": "massive-11932", "text": "what should i watch today", "labels": {"intent": "recommendation_movies"}, "meta": {"language": "en", "massive_id": "11932"}}
+{"id": "massive-12054", "text": "what's happening around town", "labels": {"intent": "recommendation_events"}, "meta": {"language": "en", "massive_id": "12054"}}
+{"id": "massive-12098", "text": "show me nearby musical events", "labels": {"intent": "recommendation_events"}, "meta": {"language": "en", "massive_id": "12098"}}
+{"id": "massive-12127", "text": "i need to go to dundee at five am on sunday by train", "labels": {"intent": "transport_ticket"}, "meta": {"language": "en", "massive_id": "12127"}}
+{"id": "massive-12161", "text": "can you book an uber after i left for office", "labels": {"intent": "transport_taxi"}, "meta": {"language": "en", "massive_id": "12161"}}
+{"id": "massive-12166", "text": "book my train ticket from las vegas to los angeles", "labels": {"intent": "transport_ticket"}, "meta": {"language": "en", "massive_id": "12166"}}
+{"id": "massive-1217", "text": "olly change the lighting to blue", "labels": {"intent": "iot_hue_lightchange"}, "meta": {"language": "en", "massive_id": "1217"}}
+{"id": "massive-12182", "text": "what are the traffic conditions on the one hundred and one", "labels": {"intent": "transport_traffic"}, "meta": {"language": "en", "massive_id": "12182"}}
+{"id": "massive-12248", "text": "olly find the nearest uber", "labels": {"intent": "transport_taxi"}, "meta": {"language": "en", "massive_id": "12248"}}
+{"id": "massive-12264", "text": "new york", "labels": {"intent": "transport_query"}, "meta": {"language": "en", "massive_id": "12264"}}
+{"id": "massive-12299", "text": "call me a taxi olly", "labels": {"intent": "transport_taxi"}, "meta": {"language": "en", "massive_id": "12299"}}
+{"id": "massive-12329", "text": "call yellow cab", "labels": {"intent": "transport_taxi"}, "meta": {"language": "en", "massive_id": "12329"}}
+{"id": "massive-12343", "text": "check time of ten thousand eight hundred and eighty seven train from luni station on tuesday", "labels": {"intent": "transport_query"}, "meta": {"language": "en", "massive_id": "12343"}}
+{"id": "massive-12409", "text": "where is the nearest gas station", "labels": {"intent": "recommendation_locations"}, "meta": {"language": "en", "massive_id": "12409"}}
+{"id": "massive-12629", "text": "what time does the first train depart from chicago", "labels": {"intent": "transport_query"}, "meta": {"language": "en", "massive_id": "12629"}}
+{"id": "massive-1264", "text": "is my alarm set for tomorrow morning", "labels": {"intent": "alarm_query"}, "meta": {"language": "en", "massive_id": "1264"}}
+{"id": "massive-12672", "text": "how is traffic in city", "labels": {"intent": "transport_traffic"}, "meta": {"language": "en", "massive_id": "12672"}}
+{"id": "massive-12716", "text": "call an uberpool to get me at long island bar", "labels": {"intent": "transport_taxi"}, "meta": {"language": "en", "massive_id": "12716"}}
+{"id": "massive-12717", "text": "what is the traffic like now", "labels": {"intent": "transport_traffic"}, "meta": {"language": "en", "massive_id": "12717"}}
+{"id": "massive-12789", "text": "can you tell me about the traffic", "labels": {"intent": "transport_traffic"}, "meta": {"language": "en", "massive_id": "12789"}}
+{"id": "massive-12813", "text": "please book a ticket of rajdhani express train from jaipur", "labels": {"intent": "transport_ticket"}, "meta": {"language": "en", "massive_id": "12813"}}
+{"id": "massive-12824", "text": "list all train times to ny", "labels": {"intent": "transport_query"}, "meta": {"language": "en", "massive_id": "12824"}}
+{"id": "massive-12838", "text": "how is the traffic at the moment", "labels": {"intent": "transport_traffic"}, "meta": {"language": "en", "massive_id": "12838"}}
+{"id": "massive-12874", "text": "train ticket please", "labels": {"intent": "transport_ticket"}, "meta": {"language": "en", "massive_id": "12874"}}
+{"id": "massive-1300", "text": "fast", "labels": {"intent": "audio_volume_up"}, "meta": {"language": "en", "massive_id": "1300"}}
+{"id": "massive-13101", "text": "what is one plus one", "labels": {"intent": "qa_maths"}, "meta": {"language": "en", "massive_id": "13101"}}
+{"id": "massive-13122", "text": "what is the factorial of ten", "labels": {"intent": "qa_maths"}, "meta": {"language": "en", "massive_id": "13122"}}
+{"id": "massive-13154", "text": "do you know jessica snout's phone number", "labels": {"intent": "qa_factoid"}, "meta": {"language": "en", "massive_id": "13154"}}
+{"id": "massive-13166", "text": "spell and define oscillate", "labels": {"intent": "qa_definition"}, "meta": {"language": "en", "massive_id": "13166"}}
+{"id": "massive-13223", "text": "why does sofia vergara look so young", "labels": {"intent": "general_quirky"}, "meta": {"language": "en", "massive_id": "13223"}}
+{"id": "massive-13297", "text": "who is celebrity", "labels": {"intent": "qa_factoid"}, "meta": {"language": "en", "massive_id": "13297"}}
+{"id": "massive-13312", "text": "alexa i've got dollars for the month how much can i spend every day this month", "labels": {"intent": "qa_maths"}, "meta": {"language": "en", "massive_id": "13312"}}
+{"id": "massive-13372", "text": "what time are the hockey games tonight", "labels": {"intent": "general_quirky"}, "meta": {"language": "en", "massive_id": "13372"}}
+{"id": "massive-13548", "text": "i'd like you to turn turn on the t. v.", "labels": {"intent": "iot_wemo_on"}, "meta": {"language": "en", "massive_id": "13548"}}
+{"id": "massive-13684", "text": "what is the dollar price in inr", "labels": {"intent": "qa_currency"}, "meta": {"language": "en", "massive_id": "13684"}}
+{"id": "massive-13705", "text": "what is an electronic emissions system", "labels": {"intent": "qa_definition"}, "meta": {"language": "en", "massive_id": "13705"}}
+{"id": "massive-13722", "text": "list exchange rate information for the day for u. s. d. to jpy", "labels": {"intent": "qa_currency"}, "meta": {"language": "en", "massive_id": "13722"}}
+{"id": "massive-13847", "text": "what is the exchange rate for mexico money", "labels": {"intent": "qa_currency"}, "meta": {"language": "en", "massive_id": "13847"}}
+{"id": "massive-13854", "text": "when did elvis die", "labels": {"intent": "qa_factoid"}, "meta": {"language": "en", "massive_id": "13854"}}
+{"id": "massive-13858", "text": "list me the stock of apple right now", "labels": {"intent": "qa_stock"}, "meta": {"language": "en", "massive_id": "13858"}}
+{"id": "massive-14", "text": "and the darkness has fallen", "labels": {"intent": "iot_hue_lighton"}, "meta": {"language": "en", "massive_id": "14"}}
+{"id": "massive-14015", "text": "what are the coordinates of the equator", "labels": {"intent": "qa_factoid"}, "meta": {"language": "en", "massive_id": "14015"}}
+{"id": "massive-14025", "text": "one plus two equal", "labels": {"intent": "qa_maths"}, "meta": {"language": "en", "massive_id": "14025"}}
+{"id": "massive-14179", "text": "how far is canada from my current location", "labels": {"intent": "qa_factoid"}, "meta": {"language": "en", "massive_id": "14179"}}
+{"id": "massive-14348", "text": "google what are the basic things humans need", "labels": {"intent": "general_quirky"}, "meta": {"language": "en", "massive_id": "14348"}}
+{"id": "massive-1454", "text": "set the alarm off", "labels": {"intent": "alarm_remove"}, "meta": {"language": "en", "massive_id": "1454"}}
+{"id": "massive-14592", "text": "give me the description of a smartphone circuit", "labels": {"intent": "qa_definition"}, "meta": {"language": "en", "massive_id": "14592"}}
+{"id": "massive-14644", "text": "stock price", "labels": {"intent": "qa_stock"}, "meta": {"language": "en", "massive_id": "14644"}}
+{"id": "massive-14668", "text": "describe item xy", "labels": {"intent": "qa_definition"}, "meta": {"language": "en", "massive_id": "14668"}}
+{"id": "massive-14757", "text": "divide seventy six in two parts", "labels": {"intent": "qa_maths"}, "meta": {"language": "en", "massive_id": "14757"}}
+{"id": "massive-14761", "text": "give me the definition for the word pontificate", "labels": {"intent": "qa_definition"}, "meta": {"language": "en", "massive_id": "14761"}}
+{"id": "massive-14762", "text": "dollar to euro exchange rate", "labels": {"intent": "qa_currency"}, "meta": {"language": "en", "massive_id": "14762"}}
+{"id": "massive-14792", "text": "where is a walking trail near me", "labels": {"intent": "recommendation_locations"}, "meta": {"language": "en", "massive_id": "14792"}}
+{"id": "massive-14874", "text": "check stock price for dinky donuts", "labels": {"intent": "qa_stock"}, "meta": {"language": "en", "massive_id": "14874"}}
+{"id": "massive-14919", "text": "how have megatel shares done last week", "labels": {"intent": "qa_stock"}, "meta": {"language": "en", "massive_id": "14919"}}
+{"id": "massive-14926", "text": "how much would it cost to buy stock in apple", "labels": {"intent": "qa_stock"}, "meta": {"language": "en", "massive_id": "14926"}}
+{"id": "massive-15010", "text": "how much is one american dollars worth in england", "labels": {"intent": "qa_currency"}, "meta": {"language": "en", "massive_id": "15010"}}
+{"id": "massive-1511", "text": "show me the available colors of lights", "labels": {"intent": "iot_hue_lightchange"}, "meta": {"language": "en", "massive_id": "1511"}}
+{"id": "massive-15203", "text": "new updates", "labels": {"intent": "social_query"}, "meta": {"language": "en", "massive_id": "15203"}}
+{"id": "massive-15205", "text": "give me my facebook update every three hours", "labels": {"intent": "social_query"}, "meta": {"language": "en", "massive_id": "15205"}}
+{"id": "massive-15216", "text": "tweet something for me", "labels": {"intent": "social_post"}, "meta": {"language": "en", "massive_id": "15216"}}
+{"id": "massive-15274", "text": "please scan my social media and tell me what's happening", "labels": {"intent": "social_query"}, "meta": {"language": "en", "massive_id": "15274"}}
+{"id": "massive-15280", "text": "facebook", "labels": {"intent": "social_query"}, "meta": {"language": "en", "massive_id": "15280"}}
+{"id": "massive-15337", "text": "post this video to facebook", "labels": {"intent": "social_post"}, "meta": {"language": "en", "massive_id": "15337"}}
+{"id": "massive-15364", "text": "can you let amazon know that this new phone case is junk", "labels": {"intent": "social_post"}, "meta": {"language": "en", "massive_id": "15364"}}
+{"id": "massive-15503", "text": "new tweet to consumer service", "labels": {"intent": "social_post"}, "meta": {"language": "en", "massive_id": "15503"}}
+{"id": "massive-1551", "text": "turn on wemo", "labels": {"intent": "iot_wemo_on"}, "meta": {"language": "en", "massive_id": "1551"}}
+{"id": "massive-1554", "text": "turn off the lamps", "labels": {"intent": "iot_hue_lightoff"}, "meta": {"language": "en", "massive_id": "1554"}}
+{"id": "massive-15693", "text": "tweet that there was an insect in the chocolate packet", "labels": {"intent": "social_post"}, "meta": {"language": "en", "massive_id": "15693"}}
+{"id": "massive-1579", "text": "find me a joke related to baseball", "labels": {"intent": "general_joke"}, "meta": {"language": "en", "massive_id": "1579"}}
+{"id": "massive-15890", "text": "check to see if i have any new emails from my dad", "labels": {"intent": "email_query"}, "meta": {"language": "en", "massive_id": "15890"}}
+{"id": "massive-15982", "text": "give me petey's telephone number", "labels": {"intent": "email_querycontact"}, "meta": {"language": "en", "massive_id": "15982"}}
+{"id": "massive-15995", "text": "email karen about the budget meeting", "labels": {"intent": "email_sendemail"}, "meta": {"language": "en", "massive_id": "15995"}}
+{"id": "massive-16032", "text": "please send an email to sally regarding tomorrows meeting", "labels": {"intent": "email_sendemail"}, "meta": {"language": "en", "massive_id": "16032"}}
+{"id": "massive-16296", "text": "send an email to mom to tell her wyatt's birthday party is on sunday", "labels": {"intent": "email_sendemail"}, "meta": {"language": "en", "massive_id": "16296"}}
+{"id": "massive-16317", "text": "did i get new emails from sarah", "labels": {"intent": "email_query"}, "meta": {"language": "en", "massive_id": "16317"}}
+{"id": "massive-16373", "text": "have i received any emails with tracking numbers", "labels": {"intent": "email_query"}, "meta": {"language": "en", "massive_id": "16373"}}
+{"id": "massive-16455", "text": "add new email to my contacts macs at gmail dot com", "labels": {"intent": "email_addcontact"}, "meta": {"language": "en", "massive_id": "16455"}}
+{"id": "massive-16470", "text": "please add this email to my contacts", "labels": {"intent": "email_addcontact"}, "meta": {"language": "en", "massive_id": "16470"}}
+{"id": "massive-16532", "text": "make a call to", "labels": {"intent": "email_querycontact"}, "meta": {"language": "en", "massive_id": "16532"}}
+{"id": "massive-16535", "text": "can you write an email to chelsea", "labels": {"intent": "email_sendemail"}, "meta": {"language": "en", "massive_id": "16535"}}
+{"id": "massive-16583", "text": "does my company worker have a home phone number", "labels": {"intent": "email_querycontact"}, "meta": {"language": "en", "massive_id": "16583"}}
+{"id": "massive-16711", "text": "are my contacts mostly female or male", "labels": {"intent": "email_querycontact"}, "meta": {"language": "en", "massive_id": "16711"}}
+{"id": "massive-1675", "text": "remove tuesday alarm of nine am", "labels": {"intent": "alarm_remove"}, "meta": {"language": "en", "massive_id": "1675"}}
+{"id": "massive-16781", "text": "add this email address to my contacts and send an email to", "labels": {"intent": "email_addcontact"}, "meta": {"language": "en", "massive_id": "16781"}}
+{"id": "massive-16814", "text": "check emails", "labels": {"intent": "email_query"}, "meta": {"language": "en", "massive_id": "16814"}}
+{"id": "massive-16846", "text": "please add an email for john doe to my contacts johndoe at yahoo dot com", "labels": {"intent": "email_addcontact"}, "meta": {"language": "en", "massive_id": "16846"}}
+{"id": "massive-16930", "text": "show latest email", "labels": {"intent": "email_query"}, "meta": {"language": "en", "massive_id": "16930"}}
+{"id": "massive-16975", "text": "please find a contact number of jayesh and tell me", "labels": {"intent": "email_querycontact"}, "meta": {"language": "en", "massive_id": "16975"}}
+{"id": "massive-17011", "text": "can you send an email to", "labels": {"intent": "email_sendemail"}, "meta": {"language": "en", "massive_id": "17011"}}
+{"id": "massive-17054", "text": "just add a new email in my contacts from michael", "labels": {"intent": "email_addcontact"}, "meta": {"language": "en", "massive_id": "17054"}}
+{"id": "massive-1715", "text": "lower volume by fifty percent", "labels": {"intent": "audio_volume_down"}, "meta": {"language": "en", "massive_id": "1715"}}
+{"id": "massive-1750", "text": "turn off all lights", "labels": {"intent": "iot_hue_lightoff"}, "meta": {"language": "en", "massive_id": "1750"}}
+{"id": "massive-1804", "text": "more lights please", "labels": {"intent": "iot_hue_lightup"}, "meta": {"language": "en", "massive_id": "1804"}}
+{"id": "massive-1807", "text": "song title", "labels": {"intent": "music_query"}, "meta": {"language": "en", "massive_id": "1807"}}
+{"id": "massive-1812", "text": "please make me coffee without sweetener", "labels": {"intent": "iot_coffee"}, "meta": {"language": "en", "massive_id": "1812"}}
+{"id": "massive-1830", "text": "i want to eat some spicy thing", "labels": {"intent": "takeaway_order"}, "meta": {"language": "en", "massive_id": "1830"}}
+{"id": "massive-1862", "text": "when does my alarm go off", "labels": {"intent": "alarm_query"}, "meta": {"language": "en", "massive_id": "1862"}}
+{"id": "massive-1872", "text": "great song for the commute", "labels": {"intent": "music_likeness"}, "meta": {"language": "en", "massive_id": "1872"}}
+{"id": "massive-2056", "text": "i never want to hear that song again", "labels": {"intent": "music_dislikeness"}, "meta": {"language": "en", "massive_id": "2056"}}
+{"id": "massive-2082", "text": "raise the light", "labels": {"intent": "iot_hue_lightup"}, "meta": {"language": "en", "massive_id": "2082"}}
+{"id": "massive-2085", "text": "alexa i'dl like to hear any classical except for bach or schubert", "labels": {"intent": "play_music"}, "meta": {"language": "en", "massive_id": "2085"}}
+{"id": "massive-2094", "text": "what is the music playing right now", "labels": {"intent": "music_query"}, "meta": {"language": "en", "massive_id": "2094"}}
+{"id": "massive-2128", "text": "color of light should be dimmed bright", "labels": {"intent": "iot_hue_lightdim"}, "meta": {"language": "en", "massive_id": "2128"}}
+{"id": "massive-2168", "text": "turn off my alarm", "labels": {"intent": "alarm_remove"}, "meta": {"language": "en", "massive_id": "2168"}}
+{"id": "massive-2198", "text": "what day of the week was december four one thousand nine hundred and eighty two", "labels": {"intent": "datetime_query"}, "meta": {"language": "en", "massive_id": "2198"}}
+{"id": "massive-2206", "text": "from now on mute", "labels": {"intent": "audio_volume_mute"}, "meta": {"language": "en", "massive_id": "2206"}}
+{"id": "massive-2309", "text": "it is seven am in pacific standard time", "labels": {"intent": "datetime_convert"}, "meta": {"language": "en", "massive_id": "2309"}}
+{"id": "massive-2336", "text": "noodles one pack make it as takeaway", "labels": {"intent": "takeaway_order"}, "meta": {"language": "en", "massive_id": "2336"}}
+{"id": "massive-2350", "text": "put dark colors instead of light ones in the house", "labels": {"intent": "iot_hue_lightchange"}, "meta": {"language": "en", "massive_id": "2350"}}
+{"id": "massive-2354", "text": "which type of music it is", "labels": {"intent": "music_query"}, "meta": {"language": "en", "massive_id": "2354"}}
+{"id": "massive-2414", "text": "i want to order a pizza from michael's pizza", "labels": {"intent": "takeaway_order"}, "meta": {"language": "en", "massive_id": "2414"}}
+{"id": "massive-2434", "text": "start robot vacuum cleaner", "labels": {"intent": "iot_cleaning"}, "meta": {"language": "en", "massive_id": "2434"}}
+{"id": "massive-2498", "text": "siri today is what date", "labels": {"intent": "datetime_query"}, "meta": {"language": "en", "massive_id": "2498"}}
+{"id": "massive-2517", "text": "how do i start the robot vacuum cleaner", "labels": {"intent": "iot_cleaning"}, "meta": {"language": "en", "massive_id": "2517"}}
+{"id": "massive-2566", "text": "turn off my wemo socket", "labels": {"intent": "iot_wemo_off"}, "meta": {"language": "en", "massive_id": "2566"}}
+{"id": "massive-258", "text": "i can't hear you", "labels": {"intent": "audio_volume_up"}, "meta": {"language": "en", "massive_id": "258"}}
+{"id": "massive-261", "text": "i can barely hear you", "labels": {"intent": "audio_volume_up"}, "meta": {"language": "en", "massive_id": "261"}}
+{"id": "massive-2610", "text": "i've canceled the order placed at mcd did it go through", "labels": {"intent": "takeaway_query"}, "meta": {"language": "en", "massive_id": "2610"}}
+{"id": "massive-263", "text": "let's have the lights blue", "labels": {"intent": "iot_hue_lightchange"}, "meta": {"language": "en", "massive_id": "263"}}
+{"id": "massive-2647", "text": "could you please create a pandora channel for adele", "labels": {"intent": "music_settings"}, "meta": {"language": "en", "massive_id": "2647"}}
+{"id": "massive-2690", "text": "turn off the socket", "labels": {"intent": "iot_wemo_off"}, "meta": {"language": "en", "massive_id": "2690"}}
+{"id": "massive-2774", "text": "shut off lights", "labels": {"intent": "iot_hue_lightoff"}, "meta": {"language": "en", "massive_id": "2774"}}
+{"id": "massive-286", "text": "light up the lights in the kitchen", "labels": {"intent": "iot_hue_lighton"}, "meta": {"language": "en", "massive_id": "286"}}
+{"id": "massive-2870", "text": "olly tell me my alarms", "labels": {"intent": "alarm_query"}, "meta": {"language": "en", "massive_id": "2870"}}
+{"id": "massive-2921", "text": "what are the news stories on the c. n. n. website", "labels": {"intent": "news_query"}, "meta": {"language": "en", "massive_id": "2921"}}
+{"id": "massive-2957", "text": "is there an alarm for ten am", "labels": {"intent": "alarm_query"}, "meta": {"language": "en", "massive_id": "2957"}}
+{"id": "massive-2975", "text": "please change the light colors to red", "labels": {"intent": "iot_hue_lightchange"}, "meta": {"language": "en", "massive_id": "2975"}}
+{"id": "massive-2985", "text": "cancel alarm", "labels": {"intent": "alarm_remove"}, "meta": {"language": "en", "massive_id": "2985"}}
+{"id": "massive-3011", "text": "retrieve the light for me", "labels": {"intent": "iot_hue_lightup"}, "meta": {"language": "en", "massive_id": "3011"}}
+{"id": "massive-3020", "text": "does louie's do take out", "labels": {"intent": "takeaway_query"}, "meta": {"language": "en", "massive_id": "3020"}}
+{"id": "massive-3029", "text": "i hate this song", "labels": {"intent": "music_dislikeness"}, "meta": {"language": "en", "massive_id": "3029"}}
+{"id": "massive-3060", "text": "what is the news from that newsource", "labels": {"intent": "news_query"}, "meta": {"language": "en", "massive_id": "3060"}}
+{"id": "massive-3096", "text": "how's the weather like in new jersey", "labels": {"intent": "weather_query"}, "meta": {"language": "en", "massive_id": "3096"}}
+{"id": "massive-3103", "text": "don't play this song again", "labels": {"intent": "music_dislikeness"}, "meta": {"language": "en", "massive_id": "3103"}}
+{"id": "massive-315", "text": "please be quiet for another hour", "labels": {"intent": "audio_volume_mute"}, "meta": {"language": "en", "massive_id": "315"}}
+{"id": "massive-317", "text": "do not speak today", "labels": {"intent": "audio_volume_mute"}, "meta": {"language": "en", "massive_id": "317"}}
+{"id": "massive-3196", "text": "hey olly can you please make me a creamy coffee", "labels": {"intent": "iot_coffee"}, "meta": {"language": "en", "massive_id": "3196"}}
+{"id": "massive-3204", "text": "please note i like jazz and hate disco", "labels": {"intent": "music_likeness"}, "meta": {"language": "en", "massive_id": "3204"}}
+{"id": "massive-3222", "text": "i want a lower light", "labels": {"intent": "iot_hue_lightdim"}, "meta": {"language": "en", "massive_id": "3222"}}
+{"id": "massive-3276", "text": "olly does shibaru sushi deliver", "labels": {"intent": "takeaway_query"}, "meta": {"language": "en", "massive_id": "3276"}}
+{"id": "massive-3326", "text": "turn the plug off", "labels": {"intent": "iot_wemo_off"}, "meta": {"language": "en", "massive_id": "3326"}}
+{"id": "massive-3349", "text": "where is the car", "labels": {"intent": "audio_volume_up"}, "meta": {"language": "en", "massive_id": "3349"}}
+{"id": "massive-3474", "text": "please lower music volume", "labels": {"intent": "audio_volume_down"}, "meta": {"language": "en", "massive_id": "3474"}}
+{"id": "massive-3486", "text": "speak softer please", "labels": {"intent": "audio_volume_down"}, "meta": {"language": "en", "massive_id": "3486"}}
+{"id": "massive-3522", "text": "please turn on my balcony lights", "labels": {"intent": "iot_hue_lighton"}, "meta": {"language": "en", "massive_id": "3522"}}
+{"id": "massive-3581", "text": "turn off sound", "labels": {"intent": "audio_volume_mute"}, "meta": {"language": "en", "massive_id": "3581"}}
+{"id": "massive-3605", "text": "what's the latest news on c. n. n.", "labels": {"intent": "news_query"}, "meta": {"language": "en", "massive_id": "3605"}}
+{"id": "massive-3669", "text": "tell me the time in someplace", "labels": {"intent": "datetime_convert"}, "meta": {"language": "en", "massive_id": "3669"}}
+{"id": "massive-3762", "text": "raise the lights", "labels": {"intent": "iot_hue_lightup"}, "meta": {"language": "en", "massive_id": "3762"}}
+{"id": "massive-3838", "text": "turn off the sounds", "labels": {"intent": "audio_volume_mute"}, "meta": {"language": "en", "massive_id": "3838"}}
+{"id": "massive-393", "text": "play a retro song in my playlist", "labels": {"intent": "play_music"}, "meta": {"language": "en", "massive_id": "393"}}
+{"id": "massive-4013", "text": "let's suck out the dust", "labels": {"intent": "iot_cleaning"}, "meta": {"language": "en", "massive_id": "4013"}}
+{"id": "massive-4017", "text": "get rid of my current alarms", "labels": {"intent": "alarm_remove"}, "meta": {"language": "en", "massive_id": "4017"}}
+{"id": "massive-4026", "text": "power off", "labels": {"intent": "iot_wemo_off"}, "meta": {"language": "en", "massive_id": "4026"}}
+{"id": "massive-4040", "text": "play the song i listen to the most", "labels": {"intent": "play_music"}, "meta": {"language": "en", "massive_id": "4040"}}
+{"id": "massive-411", "text": "can you tell me a joke", "labels": {"intent": "general_joke"}, "meta": {"language": "en", "massive_id": "411"}}
+{"id": "massive-4155", "text": "change volume to thirty five percent", "labels": {"intent": "audio_volume_other"}, "meta": {"language": "en", "massive_id": "4155"}}
+{"id": "massive-4166", "text": "change volume level to maximum", "labels": {"intent": "audio_volume_other"}, "meta": {"language": "en", "massive_id": "4166"}}
+{"id": "massive-4201", "text": "power on wemo", "labels": {"intent": "iot_wemo_on"}, "meta": {"language": "en", "massive_id": "4201"}}
+{"id": "massive-4216", "text": "tell me the funniest joke that was ever told", "labels": {"intent": "general_joke"}, "meta": {"language": "en", "massive_id": "4216"}}
+{"id": "massive-4217", "text": "i would like to hear some good funny jokes", "labels": {"intent": "general_joke"}, "meta": {"language": "en", "massive_id": "4217"}}
+{"id": "massive-4240", "text": "switch on the roomba", "labels": {"intent": "iot_cleaning"}, "meta": {"language": "en", "massive_id": "4240"}}
+{"id": "massive-426", "text": "power up the plug socket one", "labels": {"intent": "iot_wemo_on"}, "meta": {"language": "en", "massive_id": "426"}}
+{"id": "massive-4268", "text": "move to the next song in the list", "labels": {"intent": "music_settings"}, "meta": {"language": "en", "massive_id": "4268"}}
+{"id": "massive-4271", "text": "prepare coffee now", "labels": {"intent": "iot_coffee"}, "meta": {"language": "en", "massive_id": "4271"}}
+{"id": "massive-4272", "text": "my coffee is cold please make more coffee", "labels": {"intent": "iot_coffee"}, "meta": {"language": "en", "massive_id": "4272"}}
+{"id": "massive-4334", "text": "what does my facebook feed look like", "labels": {"intent": "social_query"}, "meta": {"language": "en", "massive_id": "4334"}}
+{"id": "massive-4347", "text": "cease operating lights", "labels": {"intent": "iot_hue_lightoff"}, "meta": {"language": "en", "massive_id": "4347"}}
+{"id": "massive-4428", "text": "identify song", "labels": {"intent": "music_query"}, "meta": {"language": "en", "massive_id": "4428"}}
+{"id": "massive-4461", "text": "is fongs dine in only", "labels": {"intent": "takeaway_query"}, "meta": {"language": "en", "massive_id": "4461"}}
+{"id": "massive-4547", "text": "start the dogwalking playlist", "labels": {"intent": "play_music"}, "meta": {"language": "en", "massive_id": "4547"}}
+{"id": "massive-4550", "text": "hey olly i like music by sigur ros", "labels": {"intent": "music_likeness"}, "meta": {"language": "en", "massive_id": "4550"}}
+{"id": "massive-46", "text": "what's up olly", "labels": {"intent": "general_greet"}, "meta": {"language": "en", "massive_id": "46"}}
+{"id": "massive-4618", "text": "enable smart socket", "labels": {"intent": "iot_wemo_on"}, "meta": {"language": "en", "massive_id": "4618"}}
+{"id": "massive-4638", "text": "change volume settings in the negative alexa", "labels": {"intent": "audio_volume_other"}, "meta": {"language": "en", "massive_id": "4638"}}
+{"id": "massive-4680", "text": "should i wear sandals or shoes with socks", "labels": {"intent": "weather_query"}, "meta": {"language": "en", "massive_id": "4680"}}
+{"id": "massive-4702", "text": "please turn my speakers on google", "labels": {"intent": "audio_volume_up"}, "meta": {"language": "en", "massive_id": "4702"}}
+{"id": "massive-4845", "text": "how many hours distance is between my location and new york", "labels": {"intent": "datetime_convert"}, "meta": {"language": "en", "massive_id": "4845"}}
+{"id": "massive-50", "text": "olly tell me the time in g. m. t. plus five", "labels": {"intent": "datetime_convert"}, "meta": {"language": "en", "massive_id": "50"}}
+{"id": "massive-5047", "text": "alexa please turn down the lights in the house", "labels": {"intent": "iot_hue_lightdim"}, "meta": {"language": "en", "massive_id": "5047"}}
+{"id": "massive-508", "text": "what alarms are set", "labels": {"intent": "alarm_query"}, "meta": {"language": "en", "massive_id": "508"}}
+{"id": "massive-5082", "text": "new alarm for six am", "labels": {"intent": "alarm_set"}, "meta": {"language": "en", "massive_id": "5082"}}
+{"id": "massive-5116", "text": "i don't want any alarms", "labels": {"intent": "alarm_remove"}, "meta": {"language": "en", "massive_id": "5116"}}
+{"id": "massive-5128", "text": "confirm a travel ticket to german", "labels": {"intent": "transport_ticket"}, "meta": {"language": "en", "massive_id": "5128"}}
+{"id": "massive-5152", "text": "please skip two songs", "labels": {"intent": "music_settings"}, "meta": {"language": "en", "massive_id": "5152"}}
+{"id": "massive-5204", "text": "convert eight am manila time to new york time", "labels": {"intent": "datetime_convert"}, "meta": {"language": "en", "massive_id": "5204"}}
+{"id": "massive-5221", "text": "turn the vibrate off from speaker", "labels": {"intent": "audio_volume_mute"}, "meta": {"language": "en", "massive_id": "5221"}}
+{"id": "massive-525", "text": "prepare the order as soon as possible", "labels": {"intent": "takeaway_query"}, "meta": {"language": "en", "massive_id": "525"}}
+{"id": "massive-5258", "text": "save this song to playlist", "labels": {"intent": "music_likeness"}, "meta": {"language": "en", "massive_id": "5258"}}
+{"id": "massive-5292", "text": "fix alarm", "labels": {"intent": "alarm_set"}, "meta": {"language": "en", "massive_id": "5292"}}
+{"id": "massive-5330", "text": "put on the vacuum on now and clean the living room", "labels": {"intent": "iot_cleaning"}, "meta": {"language": "en", "massive_id": "5330"}}
+{"id": "massive-5523", "text": "convert eight thirty from gtm four to g. m. t. five thirty", "labels": {"intent": "datetime_convert"}, "meta": {"language": "en", "massive_id": "5523"}}
+{"id": "massive-5579", "text": "can you change the volume at", "labels": {"intent": "audio_volume_other"}, "meta": {"language": "en", "massive_id": "5579"}}
+{"id": "massive-5584", "text": "please turn the lights off", "labels": {"intent": "iot_hue_lightoff"}, "meta": {"language": "en", "massive_id": "5584"}}
+{"id": "massive-5611", "text": "reduce volume", "labels": {"intent": "audio_volume_down"}, "meta": {"language": "en", "massive_id": "5611"}}
+{"id": "massive-5652", "text": "switch wemo plug socket off", "labels": {"intent": "iot_wemo_off"}, "meta": {"language": "en", "massive_id": "5652"}}
+{"id": "massive-5688", "text": "please tell me the news headlines", "labels": {"intent": "news_query"}, "meta": {"language": "en", "massive_id": "5688"}}
+{"id": "massive-5707", "text": "listen to my favorites", "labels": {"intent": "play_music"}, "meta": {"language": "en", "massive_id": "5707"}}
+{"id": "massive-5727", "text": "brighten the light of hall", "labels": {"intent": "iot_hue_lightup"}, "meta": {"language": "en", "massive_id": "5727"}}
+{"id": "massive-5812", "text": "set the default audio setting", "labels": {"intent": "audio_volume_other"}, "meta": {"language": "en", "massive_id": "5812"}}
+{"id": "massive-5823", "text": "decrease twenty percent", "labels": {"intent": "audio_volume_down"}, "meta": {"language": "en", "massive_id": "5823"}}
+{"id": "massive-5911", "text": "replay the musics", "labels": {"intent": "music_settings"}, "meta": {"language": "en", "massive_id": "5911"}}
+{"id": "massive-5912", "text": "cut the songs in this musics", "labels": {"intent": "music_settings"}, "meta": {"language": "en", "massive_id": "5912"}}
+{"id": "massive-5917", "text": "make a coffee please", "labels": {"intent": "iot_coffee"}, "meta": {"language": "en", "massive_id": "5917"}}
+{"id": "massive-5966", "text": "can you please order some food for me", "labels": {"intent": "takeaway_order"}, "meta": {"language": "en", "massive_id": "5966"}}
+{"id": "massive-5988", "text": "adjust the lights to a lower setting please", "labels": {"intent": "iot_hue_lightdim"}, "meta": {"language": "en", "massive_id": "5988"}}
+{"id": "massive-5997", "text": "what time is it in central time zone", "labels": {"intent": "datetime_query"}, "meta": {"language": "en", "massive_id": "5997"}}
+{"id": "massive-6014", "text": "what artist is this", "labels": {"intent": "music_query"}, "meta": {"language": "en", "massive_id": "6014"}}
+{"id": "massive-608", "text": "unmute after", "labels": {"intent": "audio_volume_up"}, "meta": {"language": "en", "massive_id": "608"}}
+{"id": "massive-61", "text": "what alarms i have set", "labels": {"intent": "alarm_query"}, "meta": {"language": "en", "massive_id": "61"}}
+{"id": "massive-6147", "text": "find funny jokes", "labels": {"intent": "general_joke"}, "meta": {"language": "en", "massive_id": "6147"}}
+{"id": "massive-6151", "text": "i want to know today's weather", "labels": {"intent": "weather_query"}, "meta": {"language": "en", "massive_id": "6151"}}
+{"id": "massive-6214", "text": "when is my friend's birthday coming up", "labels": {"intent": "general_quirky"}, "meta": {"language": "en", "massive_id": "6214"}}
+{"id": "massive-6366", "text": "tell me some best tourist places to visit in america", "labels": {"intent": "recommendation_locations"}, "meta": {"language": "en", "massive_id": "6366"}}
+{"id": "massive-6403", "text": "how to get somewhere", "labels": {"intent": "transport_query"}, "meta": {"language": "en", "massive_id": "6403"}}
+{"id": "massive-6694", "text": "hey i am having a bad day today what can i watch to cheer me up", "labels": {"intent": "general_quirky"}, "meta": {"language": "en", "massive_id": "6694"}}
+{"id": "massive-6713", "text": "cancel business meeting on wednesday", "labels": {"intent": "calendar_remove"}, "meta": {"language": "en", "massive_id": "6713"}}
+{"id": "massive-6761", "text": "remove from my calendar meeting at nine am", "labels": {"intent": "calendar_remove"}, "meta": {"language": "en", "massive_id": "6761"}}
+{"id": "massive-680", "text": "keep me informed about bitcoin price", "labels": {"intent": "news_query"}, "meta": {"language": "en", "massive_id": "680"}}
+{"id": "massive-6806", "text": "show me my calendar event this friday afternoon", "labels": {"intent": "calendar_query"}, "meta": {"language": "en", "massive_id": "6806"}}
+{"id": "massive-686", "text": "what is the time now in new york", "labels": {"intent": "datetime_query"}, "meta": {"language": "en", "massive_id": "686"}}
+{"id": "massive-71", "text": "i like senatra songs", "labels": {"intent": "music_likeness"}, "meta": {"language": "en", "massive_id": "71"}}
+{"id": "massive-7111", "text": "what time is my doctor appointment on march thirty first", "labels": {"intent": "calendar_query"}, "meta": {"language": "en", "massive_id": "7111"}}
+{"id": "massive-7232", "text": "what are the events next week", "labels": {"intent": "calendar_query"}, "meta": {"language": "en", "massive_id": "7232"}}
+{"id": "massive-7355", "text": "remind me to check the stew at six o'clock", "labels": {"intent": "calendar_set"}, "meta": {"language": "en", "massive_id": "7355"}}
+{"id": "massive-738", "text": "how cold is it outside today", "labels": {"intent": "weather_query"}, "meta": {"language": "en", "massive_id": "738"}}
+{"id": "massive-7499", "text": "make new schedule for tomorrow meeting", "labels": {"intent": "calendar_set"}, "meta": {"language": "en", "massive_id": "7499"}}
+{"id": "massive-7528", "text": "thirteenth june is a day of election result please set it", "labels": {"intent": "calendar_set"}, "meta": {"language": "en", "massive_id": "7528"}}
+{"id": "massive-7680", "text": "in my calendar delete all of my golf events for the current month", "labels": {"intent": "calendar_remove"}, "meta": {"language": "en", "massive_id": "7680"}}
+{"id": "massive-7711", "text": "hey cancel all my other meetings and calls for second march as it is jim's birthday tag it as an event in your calendar", "labels": {"intent": "calendar_set"}, "meta": {"language": "en", "massive_id": "7711"}}
+{"id": "massive-7751", "text": "remind me every monday to take out the trash", "labels": {"intent": "calendar_set"}, "meta": {"language": "en", "massive_id": "7751"}}
+{"id": "massive-8044", "text": "what's my schedule today", "labels": {"intent": "calendar_query"}, "meta": {"language": "en", "massive_id": "8044"}}
+{"id": "massive-8119", "text": "where is mary's birthday party being held", "labels": {"intent": "calendar_query"}, "meta": {"language": "en", "massive_id": "8119"}}
+{"id": "massive-8343", "text": "is it wednesday", "labels": {"intent": "datetime_query"}, "meta": {"language": "en", "massive_id": "8343"}}
+{"id": "massive-8562", "text": "delete my meeting for two o'clock p. m. today", "labels": {"intent": "calendar_remove"}, "meta": {"language": "en", "massive_id": "8562"}}
+{"id": "massive-8731", "text": "set a repeating reminder alarm for the facebook event i have to attend on seventh april", "labels": {"intent": "alarm_set"}, "meta": {"language": "en", "massive_id": "8731"}}
+{"id": "massive-8771", "text": "delete the shopping trip i have scheduled march twenty third", "labels": {"intent": "calendar_remove"}, "meta": {"language": "en", "massive_id": "8771"}}
+{"id": "massive-8781", "text": "am i free at four p. m.", "labels": {"intent": "calendar_query"}, "meta": {"language": "en", "massive_id": "8781"}}
+{"id": "massive-8867", "text": "olly set alarm for reminder", "labels": {"intent": "alarm_set"}, "meta": {"language": "en", "massive_id": "8867"}}
+{"id": "massive-8888", "text": "delete it", "labels": {"intent": "calendar_remove"}, "meta": {"language": "en", "massive_id": "8888"}}
+{"id": "massive-89", "text": "could you order sushi for tonight dinner", "labels": {"intent": "takeaway_order"}, "meta": {"language": "en", "massive_id": "89"}}
+{"id": "massive-9156", "text": "remind", "labels": {"intent": "calendar_set"}, "meta": {"language": "en", "massive_id": "9156"}}
+{"id": "massive-9204", "text": "start b. b. c. radio", "labels": {"intent": "play_radio"}, "meta": {"language": "en", "massive_id": "9204"}}
+{"id": "massive-939", "text": "set my alarm for seven am", "labels": {"intent": "alarm_set"}, "meta": {"language": "en", "massive_id": "939"}}
+{"id": "massive-9406", "text": "start sirius xm radio channel", "labels": {"intent": "play_radio"}, "meta": {"language": "en", "massive_id": "9406"}}
+{"id": "massive-9426", "text": "i want to hear a station that plays r. & b.", "labels": {"intent": "play_radio"}, "meta": {"language": "en", "massive_id": "9426"}}
+{"id": "massive-9577", "text": "change the station to eighty two point four", "labels": {"intent": "play_radio"}, "meta": {"language": "en", "massive_id": "9577"}}
+{"id": "massive-9632", "text": "radio please", "labels": {"intent": "play_radio"}, "meta": {"language": "en", "massive_id": "9632"}}
+{"id": "massive-9689", "text": "pause the book", "labels": {"intent": "play_audiobook"}, "meta": {"language": "en", "massive_id": "9689"}}
+{"id": "massive-9718", "text": "resume animal farm", "labels": {"intent": "play_audiobook"}, "meta": {"language": "en", "massive_id": "9718"}}
+{"id": "massive-9746", "text": "play pride and prejudice", "labels": {"intent": "play_audiobook"}, "meta": {"language": "en", "massive_id": "9746"}}
+{"id": "massive-9881", "text": "open audiobook", "labels": {"intent": "play_audiobook"}, "meta": {"language": "en", "massive_id": "9881"}}
+{"id": "massive-9885", "text": "please play the notebook audio", "labels": {"intent": "play_audiobook"}, "meta": {"language": "en", "massive_id": "9885"}}
+{"id": "massive-9931", "text": "olly how long should i boil the egg", "labels": {"intent": "cooking_recipe"}, "meta": {"language": "en", "massive_id": "9931"}}
+{"id": "massive-9962", "text": "what is the best way to cook pasta al dente", "labels": {"intent": "cooking_recipe"}, "meta": {"language": "en", "massive_id": "9962"}}

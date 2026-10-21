@@ -16,6 +16,8 @@ from __future__ import annotations
 import csv
 import io
 import json
+import random
+import tarfile
 import urllib.request
 from collections.abc import Callable
 from pathlib import Path
@@ -33,6 +35,11 @@ CALIBRATION_SIZE = 500
 CLINC_PARQUET = "https://huggingface.co/api/datasets/clinc/clinc_oos/parquet/plus/{split}/0.parquet"
 CLINC_INFO = "https://datasets-server.huggingface.co/info?dataset=clinc/clinc_oos&config=plus"
 BANKING_CSV = "https://raw.githubusercontent.com/PolyAI-LDN/task-specific-datasets/master/banking_data/{split}.csv"
+MASSIVE_TARBALL = "https://amazon-massive-nlu-dataset.s3.amazonaws.com/amazon-massive-dataset-1.1.tar.gz"
+MASSIVE_LANGUAGES = {"en": "en-US", "fr": "fr-FR", "nl": "nl-NL", "ja": "ja-JP"}
+MASSIVE_NAMES = {"en": "English", "fr": "French", "nl": "Dutch", "ja": "Japanese"}
+MASSIVE_EVAL_SIZE = 300
+MASSIVE_CALIBRATION_SIZE = 150
 
 
 def _download(url: str, dest: Path) -> bytes:
@@ -53,6 +60,26 @@ def _stratified_sample(items: list[Item], field: str, n: int) -> tuple[list[Item
         return items, []
     rest, sample = train_test_split(items, test_size=n, random_state=SEED, stratify=[i.labels[field] for i in items])
     return sorted(sample, key=lambda i: i.id), sorted(rest, key=lambda i: i.id)
+
+
+def _balanced_sample(items: list[Item], field: str, n: int) -> list[Item]:
+    """About n items spread evenly over the labels (seeded round robin).
+
+    Unlike `_stratified_sample` this tolerates labels with a single item, which MASSIVE
+    has in its dev and test partitions (e.g. `general_greet`).
+    """
+    rng = random.Random(SEED)
+    pools: dict[str, list[Item]] = {}
+    for item in sorted(items, key=lambda i: i.id):
+        pools.setdefault(item.labels[field], []).append(item)
+    for pool in pools.values():
+        rng.shuffle(pool)
+    sample: list[Item] = []
+    while len(sample) < n and any(pools.values()):
+        for label in sorted(pools):
+            if pools[label] and len(sample) < n:
+                sample.append(pools[label].pop())
+    return sorted(sample, key=lambda i: i.id)
 
 
 def _write(dataset: str, root: Path, splits: dict[str, list[Item]], task: dict) -> None:
@@ -130,6 +157,67 @@ def prepare_banking77(root: Path) -> None:
     _write("banking77", root, {"train": train, "calibration": calibration, "eval": eval_items}, task)
 
 
+def prepare_massive(root: Path, languages: dict[str, str] | None = None) -> None:
+    """Multilingual intent detection from Amazon MASSIVE (human-translated, CC BY 4.0).
+
+    The same utterances exist in every locale, so the eval and calibration ids are drawn
+    once, spread evenly over the intents, from English and reused for every language. English is the
+    control: any gap between languages is a language effect, not a different item mix.
+    Labels and descriptions stay in English; only the user's text changes language.
+    """
+    languages = languages or MASSIVE_LANGUAGES
+    raw = root / "data" / "raw" / "massive"
+    archive = raw / "massive-1.1.tar.gz"
+    _download(MASSIVE_TARBALL, archive)
+
+    def load(locale: str) -> list[dict]:
+        with tarfile.open(archive) as tar:
+            member = tar.extractfile(f"1.1/data/{locale}.jsonl")
+            assert member is not None, f"{locale} not in {archive}"
+            return [json.loads(line) for line in member]
+
+    by_locale = {code: {r["id"]: r for r in load(locale)} for code, locale in languages.items()}
+    english = by_locale["en"]
+
+    def items(code: str, partition: str) -> list[Item]:
+        return [
+            Item(
+                id=f"massive-{r['id']}",
+                text=r["utt"],
+                labels={"intent": r["intent"]},
+                meta={"language": code, "massive_id": r["id"]},
+            )
+            for r in by_locale[code].values()
+            if r["partition"] == partition
+        ]
+
+    eval_ids = {i.id for i in _balanced_sample(items("en", "test"), "intent", MASSIVE_EVAL_SIZE)}
+    calibration_ids = {i.id for i in _balanced_sample(items("en", "dev"), "intent", MASSIVE_CALIBRATION_SIZE)}
+    labels = sorted({r["intent"] for r in english.values()})
+    descriptions = {n: n.replace("_", ": ", 1).replace("_", " ").capitalize() for n in labels}
+
+    for code in languages:
+        by_id = {i.id: i for p in ("train", "dev", "test") for i in items(code, p)}
+        task = {
+            "name": f"massive_{code}",
+            "context": f"Requests a user spoke or typed to a voice assistant, written in {MASSIVE_NAMES[code]}.",
+            "fields": [
+                {
+                    "name": "intent",
+                    "instruction": "Which intent does the user's request express?",
+                    "labels": labels,
+                    "descriptions": descriptions,
+                }
+            ],
+        }
+        splits = {
+            "train": items(code, "train"),
+            "calibration": [by_id[i] for i in sorted(calibration_ids)],
+            "eval": [by_id[i] for i in sorted(eval_ids)],
+        }
+        _write(f"massive_{code}", root, splits, task)
+
+
 def prepare_custom(root: Path, name: str, source: Path, task_path: Path) -> None:
     """Freeze splits for an in-house set (e.g. ticket triage).
 
@@ -152,4 +240,5 @@ def prepare_custom(root: Path, name: str, source: Path, task_path: Path) -> None
 PUBLIC: dict[str, Callable[[Path], None]] = {
     "clinc150": prepare_clinc150,
     "banking77": prepare_banking77,
+    "massive": prepare_massive,
 }

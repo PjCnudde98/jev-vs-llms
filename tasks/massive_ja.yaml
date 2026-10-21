@@ -1,0 +1,127 @@
+name: massive_ja
+context: Requests a user spoke or typed to a voice assistant, written in Japanese.
+fields:
+- name: intent
+  instruction: Which intent does the user's request express?
+  labels:
+  - alarm_query
+  - alarm_remove
+  - alarm_set
+  - audio_volume_down
+  - audio_volume_mute
+  - audio_volume_other
+  - audio_volume_up
+  - calendar_query
+  - calendar_remove
+  - calendar_set
+  - cooking_query
+  - cooking_recipe
+  - datetime_convert
+  - datetime_query
+  - email_addcontact
+  - email_query
+  - email_querycontact
+  - email_sendemail
+  - general_greet
+  - general_joke
+  - general_quirky
+  - iot_cleaning
+  - iot_coffee
+  - iot_hue_lightchange
+  - iot_hue_lightdim
+  - iot_hue_lightoff
+  - iot_hue_lighton
+  - iot_hue_lightup
+  - iot_wemo_off
+  - iot_wemo_on
+  - lists_createoradd
+  - lists_query
+  - lists_remove
+  - music_dislikeness
+  - music_likeness
+  - music_query
+  - music_settings
+  - news_query
+  - play_audiobook
+  - play_game
+  - play_music
+  - play_podcasts
+  - play_radio
+  - qa_currency
+  - qa_definition
+  - qa_factoid
+  - qa_maths
+  - qa_stock
+  - recommendation_events
+  - recommendation_locations
+  - recommendation_movies
+  - social_post
+  - social_query
+  - takeaway_order
+  - takeaway_query
+  - transport_query
+  - transport_taxi
+  - transport_ticket
+  - transport_traffic
+  - weather_query
+  descriptions:
+    alarm_query: 'Alarm: query'
+    alarm_remove: 'Alarm: remove'
+    alarm_set: 'Alarm: set'
+    audio_volume_down: 'Audio: volume down'
+    audio_volume_mute: 'Audio: volume mute'
+    audio_volume_other: 'Audio: volume other'
+    audio_volume_up: 'Audio: volume up'
+    calendar_query: 'Calendar: query'
+    calendar_remove: 'Calendar: remove'
+    calendar_set: 'Calendar: set'
+    cooking_query: 'Cooking: query'
+    cooking_recipe: 'Cooking: recipe'
+    datetime_convert: 'Datetime: convert'
+    datetime_query: 'Datetime: query'
+    email_addcontact: 'Email: addcontact'
+    email_query: 'Email: query'
+    email_querycontact: 'Email: querycontact'
+    email_sendemail: 'Email: sendemail'
+    general_greet: 'General: greet'
+    general_joke: 'General: joke'
+    general_quirky: 'General: quirky'
+    iot_cleaning: 'Iot: cleaning'
+    iot_coffee: 'Iot: coffee'
+    iot_hue_lightchange: 'Iot: hue lightchange'
+    iot_hue_lightdim: 'Iot: hue lightdim'
+    iot_hue_lightoff: 'Iot: hue lightoff'
+    iot_hue_lighton: 'Iot: hue lighton'
+    iot_hue_lightup: 'Iot: hue lightup'
+    iot_wemo_off: 'Iot: wemo off'
+    iot_wemo_on: 'Iot: wemo on'
+    lists_createoradd: 'Lists: createoradd'
+    lists_query: 'Lists: query'
+    lists_remove: 'Lists: remove'
+    music_dislikeness: 'Music: dislikeness'
+    music_likeness: 'Music: likeness'
+    music_query: 'Music: query'
+    music_settings: 'Music: settings'
+    news_query: 'News: query'
+    play_audiobook: 'Play: audiobook'
+    play_game: 'Play: game'
+    play_music: 'Play: music'
+    play_podcasts: 'Play: podcasts'
+    play_radio: 'Play: radio'
+    qa_currency: 'Qa: currency'
+    qa_definition: 'Qa: definition'
+    qa_factoid: 'Qa: factoid'
+    qa_maths: 'Qa: maths'
+    qa_stock: 'Qa: stock'
+    recommendation_events: 'Recommendation: events'
+    recommendation_locations: 'Recommendation: locations'
+    recommendation_movies: 'Recommendation: movies'
+    social_post: 'Social: post'
+    social_query: 'Social: query'
+    takeaway_order: 'Takeaway: order'
+    takeaway_query: 'Takeaway: query'
+    transport_query: 'Transport: query'
+    transport_taxi: 'Transport: taxi'
+    transport_ticket: 'Transport: ticket'
+    transport_traffic: 'Transport: traffic'
+    weather_query: 'Weather: query'
