@@ -1,0 +1,237 @@
+{
+  "reference": "opus-5.5",
+  "volumes": [
+    100000
+  ],
+  "cost_per_error": null,
+  "arms": [
+    {
+      "name": "cascade-haiku-5.5-to-opus-5.5@match_fallback",
+      "model": "claude-haiku-5-5 -> claude-opus-5-5",
+      "accuracy": 0.8766666666666667,
+      "cost_per_1k": 0.9133546666666666,
+      "p95": 4.195348185449553,
+      "errors_per_1k": 123.3333333333333,
+      "monthly": {
+        "100000": {
+          "api_usd": 91.33546666666666,
+          "errors": 12333.33333333333
+        }
+      },
+      "vs_reference": {
+        "accuracy_points": 0.0,
+        "saving_per_1k": 0.20540533333333333,
+        "saving_pct": 18.360089146316756,
+        "break_even_cost_per_error": null,
+        "verdict": "dominates"
+      },
+      "dominated_by": []
+    },
+    {
+      "name": "opus-5.5",
+      "model": "claude-opus-5-5",
+      "accuracy": 0.8766666666666667,
+      "cost_per_1k": 1.11876,
+      "p95": 2.8514707944004174,
+      "errors_per_1k": 123.3333333333333,
+      "monthly": {
+        "100000": {
+          "api_usd": 111.876,
+          "errors": 12333.33333333333
+        }
+      },
+      "vs_reference": null,
+      "dominated_by": [
+        "cascade-haiku-5.5-to-opus-5.5@match_fallback"
+      ]
+    },
+    {
+      "name": "cascade-jev-to-opus-5.5@match_fallback",
+      "model": "jev-1.13.0 -> claude-opus-5-5",
+      "accuracy": 0.8733333333333333,
+      "cost_per_1k": 0.6028655599999999,
+      "p95": 2.854465653544571,
+      "errors_per_1k": 126.6666666666667,
+      "monthly": {
+        "100000": {
+          "api_usd": 60.28655599999999,
+          "errors": 12666.66666666667
+        }
+      },
+      "vs_reference": {
+        "accuracy_points": -0.33333333333334103,
+        "saving_per_1k": 0.5158944400000001,
+        "saving_pct": 46.11305731345419,
+        "break_even_cost_per_error": 0.15476833199999646,
+        "verdict": "cheaper_but_less_accurate"
+      },
+      "dominated_by": []
+    },
+    {
+      "name": "cascade-jev-to-haiku-5.5@match_fallback",
+      "model": "jev-1.13.0 -> claude-haiku-5-5",
+      "accuracy": 0.84,
+      "cost_per_1k": 0.06380332666666667,
+      "p95": 1.6314146583498546,
+      "errors_per_1k": 160.00000000000003,
+      "monthly": {
+        "100000": {
+          "api_usd": 6.380332666666667,
+          "errors": 16000.000000000004
+        }
+      },
+      "vs_reference": {
+        "accuracy_points": -3.6666666666666736,
+        "saving_per_1k": 1.0549566733333333,
+        "saving_pct": 94.29696032512184,
+        "break_even_cost_per_error": 0.02877154563636358,
+        "verdict": "cheaper_but_less_accurate"
+      },
+      "dominated_by": []
+    },
+    {
+      "name": "cascade-jev-to-haiku-5.5@within_2x_cost",
+      "model": "jev-1.13.0 -> claude-haiku-5-5",
+      "accuracy": 0.84,
+      "cost_per_1k": 0.06380332666666667,
+      "p95": 1.6314146583498546,
+      "errors_per_1k": 160.00000000000003,
+      "monthly": {
+        "100000": {
+          "api_usd": 6.380332666666667,
+          "errors": 16000.000000000004
+        }
+      },
+      "vs_reference": {
+        "accuracy_points": -3.6666666666666736,
+        "saving_per_1k": 1.0549566733333333,
+        "saving_pct": 94.29696032512184,
+        "break_even_cost_per_error": 0.02877154563636358,
+        "verdict": "cheaper_but_less_accurate"
+      },
+      "dominated_by": []
+    },
+    {
+      "name": "cascade-haiku-5.5-to-opus-5.5@within_2x_cost",
+      "model": "claude-haiku-5-5 -> claude-opus-5-5",
+      "accuracy": 0.83,
+      "cost_per_1k": 0.08591466666666665,
+      "p95": 2.1322990357495657,
+      "errors_per_1k": 170.00000000000003,
+      "monthly": {
+        "100000": {
+          "api_usd": 8.591466666666665,
+          "errors": 17000.000000000004
+        }
+      },
+      "vs_reference": {
+        "accuracy_points": -4.666666666666675,
+        "saving_per_1k": 1.0328453333333334,
+        "saving_pct": 92.32054536570251,
+        "break_even_cost_per_error": 0.022132399999999965,
+        "verdict": "cheaper_but_less_accurate"
+      },
+      "dominated_by": [
+        "cascade-jev-to-haiku-5.5@match_fallback",
+        "cascade-jev-to-haiku-5.5@within_2x_cost"
+      ]
+    },
+    {
+      "name": "haiku-5.5",
+      "model": "claude-haiku-5-5",
+      "accuracy": 0.8266666666666667,
+      "cost_per_1k": 0.03642066666666668,
+      "p95": 1.663217250649882,
+      "errors_per_1k": 173.33333333333334,
+      "monthly": {
+        "100000": {
+          "api_usd": 3.642066666666668,
+          "errors": 17333.333333333332
+        }
+      },
+      "vs_reference": {
+        "accuracy_points": -5.000000000000004,
+        "saving_per_1k": 1.0823393333333333,
+        "saving_pct": 96.74455051425983,
+        "break_even_cost_per_error": 0.021646786666666647,
+        "verdict": "cheaper_but_less_accurate"
+      },
+      "dominated_by": []
+    },
+    {
+      "name": "baseline",
+      "model": "baseline-tfidf-logreg",
+      "accuracy": 0.7966666666666666,
+      "cost_per_1k": 0.0,
+      "p95": 0.00028445174939406575,
+      "errors_per_1k": 203.33333333333337,
+      "monthly": {
+        "100000": {
+          "api_usd": 0.0,
+          "errors": 20333.333333333336
+        }
+      },
+      "vs_reference": {
+        "accuracy_points": -8.000000000000007,
+        "saving_per_1k": 1.11876,
+        "saving_pct": 100.0,
+        "break_even_cost_per_error": 0.013984499999999987,
+        "verdict": "cheaper_but_less_accurate"
+      },
+      "dominated_by": []
+    },
+    {
+      "name": "jev",
+      "model": "jev-1.13.0",
+      "accuracy": 0.7933333333333333,
+      "cost_per_1k": 0.056707560000000004,
+      "p95": 0.31493162739752734,
+      "errors_per_1k": 206.66666666666666,
+      "monthly": {
+        "100000": {
+          "api_usd": 5.670756,
+          "errors": 20666.666666666668
+        }
+      },
+      "vs_reference": {
+        "accuracy_points": -8.333333333333337,
+        "saving_per_1k": 1.06205244,
+        "saving_pct": 94.93121312882118,
+        "break_even_cost_per_error": 0.012744629279999994,
+        "verdict": "cheaper_but_less_accurate"
+      },
+      "dominated_by": [
+        "baseline",
+        "haiku-5.5"
+      ]
+    },
+    {
+      "name": "cascade-jev-to-opus-5.5@within_2x_cost",
+      "model": "jev-1.13.0 -> claude-opus-5-5",
+      "accuracy": 0.79,
+      "cost_per_1k": 0.06659356,
+      "p95": 0.3165323333487322,
+      "errors_per_1k": 209.99999999999997,
+      "monthly": {
+        "100000": {
+          "api_usd": 6.659356,
+          "errors": 20999.999999999996
+        }
+      },
+      "vs_reference": {
+        "accuracy_points": -8.666666666666668,
+        "saving_per_1k": 1.05216644,
+        "saving_pct": 94.04755622296113,
+        "break_even_cost_per_error": 0.012140382,
+        "verdict": "cheaper_but_less_accurate"
+      },
+      "dominated_by": [
+        "baseline",
+        "cascade-jev-to-haiku-5.5@match_fallback",
+        "cascade-jev-to-haiku-5.5@within_2x_cost",
+        "haiku-5.5",
+        "jev"
+      ]
+    }
+  ]
+}

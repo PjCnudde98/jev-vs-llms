@@ -1,0 +1,69 @@
+{
+  "run_id": "multilingual-claude-ja",
+  "config": "configs/multilingual_ja.yaml",
+  "started": "2026-10-21T13:57:24.779893+00:00",
+  "packages": {
+    "jev-eval": "0.1.0",
+    "typesafe-sdk": "0.7.5",
+    "anthropic": "1.17.0",
+    "openai": "3.35.1"
+  },
+  "task": "massive_ja",
+  "n_labels": {
+    "intent": 60
+  },
+  "arms": {
+    "jev": {
+      "kind": "jev",
+      "model": "jev-1.13.0",
+      "params": {},
+      "model_versions": [
+        "jev-1.13.0"
+      ],
+      "fingerprint": "8685e2f1ad83bd12",
+      "new_spend_usd": 0.0,
+      "wall_clock_s": 0.02
+    },
+    "haiku-5.5": {
+      "kind": "anthropic",
+      "model": "claude-haiku-5-5",
+      "params": {
+        "effort": "low"
+      },
+      "model_versions": [
+        "claude-haiku-5-5"
+      ],
+      "fingerprint": "bce05fbf09f8681d",
+      "new_spend_usd": 0.01842,
+      "wall_clock_s": 69.15
+    },
+    "opus-5.5": {
+      "kind": "anthropic",
+      "model": "claude-opus-5-5",
+      "params": {
+        "effort": "low"
+      },
+      "model_versions": [
+        "claude-opus-5-5"
+      ],
+      "fingerprint": "03f83a0abf05f908",
+      "new_spend_usd": 0.576776,
+      "wall_clock_s": 108.3
+    },
+    "baseline": {
+      "kind": "baseline",
+      "model": "baseline-tfidf-logreg",
+      "params": {
+        "analyzer": "char_wb"
+      },
+      "model_versions": [
+        "baseline-tfidf-logreg"
+      ],
+      "fingerprint": "06b9981994dcd1e3",
+      "new_spend_usd": 0.0,
+      "wall_clock_s": 0.08
+    }
+  },
+  "finished": "2026-10-21T14:01:15.449221+00:00",
+  "new_spend_usd": 0.595195
+}

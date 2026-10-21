@@ -1,0 +1,33 @@
+name: multilingual-nl
+dataset: massive_nl
+splits:
+- calibration
+- eval
+limit: null
+repeats: 1
+concurrency: 8
+use_cache: true
+max_cost_usd: 8.0
+stress:
+  max_classes: null
+  typos: 0.0
+  boilerplate: false
+arms:
+- name: jev
+  kind: jev
+  model: jev-1.13.0
+  params: {}
+- name: haiku-5.5
+  kind: anthropic
+  model: claude-haiku-5-5
+  params:
+    effort: low
+- name: opus-5.5
+  kind: anthropic
+  model: claude-opus-5-5
+  params:
+    effort: low
+- name: baseline
+  kind: baseline
+  model: baseline-tfidf-logreg
+  params: {}
