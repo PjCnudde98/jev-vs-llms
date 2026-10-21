@@ -1,0 +1,11 @@
+# Same as clinc150.yaml, with 3 training examples per label for every arm
+# (in the Choice options for Jev, in the system prompt for LLMs).
+name: fewshot-clinc150
+dataset: clinc150
+splits: [calibration, eval]
+concurrency: 8
+max_cost_usd: 40.0
+arms:
+  - {name: jev-3shot, kind: jev, model: jev-1.13.0, params: {examples_per_label: 3}}
+  - {name: haiku-5.5-3shot, kind: anthropic, model: claude-haiku-5-5, params: {effort: low, examples_per_label: 3}}
+  - {name: opus-5.5-3shot, kind: anthropic, model: claude-opus-5-5, params: {effort: low, examples_per_label: 3}}

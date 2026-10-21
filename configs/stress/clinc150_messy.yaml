@@ -1,0 +1,12 @@
+# E3 long or messy input: 5% typos plus email greeting, signature, disclaimer and quoted thread.
+name: stress-clinc150-messy
+dataset: clinc150
+splits: [calibration, eval]
+concurrency: 8
+max_cost_usd: 30.0
+stress: {typos: 0.05, boilerplate: true}
+arms:
+  - {name: jev, kind: jev, model: jev-1.13.0}
+  - {name: haiku-5.5, kind: anthropic, model: claude-haiku-5-5, params: {effort: low}}
+  - {name: opus-5.5, kind: anthropic, model: claude-opus-5-5, params: {effort: low}}
+  - {name: baseline, kind: baseline, model: baseline-tfidf-logreg}

@@ -1,0 +1,19 @@
+name: offline-check
+dataset: clinc150
+splits:
+- calibration
+- eval
+limit: null
+repeats: 1
+concurrency: 8
+use_cache: true
+max_cost_usd: 0.0
+stress:
+  max_classes: null
+  typos: 0.0
+  boilerplate: false
+arms:
+- name: baseline
+  kind: baseline
+  model: baseline-tfidf-logreg
+  params: {}

@@ -1,0 +1,310 @@
+name: clinc150
+context: Messages a user sent to a general-purpose virtual assistant.
+fields:
+- name: intent
+  instruction: Which intent does the user's message express?
+  labels:
+  - accept_reservations
+  - account_blocked
+  - alarm
+  - application_status
+  - apr
+  - are_you_a_bot
+  - balance
+  - bill_balance
+  - bill_due
+  - book_flight
+  - book_hotel
+  - calculator
+  - calendar
+  - calendar_update
+  - calories
+  - cancel
+  - cancel_reservation
+  - car_rental
+  - card_declined
+  - carry_on
+  - change_accent
+  - change_ai_name
+  - change_language
+  - change_speed
+  - change_user_name
+  - change_volume
+  - confirm_reservation
+  - cook_time
+  - credit_limit
+  - credit_limit_change
+  - credit_score
+  - current_location
+  - damaged_card
+  - date
+  - definition
+  - direct_deposit
+  - directions
+  - distance
+  - do_you_have_pets
+  - exchange_rate
+  - expiration_date
+  - find_phone
+  - flight_status
+  - flip_coin
+  - food_last
+  - freeze_account
+  - fun_fact
+  - gas
+  - gas_type
+  - goodbye
+  - greeting
+  - how_busy
+  - how_old_are_you
+  - improve_credit_score
+  - income
+  - ingredient_substitution
+  - ingredients_list
+  - insurance
+  - insurance_change
+  - interest_rate
+  - international_fees
+  - international_visa
+  - jump_start
+  - last_maintenance
+  - lost_luggage
+  - make_call
+  - maybe
+  - meal_suggestion
+  - meaning_of_life
+  - measurement_conversion
+  - meeting_schedule
+  - min_payment
+  - mpg
+  - new_card
+  - next_holiday
+  - next_song
+  - 'no'
+  - nutrition_info
+  - oil_change_how
+  - oil_change_when
+  - oos
+  - order
+  - order_checks
+  - order_status
+  - pay_bill
+  - payday
+  - pin_change
+  - play_music
+  - plug_type
+  - pto_balance
+  - pto_request
+  - pto_request_status
+  - pto_used
+  - recipe
+  - redeem_rewards
+  - reminder
+  - reminder_update
+  - repeat
+  - replacement_card_duration
+  - report_fraud
+  - report_lost_card
+  - reset_settings
+  - restaurant_reservation
+  - restaurant_reviews
+  - restaurant_suggestion
+  - rewards_balance
+  - roll_dice
+  - rollover_401k
+  - routing
+  - schedule_maintenance
+  - schedule_meeting
+  - share_location
+  - shopping_list
+  - shopping_list_update
+  - smart_home
+  - spelling
+  - spending_history
+  - sync_device
+  - taxes
+  - tell_joke
+  - text
+  - thank_you
+  - time
+  - timer
+  - timezone
+  - tire_change
+  - tire_pressure
+  - todo_list
+  - todo_list_update
+  - traffic
+  - transactions
+  - transfer
+  - translate
+  - travel_alert
+  - travel_notification
+  - travel_suggestion
+  - uber
+  - update_playlist
+  - user_name
+  - vaccines
+  - w2
+  - weather
+  - what_are_your_hobbies
+  - what_can_i_ask_you
+  - what_is_your_name
+  - what_song
+  - where_are_you_from
+  - whisper_mode
+  - who_do_you_work_for
+  - who_made_you
+  - 'yes'
+  descriptions:
+    accept_reservations: Accept reservations
+    account_blocked: Account blocked
+    alarm: Alarm
+    application_status: Application status
+    apr: Apr
+    are_you_a_bot: Are you a bot
+    balance: Balance
+    bill_balance: Bill balance
+    bill_due: Bill due
+    book_flight: Book flight
+    book_hotel: Book hotel
+    calculator: Calculator
+    calendar: Calendar
+    calendar_update: Calendar update
+    calories: Calories
+    cancel: Cancel
+    cancel_reservation: Cancel reservation
+    car_rental: Car rental
+    card_declined: Card declined
+    carry_on: Carry on
+    change_accent: Change accent
+    change_ai_name: Change ai name
+    change_language: Change language
+    change_speed: Change speed
+    change_user_name: Change user name
+    change_volume: Change volume
+    confirm_reservation: Confirm reservation
+    cook_time: Cook time
+    credit_limit: Credit limit
+    credit_limit_change: Credit limit change
+    credit_score: Credit score
+    current_location: Current location
+    damaged_card: Damaged card
+    date: Date
+    definition: Definition
+    direct_deposit: Direct deposit
+    directions: Directions
+    distance: Distance
+    do_you_have_pets: Do you have pets
+    exchange_rate: Exchange rate
+    expiration_date: Expiration date
+    find_phone: Find phone
+    flight_status: Flight status
+    flip_coin: Flip coin
+    food_last: Food last
+    freeze_account: Freeze account
+    fun_fact: Fun fact
+    gas: Gas
+    gas_type: Gas type
+    goodbye: Goodbye
+    greeting: Greeting
+    how_busy: How busy
+    how_old_are_you: How old are you
+    improve_credit_score: Improve credit score
+    income: Income
+    ingredient_substitution: Ingredient substitution
+    ingredients_list: Ingredients list
+    insurance: Insurance
+    insurance_change: Insurance change
+    interest_rate: Interest rate
+    international_fees: International fees
+    international_visa: International visa
+    jump_start: Jump start
+    last_maintenance: Last maintenance
+    lost_luggage: Lost luggage
+    make_call: Make call
+    maybe: Maybe
+    meal_suggestion: Meal suggestion
+    meaning_of_life: Meaning of life
+    measurement_conversion: Measurement conversion
+    meeting_schedule: Meeting schedule
+    min_payment: Min payment
+    mpg: Mpg
+    new_card: New card
+    next_holiday: Next holiday
+    next_song: Next song
+    'no': 'No'
+    nutrition_info: Nutrition info
+    oil_change_how: Oil change how
+    oil_change_when: Oil change when
+    oos: 'Out of scope: the request matches none of the other intents'
+    order: Order
+    order_checks: Order checks
+    order_status: Order status
+    pay_bill: Pay bill
+    payday: Payday
+    pin_change: Pin change
+    play_music: Play music
+    plug_type: Plug type
+    pto_balance: Pto balance
+    pto_request: Pto request
+    pto_request_status: Pto request status
+    pto_used: Pto used
+    recipe: Recipe
+    redeem_rewards: Redeem rewards
+    reminder: Reminder
+    reminder_update: Reminder update
+    repeat: Repeat
+    replacement_card_duration: Replacement card duration
+    report_fraud: Report fraud
+    report_lost_card: Report lost card
+    reset_settings: Reset settings
+    restaurant_reservation: Restaurant reservation
+    restaurant_reviews: Restaurant reviews
+    restaurant_suggestion: Restaurant suggestion
+    rewards_balance: Rewards balance
+    roll_dice: Roll dice
+    rollover_401k: Rollover 401k
+    routing: Routing
+    schedule_maintenance: Schedule maintenance
+    schedule_meeting: Schedule meeting
+    share_location: Share location
+    shopping_list: Shopping list
+    shopping_list_update: Shopping list update
+    smart_home: Smart home
+    spelling: Spelling
+    spending_history: Spending history
+    sync_device: Sync device
+    taxes: Taxes
+    tell_joke: Tell joke
+    text: Text
+    thank_you: Thank you
+    time: Time
+    timer: Timer
+    timezone: Timezone
+    tire_change: Tire change
+    tire_pressure: Tire pressure
+    todo_list: Todo list
+    todo_list_update: Todo list update
+    traffic: Traffic
+    transactions: Transactions
+    transfer: Transfer
+    translate: Translate
+    travel_alert: Travel alert
+    travel_notification: Travel notification
+    travel_suggestion: Travel suggestion
+    uber: Uber
+    update_playlist: Update playlist
+    user_name: User name
+    vaccines: Vaccines
+    w2: W2
+    weather: Weather
+    what_are_your_hobbies: What are your hobbies
+    what_can_i_ask_you: What can i ask you
+    what_is_your_name: What is your name
+    what_song: What song
+    where_are_you_from: Where are you from
+    whisper_mode: Whisper mode
+    who_do_you_work_for: Who do you work for
+    who_made_you: Who made you
+    'yes': 'Yes'
+  out_of_scope_label: oos

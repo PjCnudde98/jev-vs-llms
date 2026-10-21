@@ -1,0 +1,500 @@
+{"id": "clinc-validation-1000", "text": "please read my reminder list", "labels": {"intent": "reminder"}, "meta": {}}
+{"id": "clinc-validation-101", "text": "tell me how to get new insurance", "labels": {"intent": "insurance_change"}, "meta": {}}
+{"id": "clinc-validation-1012", "text": "what is my plan for the day", "labels": {"intent": "reminder"}, "meta": {}}
+{"id": "clinc-validation-1015", "text": "what is it i wanted to bear in mind", "labels": {"intent": "reminder"}, "meta": {}}
+{"id": "clinc-validation-1019", "text": "read all my reminders", "labels": {"intent": "reminder"}, "meta": {}}
+{"id": "clinc-validation-1028", "text": "speed up your rate of speech", "labels": {"intent": "change_speed"}, "meta": {}}
+{"id": "clinc-validation-1030", "text": "please speak faster", "labels": {"intent": "change_speed"}, "meta": {}}
+{"id": "clinc-validation-1033", "text": "speed your speech up", "labels": {"intent": "change_speed"}, "meta": {}}
+{"id": "clinc-validation-1042", "text": "please check my tires and let me know if i have sufficient air in them", "labels": {"intent": "tire_pressure"}, "meta": {}}
+{"id": "clinc-validation-1047", "text": "how is the car tire pressure doing", "labels": {"intent": "tire_pressure"}, "meta": {}}
+{"id": "clinc-validation-1058", "text": "what is the air pressure of my car tires", "labels": {"intent": "tire_pressure"}, "meta": {}}
+{"id": "clinc-validation-1069", "text": "that is not factual", "labels": {"intent": "no"}, "meta": {}}
+{"id": "clinc-validation-1073", "text": "negatory", "labels": {"intent": "no"}, "meta": {}}
+{"id": "clinc-validation-1078", "text": "no, that's not it", "labels": {"intent": "no"}, "meta": {}}
+{"id": "clinc-validation-108", "text": "i'd like to know how to make changes for my insurance policy", "labels": {"intent": "insurance_change"}, "meta": {}}
+{"id": "clinc-validation-1089", "text": "what is my card's apr", "labels": {"intent": "apr"}, "meta": {}}
+{"id": "clinc-validation-1098", "text": "what does my credit card charge for their annual percentage rate", "labels": {"intent": "apr"}, "meta": {}}
+{"id": "clinc-validation-1099", "text": "do you know the apr on my chase credit card", "labels": {"intent": "apr"}, "meta": {}}
+{"id": "clinc-validation-11", "text": "would you tell me how to say goodbye in france", "labels": {"intent": "translate"}, "meta": {}}
+{"id": "clinc-validation-1104", "text": "how healthy is pumpkin pie", "labels": {"intent": "nutrition_info"}, "meta": {}}
+{"id": "clinc-validation-1106", "text": "tell me how health chocolate is", "labels": {"intent": "nutrition_info"}, "meta": {}}
+{"id": "clinc-validation-1119", "text": "is raw carrot healthy to eat", "labels": {"intent": "nutrition_info"}, "meta": {}}
+{"id": "clinc-validation-1121", "text": "can you check what is on my calendar for tuesday", "labels": {"intent": "calendar"}, "meta": {}}
+{"id": "clinc-validation-1122", "text": "check what's on my calendar for tuesday", "labels": {"intent": "calendar"}, "meta": {}}
+{"id": "clinc-validation-113", "text": "tell me how to make changes to my insurance policy", "labels": {"intent": "insurance_change"}, "meta": {}}
+{"id": "clinc-validation-1135", "text": "is my day open for march 4th 2019", "labels": {"intent": "calendar"}, "meta": {}}
+{"id": "clinc-validation-1144", "text": "can you find me an uber and have it here at 7pm", "labels": {"intent": "uber"}, "meta": {}}
+{"id": "clinc-validation-1146", "text": "i need an uber to come to my work at 5pm for three people going to the cineplex downtown", "labels": {"intent": "uber"}, "meta": {}}
+{"id": "clinc-validation-1150", "text": "connect me with an uber", "labels": {"intent": "uber"}, "meta": {}}
+{"id": "clinc-validation-1162", "text": "can you multiply 45 by 23", "labels": {"intent": "calculator"}, "meta": {}}
+{"id": "clinc-validation-1163", "text": "can you divide 100 by 20", "labels": {"intent": "calculator"}, "meta": {}}
+{"id": "clinc-validation-117", "text": "how do i make changes to my insurance policy", "labels": {"intent": "insurance_change"}, "meta": {}}
+{"id": "clinc-validation-1176", "text": "what is seventeen plus three", "labels": {"intent": "calculator"}, "meta": {}}
+{"id": "clinc-validation-1177", "text": "what is the derivative of x squared plus 5", "labels": {"intent": "calculator"}, "meta": {}}
+{"id": "clinc-validation-1182", "text": "which day is it today", "labels": {"intent": "date"}, "meta": {}}
+{"id": "clinc-validation-1188", "text": "i need to know the date it will be 4 days from now", "labels": {"intent": "date"}, "meta": {}}
+{"id": "clinc-validation-1189", "text": "let me know what date it will be in 3 days", "labels": {"intent": "date"}, "meta": {}}
+{"id": "clinc-validation-1194", "text": "what date will it be 6 days from now", "labels": {"intent": "date"}, "meta": {}}
+{"id": "clinc-validation-1203", "text": "are more than one carry on allowed at klm", "labels": {"intent": "carry_on"}, "meta": {}}
+{"id": "clinc-validation-1206", "text": "what's the carry on policy for delta", "labels": {"intent": "carry_on"}, "meta": {}}
+{"id": "clinc-validation-1212", "text": "what are united's carry-on rules", "labels": {"intent": "carry_on"}, "meta": {}}
+{"id": "clinc-validation-1224", "text": "how many days have i taken off", "labels": {"intent": "pto_used"}, "meta": {}}
+{"id": "clinc-validation-1225", "text": "how much pto have i used so far", "labels": {"intent": "pto_used"}, "meta": {}}
+{"id": "clinc-validation-1236", "text": "how many day off i have taken", "labels": {"intent": "pto_used"}, "meta": {}}
+{"id": "clinc-validation-124", "text": "tell me where i left my phone", "labels": {"intent": "find_phone"}, "meta": {}}
+{"id": "clinc-validation-1241", "text": "could you book me an appointment for an oil change", "labels": {"intent": "schedule_maintenance"}, "meta": {}}
+{"id": "clinc-validation-1244", "text": "can i make an appointment for an oil change", "labels": {"intent": "schedule_maintenance"}, "meta": {}}
+{"id": "clinc-validation-1252", "text": "my car needs maintenance but i don't know if i can schedule an appointment for that", "labels": {"intent": "schedule_maintenance"}, "meta": {}}
+{"id": "clinc-validation-126", "text": "can you tell me where my phone is", "labels": {"intent": "find_phone"}, "meta": {}}
+{"id": "clinc-validation-1260", "text": "i'm going to be in canada from october 23rd to november 2nd, so can i let my bank know", "labels": {"intent": "travel_notification"}, "meta": {}}
+{"id": "clinc-validation-1276", "text": "i will be visiting america so i will need to let me bank know i will be gone from april to may", "labels": {"intent": "travel_notification"}, "meta": {}}
+{"id": "clinc-validation-1278", "text": "let my bank know that i am going to tokyo", "labels": {"intent": "travel_notification"}, "meta": {}}
+{"id": "clinc-validation-1288", "text": "can you pair with my phone", "labels": {"intent": "sync_device"}, "meta": {}}
+{"id": "clinc-validation-1291", "text": "unsync yourself from my phone please", "labels": {"intent": "sync_device"}, "meta": {}}
+{"id": "clinc-validation-1297", "text": "connect with my phone", "labels": {"intent": "sync_device"}, "meta": {}}
+{"id": "clinc-validation-13", "text": "tell me how to say hello in chile", "labels": {"intent": "translate"}, "meta": {}}
+{"id": "clinc-validation-1304", "text": "thank you for the help", "labels": {"intent": "thank_you"}, "meta": {}}
+{"id": "clinc-validation-1309", "text": "i owe you one", "labels": {"intent": "thank_you"}, "meta": {}}
+{"id": "clinc-validation-1310", "text": "i appreciate you doing that", "labels": {"intent": "thank_you"}, "meta": {}}
+{"id": "clinc-validation-1323", "text": "please roll a dice", "labels": {"intent": "roll_dice"}, "meta": {}}
+{"id": "clinc-validation-1328", "text": "roll an 8 sided dice", "labels": {"intent": "roll_dice"}, "meta": {}}
+{"id": "clinc-validation-1330", "text": "please roll this 8 sided dice", "labels": {"intent": "roll_dice"}, "meta": {}}
+{"id": "clinc-validation-1343", "text": "is cooked chicken still good after being refrigerated for two weeks", "labels": {"intent": "food_last"}, "meta": {}}
+{"id": "clinc-validation-1349", "text": "is rice bad after 3 days in fridge", "labels": {"intent": "food_last"}, "meta": {}}
+{"id": "clinc-validation-1352", "text": "how long does it take milk to expire", "labels": {"intent": "food_last"}, "meta": {}}
+{"id": "clinc-validation-1360", "text": "how long do i need to cook pot au feu for", "labels": {"intent": "cook_time"}, "meta": {}}
+{"id": "clinc-validation-1365", "text": "how long should i cook country fried potatoes for", "labels": {"intent": "cook_time"}, "meta": {}}
+{"id": "clinc-validation-1367", "text": "how long should i cook steak for", "labels": {"intent": "cook_time"}, "meta": {}}
+{"id": "clinc-validation-137", "text": "can you find me my phone", "labels": {"intent": "find_phone"}, "meta": {}}
+{"id": "clinc-validation-1389", "text": "i need to make a reminder", "labels": {"intent": "reminder_update"}, "meta": {}}
+{"id": "clinc-validation-1392", "text": "create a reminder", "labels": {"intent": "reminder_update"}, "meta": {}}
+{"id": "clinc-validation-1399", "text": "can i have a reminder set up", "labels": {"intent": "reminder_update"}, "meta": {}}
+{"id": "clinc-validation-14", "text": "i want to know how to say goodbye in france", "labels": {"intent": "translate"}, "meta": {}}
+{"id": "clinc-validation-1401", "text": "my card is lost, i would like to report it", "labels": {"intent": "report_lost_card"}, "meta": {}}
+{"id": "clinc-validation-1409", "text": "report a card lost for me", "labels": {"intent": "report_lost_card"}, "meta": {}}
+{"id": "clinc-validation-141", "text": "is france safe to travel to", "labels": {"intent": "travel_alert"}, "meta": {}}
+{"id": "clinc-validation-1416", "text": "what is the route to take to report a lost card", "labels": {"intent": "report_lost_card"}, "meta": {}}
+{"id": "clinc-validation-1424", "text": "can i sub ketchup for mustard", "labels": {"intent": "ingredient_substitution"}, "meta": {}}
+{"id": "clinc-validation-1426", "text": "is it allow to switch apples to grapes", "labels": {"intent": "ingredient_substitution"}, "meta": {}}
+{"id": "clinc-validation-1431", "text": "is butter a substitute for oil", "labels": {"intent": "ingredient_substitution"}, "meta": {}}
+{"id": "clinc-validation-144", "text": "can i safely travel to france or is it dangerous", "labels": {"intent": "travel_alert"}, "meta": {}}
+{"id": "clinc-validation-1447", "text": "i want to call up jan", "labels": {"intent": "make_call"}, "meta": {}}
+{"id": "clinc-validation-1455", "text": "call aj", "labels": {"intent": "make_call"}, "meta": {}}
+{"id": "clinc-validation-1457", "text": "call my friend aj", "labels": {"intent": "make_call"}, "meta": {}}
+{"id": "clinc-validation-1467", "text": "set my alarm for six tomorrow morning", "labels": {"intent": "alarm"}, "meta": {}}
+{"id": "clinc-validation-147", "text": "how safe is it to travel to guatemala right now and are there any alerts", "labels": {"intent": "travel_alert"}, "meta": {}}
+{"id": "clinc-validation-1470", "text": "set me an alarm right now", "labels": {"intent": "alarm"}, "meta": {}}
+{"id": "clinc-validation-1476", "text": "i need an alarm set for ten pm and midnight", "labels": {"intent": "alarm"}, "meta": {}}
+{"id": "clinc-validation-1480", "text": "repeat my to do list", "labels": {"intent": "todo_list"}, "meta": {}}
+{"id": "clinc-validation-1485", "text": "what do i need to do", "labels": {"intent": "todo_list"}, "meta": {}}
+{"id": "clinc-validation-1487", "text": "is there anything on my todo list for taking out the trash", "labels": {"intent": "todo_list"}, "meta": {}}
+{"id": "clinc-validation-1497", "text": "is vacuuming on my todo list", "labels": {"intent": "todo_list"}, "meta": {}}
+{"id": "clinc-validation-1502", "text": "make the male british accent please", "labels": {"intent": "change_accent"}, "meta": {}}
+{"id": "clinc-validation-1506", "text": "i need your accent to be changed", "labels": {"intent": "change_accent"}, "meta": {}}
+{"id": "clinc-validation-1507", "text": "please change your accent", "labels": {"intent": "change_accent"}, "meta": {}}
+{"id": "clinc-validation-1509", "text": "change to a new accent please", "labels": {"intent": "change_accent"}, "meta": {}}
+{"id": "clinc-validation-1521", "text": "who do i contact for a w2 form", "labels": {"intent": "w2"}, "meta": {}}
+{"id": "clinc-validation-1524", "text": "where do i go to get a form for w2s", "labels": {"intent": "w2"}, "meta": {}}
+{"id": "clinc-validation-1538", "text": "i need my earned income form for paying taxes", "labels": {"intent": "w2"}, "meta": {}}
+{"id": "clinc-validation-1543", "text": "when is my cell phone bill due", "labels": {"intent": "bill_due"}, "meta": {}}
+{"id": "clinc-validation-1544", "text": "what day do i need to pay my internet and phone bill by", "labels": {"intent": "bill_due"}, "meta": {}}
+{"id": "clinc-validation-1545", "text": "what's the due date for spectrum's bill", "labels": {"intent": "bill_due"}, "meta": {}}
+{"id": "clinc-validation-1568", "text": "how many calories are in cake", "labels": {"intent": "calories"}, "meta": {}}
+{"id": "clinc-validation-1569", "text": "how many calories are in oreos", "labels": {"intent": "calories"}, "meta": {}}
+{"id": "clinc-validation-1570", "text": "how many calories does two bananas have", "labels": {"intent": "calories"}, "meta": {}}
+{"id": "clinc-validation-1581", "text": "my card was cut by my kid", "labels": {"intent": "damaged_card"}, "meta": {}}
+{"id": "clinc-validation-1585", "text": "my card was in my pocket and bent", "labels": {"intent": "damaged_card"}, "meta": {}}
+{"id": "clinc-validation-1587", "text": "my card is impaired and i can't use it", "labels": {"intent": "damaged_card"}, "meta": {}}
+{"id": "clinc-validation-1600", "text": "does mcdonald's have good reviews", "labels": {"intent": "restaurant_reviews"}, "meta": {}}
+{"id": "clinc-validation-1604", "text": "how are those mcdonald's reviews looking", "labels": {"intent": "restaurant_reviews"}, "meta": {}}
+{"id": "clinc-validation-1613", "text": "how is the steamed fish at harbor village", "labels": {"intent": "restaurant_reviews"}, "meta": {}}
+{"id": "clinc-validation-162", "text": "can you please request pto for march 2 and 3", "labels": {"intent": "pto_request"}, "meta": {}}
+{"id": "clinc-validation-1626", "text": "where can i locate the ally routing number", "labels": {"intent": "routing"}, "meta": {}}
+{"id": "clinc-validation-1634", "text": "i want to know what the routing is for chase", "labels": {"intent": "routing"}, "meta": {}}
+{"id": "clinc-validation-1638", "text": "where do i locate the routing number for the credit union", "labels": {"intent": "routing"}, "meta": {}}
+{"id": "clinc-validation-1647", "text": "what creatures do you keep for love", "labels": {"intent": "do_you_have_pets"}, "meta": {}}
+{"id": "clinc-validation-1648", "text": "do you posses any types of pets", "labels": {"intent": "do_you_have_pets"}, "meta": {}}
+{"id": "clinc-validation-1658", "text": "what different pets do you have", "labels": {"intent": "do_you_have_pets"}, "meta": {}}
+{"id": "clinc-validation-1661", "text": "what is the process to set up a meeting", "labels": {"intent": "schedule_meeting"}, "meta": {}}
+{"id": "clinc-validation-1667", "text": "please schedule a meeting with kim at 10 am", "labels": {"intent": "schedule_meeting"}, "meta": {}}
+{"id": "clinc-validation-1669", "text": "schedule my meeting with jim at 3pm", "labels": {"intent": "schedule_meeting"}, "meta": {}}
+{"id": "clinc-validation-167", "text": "can i put in a pto request for may 1 to may 5", "labels": {"intent": "pto_request"}, "meta": {}}
+{"id": "clinc-validation-1678", "text": "can you please set up a meeting for 3:00 on wednesday", "labels": {"intent": "schedule_meeting"}, "meta": {}}
+{"id": "clinc-validation-1692", "text": "what is the proper fuel type for my car", "labels": {"intent": "gas_type"}, "meta": {}}
+{"id": "clinc-validation-1695", "text": "does this car take regular or diesel fuel", "labels": {"intent": "gas_type"}, "meta": {}}
+{"id": "clinc-validation-1698", "text": "what type of fuel should i get for mainly city driving", "labels": {"intent": "gas_type"}, "meta": {}}
+{"id": "clinc-validation-1704", "text": "what type of socker conveters do i need in africa", "labels": {"intent": "plug_type"}, "meta": {}}
+{"id": "clinc-validation-1705", "text": "i'm going to paris, what plug type do i need", "labels": {"intent": "plug_type"}, "meta": {}}
+{"id": "clinc-validation-1708", "text": "do they use a different plug in brazil", "labels": {"intent": "plug_type"}, "meta": {}}
+{"id": "clinc-validation-1711", "text": "what kind of electrical plug do they use in the uae", "labels": {"intent": "plug_type"}, "meta": {}}
+{"id": "clinc-validation-1722", "text": "can you tell me when i ought to switch out my tires", "labels": {"intent": "tire_change"}, "meta": {}}
+{"id": "clinc-validation-1728", "text": "how soon until my tires will need to be changed", "labels": {"intent": "tire_change"}, "meta": {}}
+{"id": "clinc-validation-1736", "text": "is it time for a tire change", "labels": {"intent": "tire_change"}, "meta": {}}
+{"id": "clinc-validation-1740", "text": "how much is 100 dollars in euros", "labels": {"intent": "exchange_rate"}, "meta": {}}
+{"id": "clinc-validation-1742", "text": "how much is $1 usd worth in euros", "labels": {"intent": "exchange_rate"}, "meta": {}}
+{"id": "clinc-validation-1745", "text": "what's the conversion rate of 100 dollars to euros", "labels": {"intent": "exchange_rate"}, "meta": {}}
+{"id": "clinc-validation-1763", "text": "which holiday do we celebrate next", "labels": {"intent": "next_holiday"}, "meta": {}}
+{"id": "clinc-validation-1770", "text": "when do i get my next day off", "labels": {"intent": "next_holiday"}, "meta": {}}
+{"id": "clinc-validation-1776", "text": "i would like to know when is the next holiday here", "labels": {"intent": "next_holiday"}, "meta": {}}
+{"id": "clinc-validation-178", "text": "please help me make a request for vacation", "labels": {"intent": "pto_request"}, "meta": {}}
+{"id": "clinc-validation-1788", "text": "a volume of 4 is ideal please", "labels": {"intent": "change_volume"}, "meta": {}}
+{"id": "clinc-validation-1789", "text": "i need your volume increased", "labels": {"intent": "change_volume"}, "meta": {}}
+{"id": "clinc-validation-1793", "text": "turn down your volume please", "labels": {"intent": "change_volume"}, "meta": {}}
+{"id": "clinc-validation-1811", "text": "who you work for", "labels": {"intent": "who_do_you_work_for"}, "meta": {}}
+{"id": "clinc-validation-1818", "text": "tell me who your boss is", "labels": {"intent": "who_do_you_work_for"}, "meta": {}}
+{"id": "clinc-validation-1819", "text": "who do you say you work for", "labels": {"intent": "who_do_you_work_for"}, "meta": {}}
+{"id": "clinc-validation-1820", "text": "what is the limit on my victoria's secret card", "labels": {"intent": "credit_limit"}, "meta": {}}
+{"id": "clinc-validation-1826", "text": "what exactly is my credit limit", "labels": {"intent": "credit_limit"}, "meta": {}}
+{"id": "clinc-validation-1839", "text": "i would like to know the limit for my credit", "labels": {"intent": "credit_limit"}, "meta": {}}
+{"id": "clinc-validation-1841", "text": "how long to wait before dining in restaurant beta", "labels": {"intent": "how_busy"}, "meta": {}}
+{"id": "clinc-validation-1847", "text": "how long is the wait at chipotle", "labels": {"intent": "how_busy"}, "meta": {}}
+{"id": "clinc-validation-185", "text": "what are the top 10 ways to build my credit score", "labels": {"intent": "improve_credit_score"}, "meta": {}}
+{"id": "clinc-validation-1852", "text": "i need to know about how much time i'd have to wait to get a table at dibruno's", "labels": {"intent": "how_busy"}, "meta": {}}
+{"id": "clinc-validation-1859", "text": "is mcdonalds busy around 9", "labels": {"intent": "how_busy"}, "meta": {}}
+{"id": "clinc-validation-186", "text": "how can i build up my credit score", "labels": {"intent": "improve_credit_score"}, "meta": {}}
+{"id": "clinc-validation-1862", "text": "are reservations taken at spago in beverly hills", "labels": {"intent": "accept_reservations"}, "meta": {}}
+{"id": "clinc-validation-1863", "text": "am i able to make reservations at spago in beverly hills", "labels": {"intent": "accept_reservations"}, "meta": {}}
+{"id": "clinc-validation-1869", "text": "can i make reservations at grub burger", "labels": {"intent": "accept_reservations"}, "meta": {}}
+{"id": "clinc-validation-1886", "text": "track the status of my purchase", "labels": {"intent": "order_status"}, "meta": {}}
+{"id": "clinc-validation-1892", "text": "i ordered new light bulbs online when will they get here", "labels": {"intent": "order_status"}, "meta": {}}
+{"id": "clinc-validation-1896", "text": "is my order at the delivery address", "labels": {"intent": "order_status"}, "meta": {}}
+{"id": "clinc-validation-1900", "text": "i forgot my pin number for my credit union bank account, can you help", "labels": {"intent": "pin_change"}, "meta": {}}
+{"id": "clinc-validation-1911", "text": "switch the pin on my chase account", "labels": {"intent": "pin_change"}, "meta": {}}
+{"id": "clinc-validation-1915", "text": "so tell me the pin number", "labels": {"intent": "pin_change"}, "meta": {}}
+{"id": "clinc-validation-1920", "text": "see ya!", "labels": {"intent": "goodbye"}, "meta": {}}
+{"id": "clinc-validation-1922", "text": "until next time", "labels": {"intent": "goodbye"}, "meta": {}}
+{"id": "clinc-validation-1928", "text": "this was a nice conversation", "labels": {"intent": "goodbye"}, "meta": {}}
+{"id": "clinc-validation-1945", "text": "why did you freeze my bank account", "labels": {"intent": "account_blocked"}, "meta": {}}
+{"id": "clinc-validation-1953", "text": "why can't i log into my bank account", "labels": {"intent": "account_blocked"}, "meta": {}}
+{"id": "clinc-validation-1959", "text": "please tell me the reason for the hold on my bb&t account", "labels": {"intent": "account_blocked"}, "meta": {}}
+{"id": "clinc-validation-196", "text": "how can i safeguard my credit score from dropping", "labels": {"intent": "improve_credit_score"}, "meta": {}}
+{"id": "clinc-validation-1967", "text": "what am i listening to right now", "labels": {"intent": "what_song"}, "meta": {}}
+{"id": "clinc-validation-1969", "text": "what is that song called", "labels": {"intent": "what_song"}, "meta": {}}
+{"id": "clinc-validation-1972", "text": "what's the name of the song playing right now", "labels": {"intent": "what_song"}, "meta": {}}
+{"id": "clinc-validation-1981", "text": "are there international transaction fees associated with my td bank card", "labels": {"intent": "international_fees"}, "meta": {}}
+{"id": "clinc-validation-1995", "text": "while in tulsa, if i use my card, would i be charged more", "labels": {"intent": "international_fees"}, "meta": {}}
+{"id": "clinc-validation-1999", "text": "if i use my card in england will it cost me extra", "labels": {"intent": "international_fees"}, "meta": {}}
+{"id": "clinc-validation-20", "text": "transfer ten dollars from my wells fargo account to my bank of america account", "labels": {"intent": "transfer"}, "meta": {}}
+{"id": "clinc-validation-200", "text": "tell me something interesting about lake tahoe", "labels": {"intent": "fun_fact"}, "meta": {}}
+{"id": "clinc-validation-2008", "text": "when was the last time my car was serviced", "labels": {"intent": "last_maintenance"}, "meta": {}}
+{"id": "clinc-validation-2016", "text": "when did the oil get changed", "labels": {"intent": "last_maintenance"}, "meta": {}}
+{"id": "clinc-validation-2019", "text": "when was the car last services", "labels": {"intent": "last_maintenance"}, "meta": {}}
+{"id": "clinc-validation-2026", "text": "do i have any meetings today between 9:20 and 10:30", "labels": {"intent": "meeting_schedule"}, "meta": {}}
+{"id": "clinc-validation-2030", "text": "what time am i meeting john", "labels": {"intent": "meeting_schedule"}, "meta": {}}
+{"id": "clinc-validation-2036", "text": "is dan aware of any meetings with me today", "labels": {"intent": "meeting_schedule"}, "meta": {}}
+{"id": "clinc-validation-2043", "text": "do you know the ingredients used in homemade chicken soup", "labels": {"intent": "ingredients_list"}, "meta": {}}
+{"id": "clinc-validation-2046", "text": "what are the ingredients used in chicken curry", "labels": {"intent": "ingredients_list"}, "meta": {}}
+{"id": "clinc-validation-2055", "text": "for pasta primavera, what ingredients will i use", "labels": {"intent": "ingredients_list"}, "meta": {}}
+{"id": "clinc-validation-2061", "text": "i need to talk to someone about a fraudulent activity on my card", "labels": {"intent": "report_fraud"}, "meta": {}}
+{"id": "clinc-validation-2062", "text": "i need to report unauthorized activity on my card", "labels": {"intent": "report_fraud"}, "meta": {}}
+{"id": "clinc-validation-207", "text": "give me a cool fact about potatoes", "labels": {"intent": "fun_fact"}, "meta": {}}
+{"id": "clinc-validation-2072", "text": "i want to report fraudulent activity on my capital one", "labels": {"intent": "report_fraud"}, "meta": {}}
+{"id": "clinc-validation-2081", "text": "can you tell me the number of ounces in a quart", "labels": {"intent": "measurement_conversion"}, "meta": {}}
+{"id": "clinc-validation-2094", "text": "how many gallons is 50 liters", "labels": {"intent": "measurement_conversion"}, "meta": {}}
+{"id": "clinc-validation-2098", "text": "how many teaspoons in an ounce", "labels": {"intent": "measurement_conversion"}, "meta": {}}
+{"id": "clinc-validation-2106", "text": "i need you to turn the tv on now", "labels": {"intent": "smart_home"}, "meta": {}}
+{"id": "clinc-validation-2111", "text": "i'd like the lights in the garage to be turned on", "labels": {"intent": "smart_home"}, "meta": {}}
+{"id": "clinc-validation-2114", "text": "confirm the doors are locked", "labels": {"intent": "smart_home"}, "meta": {}}
+{"id": "clinc-validation-2124", "text": "can you reserve a hotel for myself a hotel in afghanistan at the zoo for the 10th to the 15th", "labels": {"intent": "book_hotel"}, "meta": {}}
+{"id": "clinc-validation-2129", "text": "show me a hotel in boise that has positive reviews", "labels": {"intent": "book_hotel"}, "meta": {}}
+{"id": "clinc-validation-2135", "text": "help me book a place to stay from may 2 to may 4 in tampa", "labels": {"intent": "book_hotel"}, "meta": {}}
+{"id": "clinc-validation-2144", "text": "pass me my gps coordinates", "labels": {"intent": "current_location"}, "meta": {}}
+{"id": "clinc-validation-2152", "text": "what is this place", "labels": {"intent": "current_location"}, "meta": {}}
+{"id": "clinc-validation-2159", "text": "location currently, where", "labels": {"intent": "current_location"}, "meta": {}}
+{"id": "clinc-validation-2161", "text": "tell me the forecast", "labels": {"intent": "weather"}, "meta": {}}
+{"id": "clinc-validation-2172", "text": "what is the weather in tokyo", "labels": {"intent": "weather"}, "meta": {}}
+{"id": "clinc-validation-2177", "text": "what's the chance of rain", "labels": {"intent": "weather"}, "meta": {}}
+{"id": "clinc-validation-2181", "text": "how much am i being taxed", "labels": {"intent": "taxes"}, "meta": {}}
+{"id": "clinc-validation-2185", "text": "what's the tax bracket for my income", "labels": {"intent": "taxes"}, "meta": {}}
+{"id": "clinc-validation-2189", "text": "can you tell me what my federal tax burden is", "labels": {"intent": "taxes"}, "meta": {}}
+{"id": "clinc-validation-219", "text": "read me cat trivia", "labels": {"intent": "fun_fact"}, "meta": {}}
+{"id": "clinc-validation-2192", "text": "how much do i pay in taxes every year", "labels": {"intent": "taxes"}, "meta": {}}
+{"id": "clinc-validation-2200", "text": "what is the minimum amount due on my cable bill", "labels": {"intent": "min_payment"}, "meta": {}}
+{"id": "clinc-validation-2203", "text": "how little can i pay on my phone bill", "labels": {"intent": "min_payment"}, "meta": {}}
+{"id": "clinc-validation-2216", "text": "i'd like to know my minimum payment please", "labels": {"intent": "min_payment"}, "meta": {}}
+{"id": "clinc-validation-2227", "text": "please use your whispering voice; i need quiet", "labels": {"intent": "whisper_mode"}, "meta": {}}
+{"id": "clinc-validation-2232", "text": "make a switch to whisper mode", "labels": {"intent": "whisper_mode"}, "meta": {}}
+{"id": "clinc-validation-2237", "text": "enable whisper mode", "labels": {"intent": "whisper_mode"}, "meta": {}}
+{"id": "clinc-validation-224", "text": "you need to change your language setting to russian please", "labels": {"intent": "change_language"}, "meta": {}}
+{"id": "clinc-validation-2243", "text": "whats the procedure to cancel it", "labels": {"intent": "cancel"}, "meta": {}}
+{"id": "clinc-validation-2244", "text": "stop it", "labels": {"intent": "cancel"}, "meta": {}}
+{"id": "clinc-validation-2248", "text": "hey ai cancel it now", "labels": {"intent": "cancel"}, "meta": {}}
+{"id": "clinc-validation-2252", "text": "abort it", "labels": {"intent": "cancel"}, "meta": {}}
+{"id": "clinc-validation-2260", "text": "if i plan on travelling to this country, do i need a visa", "labels": {"intent": "international_visa"}, "meta": {}}
+{"id": "clinc-validation-2272", "text": "will i need an international visa to go to madagascar", "labels": {"intent": "international_visa"}, "meta": {}}
+{"id": "clinc-validation-2279", "text": "does the uk require a travel visa", "labels": {"intent": "international_visa"}, "meta": {}}
+{"id": "clinc-validation-2286", "text": "do i need any vaccines before traveling to brazil", "labels": {"intent": "vaccines"}, "meta": {}}
+{"id": "clinc-validation-2289", "text": "must i have shots before i take a trip to canada", "labels": {"intent": "vaccines"}, "meta": {}}
+{"id": "clinc-validation-2293", "text": "do i need to get any shots before visiting family in seattle", "labels": {"intent": "vaccines"}, "meta": {}}
+{"id": "clinc-validation-2295", "text": "is a shot required before traveling to mexico", "labels": {"intent": "vaccines"}, "meta": {}}
+{"id": "clinc-validation-2308", "text": "how many weeks of vacation do i have", "labels": {"intent": "pto_balance"}, "meta": {}}
+{"id": "clinc-validation-2315", "text": "could you let me know how many pto days do i have left", "labels": {"intent": "pto_balance"}, "meta": {}}
+{"id": "clinc-validation-2317", "text": "can you let me know how many pto days do i have left", "labels": {"intent": "pto_balance"}, "meta": {}}
+{"id": "clinc-validation-232", "text": "speak german", "labels": {"intent": "change_language"}, "meta": {}}
+{"id": "clinc-validation-2324", "text": "where is the closet bus stop to go to downtown dallas", "labels": {"intent": "directions"}, "meta": {}}
+{"id": "clinc-validation-2328", "text": "how do i get to new york by bus", "labels": {"intent": "directions"}, "meta": {}}
+{"id": "clinc-validation-2338", "text": "where is the nearest gas station", "labels": {"intent": "directions"}, "meta": {}}
+{"id": "clinc-validation-2346", "text": "please spell the word umbrella", "labels": {"intent": "spelling"}, "meta": {}}
+{"id": "clinc-validation-235", "text": "change response language from mandarin to english", "labels": {"intent": "change_language"}, "meta": {}}
+{"id": "clinc-validation-2351", "text": "tell me how to spell doctor", "labels": {"intent": "spelling"}, "meta": {}}
+{"id": "clinc-validation-2357", "text": "what is the correct spelling for malignant", "labels": {"intent": "spelling"}, "meta": {}}
+{"id": "clinc-validation-2367", "text": "tell me how are you", "labels": {"intent": "greeting"}, "meta": {}}
+{"id": "clinc-validation-2368", "text": "hi what's up", "labels": {"intent": "greeting"}, "meta": {}}
+{"id": "clinc-validation-2372", "text": "good morning, ai", "labels": {"intent": "greeting"}, "meta": {}}
+{"id": "clinc-validation-2377", "text": "how's it hanging", "labels": {"intent": "greeting"}, "meta": {}}
+{"id": "clinc-validation-2388", "text": "i want a clean bootup to factory settings", "labels": {"intent": "reset_settings"}, "meta": {}}
+{"id": "clinc-validation-2389", "text": "change back to factory settings", "labels": {"intent": "reset_settings"}, "meta": {}}
+{"id": "clinc-validation-2399", "text": "change to factory settings", "labels": {"intent": "reset_settings"}, "meta": {}}
+{"id": "clinc-validation-2401", "text": "what was your name again", "labels": {"intent": "what_is_your_name"}, "meta": {}}
+{"id": "clinc-validation-2415", "text": "what do you go by", "labels": {"intent": "what_is_your_name"}, "meta": {}}
+{"id": "clinc-validation-2419", "text": "can i have your name", "labels": {"intent": "what_is_your_name"}, "meta": {}}
+{"id": "clinc-validation-2421", "text": "how do i set up direct deposit for my fifth third account", "labels": {"intent": "direct_deposit"}, "meta": {}}
+{"id": "clinc-validation-2425", "text": "what might i need to do to direct deposit my paycheck", "labels": {"intent": "direct_deposit"}, "meta": {}}
+{"id": "clinc-validation-2431", "text": "i'd like direct deposit to my chase bank account", "labels": {"intent": "direct_deposit"}, "meta": {}}
+{"id": "clinc-validation-2437", "text": "tell me the easiest way to set up direct deposit of my paycheck to my chase account", "labels": {"intent": "direct_deposit"}, "meta": {}}
+{"id": "clinc-validation-2445", "text": "what is walker bank paying me in interest on my account", "labels": {"intent": "interest_rate"}, "meta": {}}
+{"id": "clinc-validation-2448", "text": "how much interest am i getting percentage wise from chase", "labels": {"intent": "interest_rate"}, "meta": {}}
+{"id": "clinc-validation-2449", "text": "what is my interest rate for my scotiabank account", "labels": {"intent": "interest_rate"}, "meta": {}}
+{"id": "clinc-validation-245", "text": "which day is it that my payment comes in", "labels": {"intent": "payday"}, "meta": {}}
+{"id": "clinc-validation-2467", "text": "i want to increase my credit limit to 5000 dollars", "labels": {"intent": "credit_limit_change"}, "meta": {}}
+{"id": "clinc-validation-2468", "text": "could my credit be increased to 5000 dollars", "labels": {"intent": "credit_limit_change"}, "meta": {}}
+{"id": "clinc-validation-2474", "text": "i would like to change my credit limit", "labels": {"intent": "credit_limit_change"}, "meta": {}}
+{"id": "clinc-validation-2479", "text": "can you help me increase my credit limit", "labels": {"intent": "credit_limit_change"}, "meta": {}}
+{"id": "clinc-validation-2486", "text": "what are your hobbies", "labels": {"intent": "what_are_your_hobbies"}, "meta": {}}
+{"id": "clinc-validation-2489", "text": "what do you do in your spare time siri", "labels": {"intent": "what_are_your_hobbies"}, "meta": {}}
+{"id": "clinc-validation-2496", "text": "what are you’re hobbies, ai", "labels": {"intent": "what_are_your_hobbies"}, "meta": {}}
+{"id": "clinc-validation-2505", "text": "i want to find a round trip flight from denver international to new york international on the 8th to the 16th", "labels": {"intent": "book_flight"}, "meta": {}}
+{"id": "clinc-validation-2511", "text": "get me flight from philly to atlanta on june 5th i'm coming back june 8th", "labels": {"intent": "book_flight"}, "meta": {}}
+{"id": "clinc-validation-2515", "text": "i'm looking for a back and forth flight from lax to portland for w to sunday", "labels": {"intent": "book_flight"}, "meta": {}}
+{"id": "clinc-validation-2518", "text": "i'm searching for a 2-way flight from yqg to heathrow for w to memorial day", "labels": {"intent": "book_flight"}, "meta": {}}
+{"id": "clinc-validation-2524", "text": "is it possible for you to read the things on my shopping list", "labels": {"intent": "shopping_list"}, "meta": {}}
+{"id": "clinc-validation-2525", "text": "did i add salt to my shopping list", "labels": {"intent": "shopping_list"}, "meta": {}}
+{"id": "clinc-validation-2532", "text": "is waffles on my list for shopping", "labels": {"intent": "shopping_list"}, "meta": {}}
+{"id": "clinc-validation-254", "text": "what date is the next payday", "labels": {"intent": "payday"}, "meta": {}}
+{"id": "clinc-validation-2540", "text": "send a text to joe", "labels": {"intent": "text"}, "meta": {}}
+{"id": "clinc-validation-2542", "text": "text joe", "labels": {"intent": "text"}, "meta": {}}
+{"id": "clinc-validation-2557", "text": "write a text to kim saying no", "labels": {"intent": "text"}, "meta": {}}
+{"id": "clinc-validation-2563", "text": "how much is due on the gas bill", "labels": {"intent": "bill_balance"}, "meta": {}}
+{"id": "clinc-validation-2564", "text": "what do i owe on telephone and cable bill", "labels": {"intent": "bill_balance"}, "meta": {}}
+{"id": "clinc-validation-2571", "text": "what is the total of all my bills combined", "labels": {"intent": "bill_balance"}, "meta": {}}
+{"id": "clinc-validation-2582", "text": "i would like brenda to have my location", "labels": {"intent": "share_location"}, "meta": {}}
+{"id": "clinc-validation-2586", "text": "can you send my exact location to laura", "labels": {"intent": "share_location"}, "meta": {}}
+{"id": "clinc-validation-259", "text": "how much is on my paycheck this week", "labels": {"intent": "payday"}, "meta": {}}
+{"id": "clinc-validation-2591", "text": "steve needs to know my location", "labels": {"intent": "share_location"}, "meta": {}}
+{"id": "clinc-validation-2602", "text": "cash in my credit card points", "labels": {"intent": "redeem_rewards"}, "meta": {}}
+{"id": "clinc-validation-2612", "text": "i have credit card points, how do i redeem them", "labels": {"intent": "redeem_rewards"}, "meta": {}}
+{"id": "clinc-validation-2613", "text": "where do i redeem my credit card points", "labels": {"intent": "redeem_rewards"}, "meta": {}}
+{"id": "clinc-validation-2622", "text": "i want to hear satisfaction", "labels": {"intent": "play_music"}, "meta": {}}
+{"id": "clinc-validation-2628", "text": "please play the song that goes like america the beautiful", "labels": {"intent": "play_music"}, "meta": {}}
+{"id": "clinc-validation-2629", "text": "please play the song that goes like this: jingle bells jingle bells jingle all the way", "labels": {"intent": "play_music"}, "meta": {}}
+{"id": "clinc-validation-2632", "text": "are you able to play beatles songs", "labels": {"intent": "play_music"}, "meta": {}}
+{"id": "clinc-validation-2642", "text": "you can remove the play date from my calendar for feb 18, 2019", "labels": {"intent": "calendar_update"}, "meta": {}}
+{"id": "clinc-validation-2643", "text": "you can remove the dinner party from my calendar for january 21, 2019", "labels": {"intent": "calendar_update"}, "meta": {}}
+{"id": "clinc-validation-2652", "text": "add to my friday calendar a doctor's appointment", "labels": {"intent": "calendar_update"}, "meta": {}}
+{"id": "clinc-validation-266", "text": "about how long does it usually take a new card to get mailed to me", "labels": {"intent": "replacement_card_duration"}, "meta": {}}
+{"id": "clinc-validation-2665", "text": "can you act and think like a real person", "labels": {"intent": "are_you_a_bot"}, "meta": {}}
+{"id": "clinc-validation-2668", "text": "are you a human being or a computer", "labels": {"intent": "are_you_a_bot"}, "meta": {}}
+{"id": "clinc-validation-2679", "text": "can you tell me what kind of life form you are", "labels": {"intent": "are_you_a_bot"}, "meta": {}}
+{"id": "clinc-validation-2683", "text": "should i a gas refill for my car at the next gas station", "labels": {"intent": "gas"}, "meta": {}}
+{"id": "clinc-validation-2691", "text": "what's left in the tank", "labels": {"intent": "gas"}, "meta": {}}
+{"id": "clinc-validation-2694", "text": "do i have enough fuel to get to buffalo", "labels": {"intent": "gas"}, "meta": {}}
+{"id": "clinc-validation-2699", "text": "how much gas does it take to get to jackson", "labels": {"intent": "gas"}, "meta": {}}
+{"id": "clinc-validation-2700", "text": "what is the date that my visa card expires", "labels": {"intent": "expiration_date"}, "meta": {}}
+{"id": "clinc-validation-2705", "text": "will i need to renew my credit card soon", "labels": {"intent": "expiration_date"}, "meta": {}}
+{"id": "clinc-validation-2710", "text": "will my card expire on a certain month", "labels": {"intent": "expiration_date"}, "meta": {}}
+{"id": "clinc-validation-2721", "text": "add song to media playlist", "labels": {"intent": "update_playlist"}, "meta": {}}
+{"id": "clinc-validation-2728", "text": "i'd like to augment my workout playlist with this tune", "labels": {"intent": "update_playlist"}, "meta": {}}
+{"id": "clinc-validation-2733", "text": "add welcome to the jungle to my workout mix", "labels": {"intent": "update_playlist"}, "meta": {}}
+{"id": "clinc-validation-2747", "text": "scrap reservation at 4 for red robin", "labels": {"intent": "cancel_reservation"}, "meta": {}}
+{"id": "clinc-validation-2749", "text": "i'd like to cancel my reservation for 5 at hoss's steak house", "labels": {"intent": "cancel_reservation"}, "meta": {}}
+{"id": "clinc-validation-2751", "text": "i need to cancel my reservation for 2 at franklin's grille", "labels": {"intent": "cancel_reservation"}, "meta": {}}
+{"id": "clinc-validation-2763", "text": "i want to hear something hilarious", "labels": {"intent": "tell_joke"}, "meta": {}}
+{"id": "clinc-validation-2768", "text": "tell me something to make me laugh", "labels": {"intent": "tell_joke"}, "meta": {}}
+{"id": "clinc-validation-277", "text": "show tracking information on my replacement credit card", "labels": {"intent": "replacement_card_duration"}, "meta": {}}
+{"id": "clinc-validation-2774", "text": "what sort of jokes do you know", "labels": {"intent": "tell_joke"}, "meta": {}}
+{"id": "clinc-validation-279", "text": "will it take more than a month to get a new card", "labels": {"intent": "replacement_card_duration"}, "meta": {}}
+{"id": "clinc-validation-2793", "text": "make your name jake", "labels": {"intent": "change_ai_name"}, "meta": {}}
+{"id": "clinc-validation-2796", "text": "i think i want your name changed to fred", "labels": {"intent": "change_ai_name"}, "meta": {}}
+{"id": "clinc-validation-2798", "text": "can you change your name to fred", "labels": {"intent": "change_ai_name"}, "meta": {}}
+{"id": "clinc-validation-2802", "text": "what's your birthday", "labels": {"intent": "how_old_are_you"}, "meta": {}}
+{"id": "clinc-validation-2805", "text": "what day were you born", "labels": {"intent": "how_old_are_you"}, "meta": {}}
+{"id": "clinc-validation-2810", "text": "how many years have you been living", "labels": {"intent": "how_old_are_you"}, "meta": {}}
+{"id": "clinc-validation-2821", "text": "i am going away and need to rent a car", "labels": {"intent": "car_rental"}, "meta": {}}
+{"id": "clinc-validation-2827", "text": "i need to book a car rental in las vegas", "labels": {"intent": "car_rental"}, "meta": {}}
+{"id": "clinc-validation-2835", "text": "can i rent a car from dfw airport from march 1st to march 8th", "labels": {"intent": "car_rental"}, "meta": {}}
+{"id": "clinc-validation-2841", "text": "will a jump start work if my batter is dead", "labels": {"intent": "jump_start"}, "meta": {}}
+{"id": "clinc-validation-2844", "text": "how do i jump start a bad battery", "labels": {"intent": "jump_start"}, "meta": {}}
+{"id": "clinc-validation-2848", "text": "how might i go about jump starting a car", "labels": {"intent": "jump_start"}, "meta": {}}
+{"id": "clinc-validation-2859", "text": "there is no juice in my battery please help", "labels": {"intent": "jump_start"}, "meta": {}}
+{"id": "clinc-validation-2861", "text": "i would like you to suggest a chinese dish", "labels": {"intent": "meal_suggestion"}, "meta": {}}
+{"id": "clinc-validation-2864", "text": "can you suggest a mexican dish", "labels": {"intent": "meal_suggestion"}, "meta": {}}
+{"id": "clinc-validation-287", "text": "tell me what time it is", "labels": {"intent": "time"}, "meta": {}}
+{"id": "clinc-validation-2876", "text": "what kind of meal should i eat from thailand", "labels": {"intent": "meal_suggestion"}, "meta": {}}
+{"id": "clinc-validation-2885", "text": "how do i make shrimp", "labels": {"intent": "recipe"}, "meta": {}}
+{"id": "clinc-validation-2889", "text": "how do you make dumplings", "labels": {"intent": "recipe"}, "meta": {}}
+{"id": "clinc-validation-289", "text": "what time is it in the pacific timezone", "labels": {"intent": "time"}, "meta": {}}
+{"id": "clinc-validation-2890", "text": "how do you make blue cheese dressing", "labels": {"intent": "recipe"}, "meta": {}}
+{"id": "clinc-validation-2897", "text": "recipe for beef stroganoff", "labels": {"intent": "recipe"}, "meta": {}}
+{"id": "clinc-validation-2902", "text": "how much money do i make at my job", "labels": {"intent": "income"}, "meta": {}}
+{"id": "clinc-validation-2911", "text": "how much do i make in a year", "labels": {"intent": "income"}, "meta": {}}
+{"id": "clinc-validation-2914", "text": "i would like to know what my income is", "labels": {"intent": "income"}, "meta": {}}
+{"id": "clinc-validation-2917", "text": "get my income amount for me", "labels": {"intent": "income"}, "meta": {}}
+{"id": "clinc-validation-2925", "text": "order an amazon gift card from amazon in the amount of twenty dollars", "labels": {"intent": "order"}, "meta": {}}
+{"id": "clinc-validation-2930", "text": "i want to buy an iphone7", "labels": {"intent": "order"}, "meta": {}}
+{"id": "clinc-validation-2937", "text": "order all items on the list", "labels": {"intent": "order"}, "meta": {}}
+{"id": "clinc-validation-2941", "text": "what's the traffic like right now for my route to work", "labels": {"intent": "traffic"}, "meta": {}}
+{"id": "clinc-validation-295", "text": "time in manhattan", "labels": {"intent": "time"}, "meta": {}}
+{"id": "clinc-validation-2955", "text": "what will the traffic be like if i headed out to work right now", "labels": {"intent": "traffic"}, "meta": {}}
+{"id": "clinc-validation-2956", "text": "what kind of traffic can i expect on the way to church", "labels": {"intent": "traffic"}, "meta": {}}
+{"id": "clinc-validation-2962", "text": "i am now out of checks, how do i order new ones", "labels": {"intent": "order_checks"}, "meta": {}}
+{"id": "clinc-validation-2963", "text": "i need to order new checks because i am all out", "labels": {"intent": "order_checks"}, "meta": {}}
+{"id": "clinc-validation-2973", "text": "i just used my final check order more", "labels": {"intent": "order_checks"}, "meta": {}}
+{"id": "clinc-validation-2980", "text": "is there a reason my card was declined", "labels": {"intent": "card_declined"}, "meta": {}}
+{"id": "clinc-validation-2985", "text": "i need to know why you declined my card yesterday", "labels": {"intent": "card_declined"}, "meta": {}}
+{"id": "clinc-validation-2996", "text": "target declined my card and i don't know why", "labels": {"intent": "card_declined"}, "meta": {}}
+{"id": "clinc-validation-2998", "text": "i can't figure out why my card was declined at target", "labels": {"intent": "card_declined"}, "meta": {}}
+{"id": "clinc-validation-3001", "text": "a show on broadway", "labels": {"intent": "oos"}, "meta": {}}
+{"id": "clinc-validation-3005", "text": "what is the name of the 13th president", "labels": {"intent": "oos"}, "meta": {}}
+{"id": "clinc-validation-3006", "text": "show me recent activity in my backyard", "labels": {"intent": "oos"}, "meta": {}}
+{"id": "clinc-validation-3011", "text": "are any earning reports due", "labels": {"intent": "oos"}, "meta": {}}
+{"id": "clinc-validation-3025", "text": "how can i root an android phone", "labels": {"intent": "oos"}, "meta": {}}
+{"id": "clinc-validation-3034", "text": "please inform me on bad habits and overcoming them", "labels": {"intent": "oos"}, "meta": {}}
+{"id": "clinc-validation-3047", "text": "can you tell me the latest georgia news", "labels": {"intent": "oos"}, "meta": {}}
+{"id": "clinc-validation-305", "text": "pull up my credit card application's current status", "labels": {"intent": "application_status"}, "meta": {}}
+{"id": "clinc-validation-306", "text": "has my credit card application processed yet", "labels": {"intent": "application_status"}, "meta": {}}
+{"id": "clinc-validation-3061", "text": "what's the average gpa to get into yale", "labels": {"intent": "oos"}, "meta": {}}
+{"id": "clinc-validation-3067", "text": "how many firewalls should i have and what type", "labels": {"intent": "oos"}, "meta": {}}
+{"id": "clinc-validation-3070", "text": "how many countries in the world are democracies", "labels": {"intent": "oos"}, "meta": {}}
+{"id": "clinc-validation-3079", "text": "what does it mean if i dream of falling off a building", "labels": {"intent": "oos"}, "meta": {}}
+{"id": "clinc-validation-308", "text": "has my card application successfully gone through", "labels": {"intent": "application_status"}, "meta": {}}
+{"id": "clinc-validation-3085", "text": "do ducks sleep", "labels": {"intent": "oos"}, "meta": {}}
+{"id": "clinc-validation-3086", "text": "are over the ear headphones better than in ear headphones", "labels": {"intent": "oos"}, "meta": {}}
+{"id": "clinc-validation-3089", "text": "where do eggs come from", "labels": {"intent": "oos"}, "meta": {}}
+{"id": "clinc-validation-3095", "text": "what does it mean to have equality", "labels": {"intent": "oos"}, "meta": {}}
+{"id": "clinc-validation-3096", "text": "what site publishes the most fake news", "labels": {"intent": "oos"}, "meta": {}}
+{"id": "clinc-validation-324", "text": "when is the expected arrival of flight dl123", "labels": {"intent": "flight_status"}, "meta": {}}
+{"id": "clinc-validation-328", "text": "i would like to know flight dl123's status", "labels": {"intent": "flight_status"}, "meta": {}}
+{"id": "clinc-validation-329", "text": "tell me flight dl123's statud", "labels": {"intent": "flight_status"}, "meta": {}}
+{"id": "clinc-validation-34", "text": "i need 2000 to go to my chase checking from my mellon bank savings account", "labels": {"intent": "transfer"}, "meta": {}}
+{"id": "clinc-validation-344", "text": "can you flip a coin i pick heads", "labels": {"intent": "flip_coin"}, "meta": {}}
+{"id": "clinc-validation-347", "text": "please flip a coin", "labels": {"intent": "flip_coin"}, "meta": {}}
+{"id": "clinc-validation-355", "text": "please flip the coin over ai", "labels": {"intent": "flip_coin"}, "meta": {}}
+{"id": "clinc-validation-359", "text": "i call tails and you call heads on this coin flip i need you to do", "labels": {"intent": "flip_coin"}, "meta": {}}
+{"id": "clinc-validation-365", "text": "please change my name to tom", "labels": {"intent": "change_user_name"}, "meta": {}}
+{"id": "clinc-validation-368", "text": "please call me tom", "labels": {"intent": "change_user_name"}, "meta": {}}
+{"id": "clinc-validation-372", "text": "i prefer to be called jason", "labels": {"intent": "change_user_name"}, "meta": {}}
+{"id": "clinc-validation-38", "text": "i need to transfer one thousand dollars to my savings account from my checking", "labels": {"intent": "transfer"}, "meta": {}}
+{"id": "clinc-validation-381", "text": "where were you born as a kid", "labels": {"intent": "where_are_you_from"}, "meta": {}}
+{"id": "clinc-validation-387", "text": "what place were you born", "labels": {"intent": "where_are_you_from"}, "meta": {}}
+{"id": "clinc-validation-399", "text": "you were made where", "labels": {"intent": "where_are_you_from"}, "meta": {}}
+{"id": "clinc-validation-400", "text": "i'm not sure if watermelon is on my shopping list, but if it isn't can you put it on there", "labels": {"intent": "shopping_list_update"}, "meta": {}}
+{"id": "clinc-validation-405", "text": "i'm out of cleaning supplies, remind me on my list", "labels": {"intent": "shopping_list_update"}, "meta": {}}
+{"id": "clinc-validation-413", "text": "i'm out of toilet paper so will you put that on my shopping list", "labels": {"intent": "shopping_list_update"}, "meta": {}}
+{"id": "clinc-validation-426", "text": "what questions can you answer", "labels": {"intent": "what_can_i_ask_you"}, "meta": {}}
+{"id": "clinc-validation-432", "text": "what are the different subjects that you know", "labels": {"intent": "what_can_i_ask_you"}, "meta": {}}
+{"id": "clinc-validation-435", "text": "which subjects can you tell me about", "labels": {"intent": "what_can_i_ask_you"}, "meta": {}}
+{"id": "clinc-validation-436", "text": "can i ask you all different types of questions", "labels": {"intent": "what_can_i_ask_you"}, "meta": {}}
+{"id": "clinc-validation-444", "text": "possibly either one", "labels": {"intent": "maybe"}, "meta": {}}
+{"id": "clinc-validation-445", "text": "i don't have any idea", "labels": {"intent": "maybe"}, "meta": {}}
+{"id": "clinc-validation-459", "text": "maybe it does", "labels": {"intent": "maybe"}, "meta": {}}
+{"id": "clinc-validation-460", "text": "procedure to change oil in car", "labels": {"intent": "oil_change_how"}, "meta": {}}
+{"id": "clinc-validation-462", "text": "how to change oil of a car", "labels": {"intent": "oil_change_how"}, "meta": {}}
+{"id": "clinc-validation-471", "text": "i need to know how to change my oil and what kind of oil for a 2007 trailblazer", "labels": {"intent": "oil_change_how"}, "meta": {}}
+{"id": "clinc-validation-479", "text": "can you find some instructions on how to change my oil", "labels": {"intent": "oil_change_how"}, "meta": {}}
+{"id": "clinc-validation-483", "text": "would you please schedule a reservation for 2 at lucky's under the name sam at 7:30pm", "labels": {"intent": "restaurant_reservation"}, "meta": {}}
+{"id": "clinc-validation-496", "text": "reserve a table for 3 under the name wheeler at andrea's steakhouse for 5pm", "labels": {"intent": "restaurant_reservation"}, "meta": {}}
+{"id": "clinc-validation-498", "text": "allow me to turn on the lights", "labels": {"intent": "restaurant_reservation"}, "meta": {}}
+{"id": "clinc-validation-50", "text": "i need you to create a timer", "labels": {"intent": "timer"}, "meta": {}}
+{"id": "clinc-validation-500", "text": "do i have more than $100 in my pnc account", "labels": {"intent": "balance"}, "meta": {}}
+{"id": "clinc-validation-502", "text": "how much is in my pnc account", "labels": {"intent": "balance"}, "meta": {}}
+{"id": "clinc-validation-516", "text": "i need to know how much money i have in all of my bank accounts", "labels": {"intent": "balance"}, "meta": {}}
+{"id": "clinc-validation-519", "text": "can you tell me how much money i have i my bank accounts", "labels": {"intent": "balance"}, "meta": {}}
+{"id": "clinc-validation-520", "text": "please double check my reservations for six at mani", "labels": {"intent": "confirm_reservation"}, "meta": {}}
+{"id": "clinc-validation-522", "text": "confirm four for my reservation at fiji", "labels": {"intent": "confirm_reservation"}, "meta": {}}
+{"id": "clinc-validation-534", "text": "i'd like to confirm the 2:00 reservation for friday", "labels": {"intent": "confirm_reservation"}, "meta": {}}
+{"id": "clinc-validation-543", "text": "can we stop my bank account", "labels": {"intent": "freeze_account"}, "meta": {}}
+{"id": "clinc-validation-546", "text": "please put a block on my regions account immediately", "labels": {"intent": "freeze_account"}, "meta": {}}
+{"id": "clinc-validation-55", "text": "will you start a timer for me", "labels": {"intent": "timer"}, "meta": {}}
+{"id": "clinc-validation-556", "text": "i need a block placed right away on my joint checking account", "labels": {"intent": "freeze_account"}, "meta": {}}
+{"id": "clinc-validation-57", "text": "please set up a timer for me", "labels": {"intent": "timer"}, "meta": {}}
+{"id": "clinc-validation-575", "text": "how do i rollover my 401k", "labels": {"intent": "rollover_401k"}, "meta": {}}
+{"id": "clinc-validation-576", "text": "rolling over my 401k help", "labels": {"intent": "rollover_401k"}, "meta": {}}
+{"id": "clinc-validation-577", "text": "assistance in rolling over my 401k", "labels": {"intent": "rollover_401k"}, "meta": {}}
+{"id": "clinc-validation-580", "text": "who is your designer", "labels": {"intent": "who_made_you"}, "meta": {}}
+{"id": "clinc-validation-584", "text": "who were you created by", "labels": {"intent": "who_made_you"}, "meta": {}}
+{"id": "clinc-validation-588", "text": "who makes you", "labels": {"intent": "who_made_you"}, "meta": {}}
+{"id": "clinc-validation-598", "text": "what company designed you", "labels": {"intent": "who_made_you"}, "meta": {}}
+{"id": "clinc-validation-600", "text": "whats the travel time to redmond right now", "labels": {"intent": "distance"}, "meta": {}}
+{"id": "clinc-validation-602", "text": "how long will the trip to portland be", "labels": {"intent": "distance"}, "meta": {}}
+{"id": "clinc-validation-61", "text": "i want to know what trenchant means", "labels": {"intent": "definition"}, "meta": {}}
+{"id": "clinc-validation-613", "text": "how long to seattle on a bus", "labels": {"intent": "distance"}, "meta": {}}
+{"id": "clinc-validation-621", "text": "do you have my name programmed", "labels": {"intent": "user_name"}, "meta": {}}
+{"id": "clinc-validation-625", "text": "say my name in a sentence", "labels": {"intent": "user_name"}, "meta": {}}
+{"id": "clinc-validation-627", "text": "tell me my name the way its saved", "labels": {"intent": "user_name"}, "meta": {}}
+{"id": "clinc-validation-63", "text": "can you tell me what a septuagenarian is", "labels": {"intent": "definition"}, "meta": {}}
+{"id": "clinc-validation-632", "text": "how does my name appear", "labels": {"intent": "user_name"}, "meta": {}}
+{"id": "clinc-validation-645", "text": "which time zone is germany is in", "labels": {"intent": "timezone"}, "meta": {}}
+{"id": "clinc-validation-649", "text": "tell me the timezone for hong kong", "labels": {"intent": "timezone"}, "meta": {}}
+{"id": "clinc-validation-652", "text": "in what timezone is atlanta located", "labels": {"intent": "timezone"}, "meta": {}}
+{"id": "clinc-validation-657", "text": "what's london's timezone", "labels": {"intent": "timezone"}, "meta": {}}
+{"id": "clinc-validation-662", "text": "would you skip past this song and just play what comes next", "labels": {"intent": "next_song"}, "meta": {}}
+{"id": "clinc-validation-673", "text": "i want the next song played", "labels": {"intent": "next_song"}, "meta": {}}
+{"id": "clinc-validation-677", "text": "can i hear the song after this one", "labels": {"intent": "next_song"}, "meta": {}}
+{"id": "clinc-validation-68", "text": "tell me the meaning of condemnation", "labels": {"intent": "definition"}, "meta": {}}
+{"id": "clinc-validation-686", "text": "what transactions did i put on my visa last month", "labels": {"intent": "transactions"}, "meta": {}}
+{"id": "clinc-validation-692", "text": "show me all transactions for current statement", "labels": {"intent": "transactions"}, "meta": {}}
+{"id": "clinc-validation-699", "text": "how much was my last transaction for", "labels": {"intent": "transactions"}, "meta": {}}
+{"id": "clinc-validation-707", "text": "are there decent seafood restaurants in portland", "labels": {"intent": "restaurant_suggestion"}, "meta": {}}
+{"id": "clinc-validation-708", "text": "name a few good steakhouses in chicago", "labels": {"intent": "restaurant_suggestion"}, "meta": {}}
+{"id": "clinc-validation-713", "text": "i am looking for good southeast asian restaurants in philadelphia", "labels": {"intent": "restaurant_suggestion"}, "meta": {}}
+{"id": "clinc-validation-720", "text": "whats the reward balance for my visa", "labels": {"intent": "rewards_balance"}, "meta": {}}
+{"id": "clinc-validation-721", "text": "for my visa what's my reward balance", "labels": {"intent": "rewards_balance"}, "meta": {}}
+{"id": "clinc-validation-726", "text": "tell me the points on my delta rewards card", "labels": {"intent": "rewards_balance"}, "meta": {}}
+{"id": "clinc-validation-741", "text": "my utility bill is coming due and i need a loan", "labels": {"intent": "pay_bill"}, "meta": {}}
+{"id": "clinc-validation-744", "text": "i want assistance with my utility bill", "labels": {"intent": "pay_bill"}, "meta": {}}
+{"id": "clinc-validation-749", "text": "submit payment to duke energy for my electric bill", "labels": {"intent": "pay_bill"}, "meta": {}}
+{"id": "clinc-validation-759", "text": "pay my cable bill directly from my checking account", "labels": {"intent": "pay_bill"}, "meta": {}}
+{"id": "clinc-validation-761", "text": "how much have i spent lately", "labels": {"intent": "spending_history"}, "meta": {}}
+{"id": "clinc-validation-772", "text": "how much did i spend on grocery shopping recently", "labels": {"intent": "spending_history"}, "meta": {}}
+{"id": "clinc-validation-778", "text": "how much have i spent on eating out recently", "labels": {"intent": "spending_history"}, "meta": {}}
+{"id": "clinc-validation-780", "text": "will i be permitted to take my vacation", "labels": {"intent": "pto_request_status"}, "meta": {}}
+{"id": "clinc-validation-784", "text": "has my maternity leave been approved", "labels": {"intent": "pto_request_status"}, "meta": {}}
+{"id": "clinc-validation-787", "text": "what's the status on my vacation approval", "labels": {"intent": "pto_request_status"}, "meta": {}}
+{"id": "clinc-validation-800", "text": "please lookup my experion credit score", "labels": {"intent": "credit_score"}, "meta": {}}
+{"id": "clinc-validation-812", "text": "how do i locate my credit rating", "labels": {"intent": "credit_score"}, "meta": {}}
+{"id": "clinc-validation-813", "text": "do you know what my precise credit score is", "labels": {"intent": "credit_score"}, "meta": {}}
+{"id": "clinc-validation-82", "text": "what do you think the purpose of life is", "labels": {"intent": "meaning_of_life"}, "meta": {}}
+{"id": "clinc-validation-830", "text": "i need a new credit card, show me suggestions", "labels": {"intent": "new_card"}, "meta": {}}
+{"id": "clinc-validation-831", "text": "i need to apply for a new credit card that will match my needs", "labels": {"intent": "new_card"}, "meta": {}}
+{"id": "clinc-validation-832", "text": "show me some options for new credit cards that i can apply for, please", "labels": {"intent": "new_card"}, "meta": {}}
+{"id": "clinc-validation-837", "text": "what do i need to do to apply for a visa card", "labels": {"intent": "new_card"}, "meta": {}}
+{"id": "clinc-validation-845", "text": "what to do if i lost my luggage", "labels": {"intent": "lost_luggage"}, "meta": {}}
+{"id": "clinc-validation-849", "text": "what do i do if i lost my luggage", "labels": {"intent": "lost_luggage"}, "meta": {}}
+{"id": "clinc-validation-854", "text": "i was flying out of chicago on american airlines flight ab123 and my luggage is now lost", "labels": {"intent": "lost_luggage"}, "meta": {}}
+{"id": "clinc-validation-863", "text": "can you repeat what you said", "labels": {"intent": "repeat"}, "meta": {}}
+{"id": "clinc-validation-864", "text": "i did not hear what you said", "labels": {"intent": "repeat"}, "meta": {}}
+{"id": "clinc-validation-87", "text": "what is life's purpose", "labels": {"intent": "meaning_of_life"}, "meta": {}}
+{"id": "clinc-validation-879", "text": "i'm sorry please repeat the question", "labels": {"intent": "repeat"}, "meta": {}}
+{"id": "clinc-validation-892", "text": "i need to know this car's mpg", "labels": {"intent": "mpg"}, "meta": {}}
+{"id": "clinc-validation-894", "text": "i would like to know the mpg for this car", "labels": {"intent": "mpg"}, "meta": {}}
+{"id": "clinc-validation-896", "text": "get me info on my mpg", "labels": {"intent": "mpg"}, "meta": {}}
+{"id": "clinc-validation-902", "text": "can you tell me when i should change my oil", "labels": {"intent": "oil_change_when"}, "meta": {}}
+{"id": "clinc-validation-907", "text": "am i ready for an oil change soon", "labels": {"intent": "oil_change_when"}, "meta": {}}
+{"id": "clinc-validation-915", "text": "tell me when i should change me oil", "labels": {"intent": "oil_change_when"}, "meta": {}}
+{"id": "clinc-validation-927", "text": "that makes sense as well", "labels": {"intent": "yes"}, "meta": {}}
+{"id": "clinc-validation-932", "text": "approved", "labels": {"intent": "yes"}, "meta": {}}
+{"id": "clinc-validation-934", "text": "i know that the statement is true", "labels": {"intent": "yes"}, "meta": {}}
+{"id": "clinc-validation-940", "text": "what's the best place to visit in arizona", "labels": {"intent": "travel_suggestion"}, "meta": {}}
+{"id": "clinc-validation-943", "text": "do you think arizona has plenty of bike routes", "labels": {"intent": "travel_suggestion"}, "meta": {}}
+{"id": "clinc-validation-95", "text": "what is our purpose", "labels": {"intent": "meaning_of_life"}, "meta": {}}
+{"id": "clinc-validation-957", "text": "what to do in minneapolis", "labels": {"intent": "travel_suggestion"}, "meta": {}}
+{"id": "clinc-validation-958", "text": "what can i do in hong kong", "labels": {"intent": "travel_suggestion"}, "meta": {}}
+{"id": "clinc-validation-963", "text": "which insurance do i have", "labels": {"intent": "insurance"}, "meta": {}}
+{"id": "clinc-validation-968", "text": "i am enrolled in what insurance plan", "labels": {"intent": "insurance"}, "meta": {}}
+{"id": "clinc-validation-971", "text": "i enrolled in an insurance plan, what one was it", "labels": {"intent": "insurance"}, "meta": {}}
+{"id": "clinc-validation-98", "text": "do you think we have a higher calling", "labels": {"intent": "meaning_of_life"}, "meta": {}}
+{"id": "clinc-validation-986", "text": "put laundry on my chore list", "labels": {"intent": "todo_list_update"}, "meta": {}}
+{"id": "clinc-validation-987", "text": "erase my to do list", "labels": {"intent": "todo_list_update"}, "meta": {}}
+{"id": "clinc-validation-996", "text": "add to my list of things to do: wash the dog", "labels": {"intent": "todo_list_update"}, "meta": {}}
+{"id": "clinc-validation-999", "text": "add wash the dog to my list of things to do", "labels": {"intent": "todo_list_update"}, "meta": {}}

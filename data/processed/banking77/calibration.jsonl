@@ -1,0 +1,500 @@
+{"id": "banking-train-1003", "text": "Which fiat currencies are supported?", "labels": {"intent": "fiat_currency_support"}, "meta": {}}
+{"id": "banking-train-1043", "text": "What is your shipping policies for cards?", "labels": {"intent": "card_delivery_estimate"}, "meta": {}}
+{"id": "banking-train-1061", "text": "How long will it take to deliver to the US?", "labels": {"intent": "card_delivery_estimate"}, "meta": {}}
+{"id": "banking-train-1070", "text": "How long is the delivery to the US?", "labels": {"intent": "card_delivery_estimate"}, "meta": {}}
+{"id": "banking-train-1074", "text": "can you express my card to me?", "labels": {"intent": "card_delivery_estimate"}, "meta": {}}
+{"id": "banking-train-1078", "text": "How long does it take for cards to be delivered after ordering them?", "labels": {"intent": "card_delivery_estimate"}, "meta": {}}
+{"id": "banking-train-1116", "text": "I need my card immediately.", "labels": {"intent": "card_delivery_estimate"}, "meta": {}}
+{"id": "banking-train-112", "text": "I still haven't received my card in the mail", "labels": {"intent": "card_arrival"}, "meta": {}}
+{"id": "banking-train-1138", "text": "Is an auto top-up option available?", "labels": {"intent": "automatic_top_up"}, "meta": {}}
+{"id": "banking-train-1156", "text": "In what increments can I top-up my card?", "labels": {"intent": "automatic_top_up"}, "meta": {}}
+{"id": "banking-train-117", "text": "Is my new bank card on the way and is there a way to track it?", "labels": {"intent": "card_arrival"}, "meta": {}}
+{"id": "banking-train-1175", "text": "How do I auto top-up?", "labels": {"intent": "automatic_top_up"}, "meta": {}}
+{"id": "banking-train-118", "text": "Could you send me and up date on the arrival of my card?", "labels": {"intent": "card_arrival"}, "meta": {}}
+{"id": "banking-train-1190", "text": "When I'm traveling is it possible to add money automatically at certain time points?", "labels": {"intent": "automatic_top_up"}, "meta": {}}
+{"id": "banking-train-1234", "text": "How do I top-up while traveling?", "labels": {"intent": "automatic_top_up"}, "meta": {}}
+{"id": "banking-train-1240", "text": "My funds are low, can I auto top up?", "labels": {"intent": "automatic_top_up"}, "meta": {}}
+{"id": "banking-train-1248", "text": "Can you tell me what the problem with my card is? It was declined at a restaurant today.", "labels": {"intent": "card_not_working"}, "meta": {}}
+{"id": "banking-train-129", "text": "How long will it be to get this new card?", "labels": {"intent": "card_arrival"}, "meta": {}}
+{"id": "banking-train-1301", "text": "How do I re-order a damaged card?", "labels": {"intent": "card_not_working"}, "meta": {}}
+{"id": "banking-train-1326", "text": "Why won't my card work anymore?", "labels": {"intent": "card_not_working"}, "meta": {}}
+{"id": "banking-train-1328", "text": "When I was in a restaurant today my card was declined and payment wouldn't go through and I need help. Can you fix this?", "labels": {"intent": "card_not_working"}, "meta": {}}
+{"id": "banking-train-1345", "text": "I don't know what's wrong with my card, but it has not worked at multiple places today.", "labels": {"intent": "card_not_working"}, "meta": {}}
+{"id": "banking-train-1350", "text": "My card won't work right now.", "labels": {"intent": "card_not_working"}, "meta": {}}
+{"id": "banking-train-1388", "text": "Is it possible to exchange currencies using the app?", "labels": {"intent": "exchange_via_app"}, "meta": {}}
+{"id": "banking-train-1392", "text": "How can I convert currencies?", "labels": {"intent": "exchange_via_app"}, "meta": {}}
+{"id": "banking-train-1398", "text": "Where can I get my currencies exchanged?", "labels": {"intent": "exchange_via_app"}, "meta": {}}
+{"id": "banking-train-1418", "text": "What currences are available for exchange?", "labels": {"intent": "exchange_via_app"}, "meta": {}}
+{"id": "banking-train-1452", "text": "What different currencies can I get?", "labels": {"intent": "exchange_via_app"}, "meta": {}}
+{"id": "banking-train-1462", "text": "How do I change to AUD from GBP?", "labels": {"intent": "exchange_via_app"}, "meta": {}}
+{"id": "banking-train-1499", "text": "I think my card is stolen!", "labels": {"intent": "lost_or_stolen_card"}, "meta": {}}
+{"id": "banking-train-1518", "text": "What do I do if my card has been lost or stolen?", "labels": {"intent": "lost_or_stolen_card"}, "meta": {}}
+{"id": "banking-train-1533", "text": "I lost my card, what do I do now?", "labels": {"intent": "lost_or_stolen_card"}, "meta": {}}
+{"id": "banking-train-1556", "text": "Could you assist me in finding my lost card?", "labels": {"intent": "lost_or_stolen_card"}, "meta": {}}
+{"id": "banking-train-1583", "text": "What age do you have to be?", "labels": {"intent": "age_limit"}, "meta": {}}
+{"id": "banking-train-1620", "text": "Can I open up an account for my child?", "labels": {"intent": "age_limit"}, "meta": {}}
+{"id": "banking-train-1631", "text": "Would I be able to open an account for my daughter?", "labels": {"intent": "age_limit"}, "meta": {}}
+{"id": "banking-train-1642", "text": "How old can one use your service?", "labels": {"intent": "age_limit"}, "meta": {}}
+{"id": "banking-train-1662", "text": "Am I able to open an account for my children?", "labels": {"intent": "age_limit"}, "meta": {}}
+{"id": "banking-train-1666", "text": "Is it possible for me to set up separate accounts for my kids?", "labels": {"intent": "age_limit"}, "meta": {}}
+{"id": "banking-train-1692", "text": "I tried the wrong PIN too many times.", "labels": {"intent": "pin_blocked"}, "meta": {}}
+{"id": "banking-train-1706", "text": "My PIN is locked, how do I unlock it?", "labels": {"intent": "pin_blocked"}, "meta": {}}
+{"id": "banking-train-1724", "text": "I put the wrong pin too many times and now it is blocked. Can you help me unblock it?", "labels": {"intent": "pin_blocked"}, "meta": {}}
+{"id": "banking-train-1748", "text": "What if I type in the wrong PIN too many times?", "labels": {"intent": "pin_blocked"}, "meta": {}}
+{"id": "banking-train-1767", "text": "I am blocked now because I entered the wrong pin, need help.", "labels": {"intent": "pin_blocked"}, "meta": {}}
+{"id": "banking-train-1778", "text": "Can you unblock my account?  I entered the PIN wrong.", "labels": {"intent": "pin_blocked"}, "meta": {}}
+{"id": "banking-train-178", "text": "How do I link an existing card?", "labels": {"intent": "card_linking"}, "meta": {}}
+{"id": "banking-train-1798", "text": "I'm confused ass to why my contactless is not working.", "labels": {"intent": "contactless_not_working"}, "meta": {}}
+{"id": "banking-train-1802", "text": "How do I troubleshoot my contactless?", "labels": {"intent": "contactless_not_working"}, "meta": {}}
+{"id": "banking-train-1832", "text": "Is there a charge for using transfers for top ups?", "labels": {"intent": "top_up_by_bank_transfer_charge"}, "meta": {}}
+{"id": "banking-train-184", "text": "I want my card I just received to show up in the app. How do I do that?", "labels": {"intent": "card_linking"}, "meta": {}}
+{"id": "banking-train-185", "text": "I received my card, how do I get it to show in the app?", "labels": {"intent": "card_linking"}, "meta": {}}
+{"id": "banking-train-1852", "text": "If I were to transfer, what would the cost be?", "labels": {"intent": "top_up_by_bank_transfer_charge"}, "meta": {}}
+{"id": "banking-train-1859", "text": "Are there any charges for receiving money?", "labels": {"intent": "top_up_by_bank_transfer_charge"}, "meta": {}}
+{"id": "banking-train-1900", "text": "For SEPA transfers, what kind of charge will be applied?", "labels": {"intent": "top_up_by_bank_transfer_charge"}, "meta": {}}
+{"id": "banking-train-1901", "text": "Are there topping up fees if I have to transfer?", "labels": {"intent": "top_up_by_bank_transfer_charge"}, "meta": {}}
+{"id": "banking-train-1915", "text": "How much would I be charged for a transfer?", "labels": {"intent": "top_up_by_bank_transfer_charge"}, "meta": {}}
+{"id": "banking-train-1939", "text": "My top up did not go through yet.", "labels": {"intent": "pending_top_up"}, "meta": {}}
+{"id": "banking-train-1945", "text": "I topped up but it isn't in my account", "labels": {"intent": "pending_top_up"}, "meta": {}}
+{"id": "banking-train-1946", "text": "When will my top-up happen?", "labels": {"intent": "pending_top_up"}, "meta": {}}
+{"id": "banking-train-1958", "text": "My top up did not complete.", "labels": {"intent": "pending_top_up"}, "meta": {}}
+{"id": "banking-train-1959", "text": "Why hasnt my top up gone through yet?? I thought it was suppose to be instant? Am I wrong? Why is it still pending?", "labels": {"intent": "pending_top_up"}, "meta": {}}
+{"id": "banking-train-196", "text": "Will I need a new card or can I put my old card back into the app?", "labels": {"intent": "card_linking"}, "meta": {}}
+{"id": "banking-train-1998", "text": "I'm still waiting for my top-up to go through", "labels": {"intent": "pending_top_up"}, "meta": {}}
+{"id": "banking-train-2070", "text": "My top-up has not posted.", "labels": {"intent": "pending_top_up"}, "meta": {}}
+{"id": "banking-train-2078", "text": "Am I able to cancel a transfer I just made", "labels": {"intent": "cancel_transfer"}, "meta": {}}
+{"id": "banking-train-2108", "text": "I need to cancel a transfer I made.", "labels": {"intent": "cancel_transfer"}, "meta": {}}
+{"id": "banking-train-2139", "text": "Is there any way to cancel a recent transfer?  I did not mean to make it and need to make sure it does not go through.", "labels": {"intent": "cancel_transfer"}, "meta": {}}
+{"id": "banking-train-2147", "text": "stop the transaction", "labels": {"intent": "cancel_transfer"}, "meta": {}}
+{"id": "banking-train-2149", "text": "I just realised I made the wrong payment yesterday. Can you please change it to the right account? It's my rent payment and really really needs to be in the right account by tomorrow", "labels": {"intent": "cancel_transfer"}, "meta": {}}
+{"id": "banking-train-2157", "text": "I need you to stop the transfer I just started as soon as possible, I just realized it's not correct!", "labels": {"intent": "cancel_transfer"}, "meta": {}}
+{"id": "banking-train-2195", "text": "How can I revert a transaction from this morning?", "labels": {"intent": "cancel_transfer"}, "meta": {}}
+{"id": "banking-train-2230", "text": "There was a transaction this morning that I'd like to reverse.", "labels": {"intent": "cancel_transfer"}, "meta": {}}
+{"id": "banking-train-2236", "text": "Can I increase my top-up maximum?", "labels": {"intent": "top_up_limits"}, "meta": {}}
+{"id": "banking-train-230", "text": "I got a new card and can't find where to link it.", "labels": {"intent": "card_linking"}, "meta": {}}
+{"id": "banking-train-2303", "text": "Is there a top-up limit?", "labels": {"intent": "top_up_limits"}, "meta": {}}
+{"id": "banking-train-2308", "text": "Do top-ups have a limit?", "labels": {"intent": "top_up_limits"}, "meta": {}}
+{"id": "banking-train-2317", "text": "What is the max I can top up?", "labels": {"intent": "top_up_limits"}, "meta": {}}
+{"id": "banking-train-2326", "text": "How much is the limit for top-ups?", "labels": {"intent": "top_up_limits"}, "meta": {}}
+{"id": "banking-train-2366", "text": "my cash balance less than what I thought", "labels": {"intent": "wrong_amount_of_cash_received"}, "meta": {}}
+{"id": "banking-train-2377", "text": "Why did I only get $20 now the full amount I wanted?", "labels": {"intent": "wrong_amount_of_cash_received"}, "meta": {}}
+{"id": "banking-train-2397", "text": "I think something went wrong, I didn't get the right amount.", "labels": {"intent": "wrong_amount_of_cash_received"}, "meta": {}}
+{"id": "banking-train-2408", "text": "I didn't receive the correct amount of cash", "labels": {"intent": "wrong_amount_of_cash_received"}, "meta": {}}
+{"id": "banking-train-2410", "text": "I tried to withdraw some money from an ATM this morning but wasn't able to get the amount of cash I needed. The amount in the app says what I was trying to withdraw was deducted, but I don't have any money. What do I do about this?", "labels": {"intent": "wrong_amount_of_cash_received"}, "meta": {}}
+{"id": "banking-train-2447", "text": "i asked for 100 only got 80", "labels": {"intent": "wrong_amount_of_cash_received"}, "meta": {}}
+{"id": "banking-train-2448", "text": "I got some cash at an ATM earlier, but now app is showing that I withdrew more than I did.  Help!", "labels": {"intent": "wrong_amount_of_cash_received"}, "meta": {}}
+{"id": "banking-train-2497", "text": "I did not receive the correct amount of cash.", "labels": {"intent": "wrong_amount_of_cash_received"}, "meta": {}}
+{"id": "banking-train-2499", "text": "I got some cash but it wasn't the right amount.", "labels": {"intent": "wrong_amount_of_cash_received"}, "meta": {}}
+{"id": "banking-train-25", "text": "It's been a week since you sent my card and I still don't have it.", "labels": {"intent": "card_arrival"}, "meta": {}}
+{"id": "banking-train-2570", "text": "I used my card and there was a fee", "labels": {"intent": "card_payment_fee_charged"}, "meta": {}}
+{"id": "banking-train-2571", "text": "I am tired of getting charged fees, and I have no idea why, please let me know what/when you charge fees for.", "labels": {"intent": "card_payment_fee_charged"}, "meta": {}}
+{"id": "banking-train-2582", "text": "What was I charged a fee for card payment?", "labels": {"intent": "card_payment_fee_charged"}, "meta": {}}
+{"id": "banking-train-2597", "text": "I was mistakenly charged a fee for using my card.", "labels": {"intent": "card_payment_fee_charged"}, "meta": {}}
+{"id": "banking-train-261", "text": "help me link my card", "labels": {"intent": "card_linking"}, "meta": {}}
+{"id": "banking-train-2618", "text": "Why am I charged a fee when using my debit or credit card?", "labels": {"intent": "card_payment_fee_charged"}, "meta": {}}
+{"id": "banking-train-2637", "text": "When do i get charged a fee for using the card?", "labels": {"intent": "card_payment_fee_charged"}, "meta": {}}
+{"id": "banking-train-2638", "text": "I see I was charged extra when I used the card.  I am not sure why, please tell me why.", "labels": {"intent": "card_payment_fee_charged"}, "meta": {}}
+{"id": "banking-train-2665", "text": "I am angry that I got charged for using my card.", "labels": {"intent": "card_payment_fee_charged"}, "meta": {}}
+{"id": "banking-train-2671", "text": "Why have I been charged a small fee to use my card?", "labels": {"intent": "card_payment_fee_charged"}, "meta": {}}
+{"id": "banking-train-268", "text": "How do I link the new card that I just got from you guys?", "labels": {"intent": "card_linking"}, "meta": {}}
+{"id": "banking-train-2728", "text": "I sent money to someone but they haven't gotten it, what's going on?", "labels": {"intent": "transfer_not_received_by_recipient"}, "meta": {}}
+{"id": "banking-train-2757", "text": "I did a money transaction and the recipient doesn't see it", "labels": {"intent": "transfer_not_received_by_recipient"}, "meta": {}}
+{"id": "banking-train-2781", "text": "Why hasn't arrived yet a transaction I did to my friend?", "labels": {"intent": "transfer_not_received_by_recipient"}, "meta": {}}
+{"id": "banking-train-2815", "text": "I did a money transaction and dont have a receipt", "labels": {"intent": "transfer_not_received_by_recipient"}, "meta": {}}
+{"id": "banking-train-2831", "text": "I performed a transfer within the country the day before yesterday, but it has not gone through? Can you check on that? The account number is definitely correct, as I've checked.", "labels": {"intent": "transfer_not_received_by_recipient"}, "meta": {}}
+{"id": "banking-train-2835", "text": "How long will it be  before the person I sent money to is able to see it?", "labels": {"intent": "transfer_not_received_by_recipient"}, "meta": {}}
+{"id": "banking-train-2844", "text": "I have done a transfer within the country the day before yesterday, but it's still not there yet. Can you please check what's going on with that, the account number definitely is the right one, I've checked that several times already.", "labels": {"intent": "transfer_not_received_by_recipient"}, "meta": {}}
+{"id": "banking-train-2848", "text": "Could you please help me?  I made my rent payment and have double checked that I sent it to the right account.  The person receiving it says he has not received it but it shows complete on my side.", "labels": {"intent": "transfer_not_received_by_recipient"}, "meta": {}}
+{"id": "banking-train-2854", "text": "when will my transfer arrive", "labels": {"intent": "transfer_not_received_by_recipient"}, "meta": {}}
+{"id": "banking-train-2895", "text": "Can I use a credit card from the US to top up?", "labels": {"intent": "supported_cards_and_currencies"}, "meta": {}}
+{"id": "banking-train-2913", "text": "I am adding money, what currencies do you accept to do this?", "labels": {"intent": "supported_cards_and_currencies"}, "meta": {}}
+{"id": "banking-train-2926", "text": "I want to deposit funds, what payments are accepted?", "labels": {"intent": "supported_cards_and_currencies"}, "meta": {}}
+{"id": "banking-train-2929", "text": "Please let me know what currency I can use to top up my account?", "labels": {"intent": "supported_cards_and_currencies"}, "meta": {}}
+{"id": "banking-train-294", "text": "Do you know the rate of exchange?", "labels": {"intent": "exchange_rate"}, "meta": {}}
+{"id": "banking-train-2945", "text": "What forms of payment do you accept?", "labels": {"intent": "supported_cards_and_currencies"}, "meta": {}}
+{"id": "banking-train-2966", "text": "I only have a card from the US is that okay?", "labels": {"intent": "supported_cards_and_currencies"}, "meta": {}}
+{"id": "banking-train-3014", "text": "Where do I order a virtual card?", "labels": {"intent": "getting_virtual_card"}, "meta": {}}
+{"id": "banking-train-3058", "text": "And do you have virtual cards instead of physical ones?", "labels": {"intent": "getting_virtual_card"}, "meta": {}}
+{"id": "banking-train-3060", "text": "When will I get a virtual card? I haven't gotten one yet", "labels": {"intent": "getting_virtual_card"}, "meta": {}}
+{"id": "banking-train-3073", "text": "I haven't received my virtual card yet, do yo know why?", "labels": {"intent": "getting_virtual_card"}, "meta": {}}
+{"id": "banking-train-3088", "text": "I'd like like to know where I can order a virtual card?", "labels": {"intent": "getting_virtual_card"}, "meta": {}}
+{"id": "banking-train-3100", "text": "Are there businesses that don't accept this card?", "labels": {"intent": "card_acceptance"}, "meta": {}}
+{"id": "banking-train-3108", "text": "What kind of businesses will take my card?", "labels": {"intent": "card_acceptance"}, "meta": {}}
+{"id": "banking-train-3111", "text": "Do you know which businesses will accept my card?", "labels": {"intent": "card_acceptance"}, "meta": {}}
+{"id": "banking-train-3251", "text": "I'm having an issue with transaction. I topped up my account and saw it went through, but that was a few days ago and the money isn't in my account any more. What's up with that?", "labels": {"intent": "top_up_reverted"}, "meta": {}}
+{"id": "banking-train-3263", "text": "My automatic top-up was unsuccessful", "labels": {"intent": "top_up_reverted"}, "meta": {}}
+{"id": "banking-train-3268", "text": "Do you support top ups?", "labels": {"intent": "top_up_reverted"}, "meta": {}}
+{"id": "banking-train-3288", "text": "I attempted to complete a topup, and I thought all was well, but now the money is gone again. Has there been a glitch?", "labels": {"intent": "top_up_reverted"}, "meta": {}}
+{"id": "banking-train-3292", "text": "Hi, i just topped up my phone and the money was deducted but it seems to have deducted the same amount again! please help!", "labels": {"intent": "top_up_reverted"}, "meta": {}}
+{"id": "banking-train-3293", "text": "Explain top-up cancellation", "labels": {"intent": "top_up_reverted"}, "meta": {}}
+{"id": "banking-train-3297", "text": "Reverted top up", "labels": {"intent": "top_up_reverted"}, "meta": {}}
+{"id": "banking-train-3304", "text": "I deposited cash but it isn't showing up in my account", "labels": {"intent": "balance_not_updated_after_cheque_or_cash_deposit"}, "meta": {}}
+{"id": "banking-train-3334", "text": "When will my deposit from this morning show up?", "labels": {"intent": "balance_not_updated_after_cheque_or_cash_deposit"}, "meta": {}}
+{"id": "banking-train-3337", "text": "My balance doesn't show my deposit.", "labels": {"intent": "balance_not_updated_after_cheque_or_cash_deposit"}, "meta": {}}
+{"id": "banking-train-3350", "text": "I need my account checked because it appears there is a problem. I attempted to update my balance yesterday using cheque but it doesn't seem to have worked.  Should this not be faster than this?", "labels": {"intent": "balance_not_updated_after_cheque_or_cash_deposit"}, "meta": {}}
+{"id": "banking-train-3392", "text": "Why am I not seeing the check I deposited this morning in my account?", "labels": {"intent": "balance_not_updated_after_cheque_or_cash_deposit"}, "meta": {}}
+{"id": "banking-train-3410", "text": "Why hasn't my balance been updated from the check deposit I made?", "labels": {"intent": "balance_not_updated_after_cheque_or_cash_deposit"}, "meta": {}}
+{"id": "banking-train-3421", "text": "Why is my cash deposit not in my account?", "labels": {"intent": "balance_not_updated_after_cheque_or_cash_deposit"}, "meta": {}}
+{"id": "banking-train-3429", "text": "I did a cash deposit to my account, but I am not seeing it on my statement.", "labels": {"intent": "balance_not_updated_after_cheque_or_cash_deposit"}, "meta": {}}
+{"id": "banking-train-3439", "text": "I have cash deposit to my account but it is experiencing a problem", "labels": {"intent": "balance_not_updated_after_cheque_or_cash_deposit"}, "meta": {}}
+{"id": "banking-train-348", "text": "Is there an exchange rate?", "labels": {"intent": "exchange_rate"}, "meta": {}}
+{"id": "banking-train-351", "text": "How are foreign exchange rates determined?", "labels": {"intent": "exchange_rate"}, "meta": {}}
+{"id": "banking-train-3514", "text": "I don't recognize this payment on my app, I am sure I didn't spend any money there.", "labels": {"intent": "card_payment_not_recognised"}, "meta": {}}
+{"id": "banking-train-3531", "text": "There is a strange payment on my card and I don't know what to do.", "labels": {"intent": "card_payment_not_recognised"}, "meta": {}}
+{"id": "banking-train-3543", "text": "There is a record of payment I never submitted on the app.", "labels": {"intent": "card_payment_not_recognised"}, "meta": {}}
+{"id": "banking-train-3609", "text": "where is my unknown payment from?", "labels": {"intent": "card_payment_not_recognised"}, "meta": {}}
+{"id": "banking-train-3613", "text": "I'm worried that my card has been compromised because I see a payment that I didn't make.", "labels": {"intent": "card_payment_not_recognised"}, "meta": {}}
+{"id": "banking-train-3624", "text": "Why is there a payment I didn't do?", "labels": {"intent": "card_payment_not_recognised"}, "meta": {}}
+{"id": "banking-train-3639", "text": "I didn't make a payment that shows in my app.", "labels": {"intent": "card_payment_not_recognised"}, "meta": {}}
+{"id": "banking-train-3640", "text": "What do I do if I see a transaction on my card that I don't recall making?", "labels": {"intent": "card_payment_not_recognised"}, "meta": {}}
+{"id": "banking-train-3680", "text": "How do I change the details in my account?", "labels": {"intent": "edit_personal_details"}, "meta": {}}
+{"id": "banking-train-3693", "text": "Need to report a change of address.", "labels": {"intent": "edit_personal_details"}, "meta": {}}
+{"id": "banking-train-3718", "text": "Is there a way to modify my details?", "labels": {"intent": "edit_personal_details"}, "meta": {}}
+{"id": "banking-train-3719", "text": "Where can I modify my details?", "labels": {"intent": "edit_personal_details"}, "meta": {}}
+{"id": "banking-train-374", "text": "Is the exchange rate current?", "labels": {"intent": "exchange_rate"}, "meta": {}}
+{"id": "banking-train-3749", "text": "My details need to be changed, how can I do so?", "labels": {"intent": "edit_personal_details"}, "meta": {}}
+{"id": "banking-train-3764", "text": "How can I change my account details?", "labels": {"intent": "edit_personal_details"}, "meta": {}}
+{"id": "banking-train-3781", "text": "Is the identity check part of bank policy?", "labels": {"intent": "why_verify_identity"}, "meta": {}}
+{"id": "banking-train-3796", "text": "What if I don't verify my identity?", "labels": {"intent": "why_verify_identity"}, "meta": {}}
+{"id": "banking-train-3824", "text": "Is my account accessible even though my verification of my identity has not passed yet?", "labels": {"intent": "why_verify_identity"}, "meta": {}}
+{"id": "banking-train-3852", "text": "What is the purpose for verifying my identity?", "labels": {"intent": "why_verify_identity"}, "meta": {}}
+{"id": "banking-train-386", "text": "Could you tell me what your exchange rates are?", "labels": {"intent": "exchange_rate"}, "meta": {}}
+{"id": "banking-train-3871", "text": "My identity hasn't been verified.  Can I use my account?", "labels": {"intent": "why_verify_identity"}, "meta": {}}
+{"id": "banking-train-3886", "text": "Is verifying my identify important?", "labels": {"intent": "why_verify_identity"}, "meta": {}}
+{"id": "banking-train-3893", "text": "What proof do you need for my identification?", "labels": {"intent": "unable_to_verify_identity"}, "meta": {}}
+{"id": "banking-train-3900", "text": "I'm having trouble proving my identity", "labels": {"intent": "unable_to_verify_identity"}, "meta": {}}
+{"id": "banking-train-3901", "text": "Why isn't my id verified?", "labels": {"intent": "unable_to_verify_identity"}, "meta": {}}
+{"id": "banking-train-391", "text": "I am travelling and I was wondering what your exchange rates are", "labels": {"intent": "exchange_rate"}, "meta": {}}
+{"id": "banking-train-3933", "text": "Why am I unable to verify my id?", "labels": {"intent": "unable_to_verify_identity"}, "meta": {}}
+{"id": "banking-train-3941", "text": "What do I have to do to prove my identity?", "labels": {"intent": "unable_to_verify_identity"}, "meta": {}}
+{"id": "banking-train-3997", "text": "my pin hasn't arrived in the post! How do I cancel it or get a new one?", "labels": {"intent": "get_physical_card"}, "meta": {}}
+{"id": "banking-train-4036", "text": "How do I set up my card PIN?", "labels": {"intent": "get_physical_card"}, "meta": {}}
+{"id": "banking-train-405", "text": "Hi, I am disappointed to see such a bad exchange rate and hope you can assist me. Would you be able to confirm the official interbank exchange rate for me?", "labels": {"intent": "card_payment_wrong_exchange_rate"}, "meta": {}}
+{"id": "banking-train-4058", "text": "Where can I find my PIN? I haven't gotten it yet.", "labels": {"intent": "get_physical_card"}, "meta": {}}
+{"id": "banking-train-4059", "text": "Where is my pin? I don't have it yet", "labels": {"intent": "get_physical_card"}, "meta": {}}
+{"id": "banking-train-4074", "text": "How do I get a PIN?", "labels": {"intent": "get_physical_card"}, "meta": {}}
+{"id": "banking-train-411", "text": "my exchange rate looks wrong for my last payment", "labels": {"intent": "card_payment_wrong_exchange_rate"}, "meta": {}}
+{"id": "banking-train-4152", "text": "Does it matter if I use Visa or Mastercard?", "labels": {"intent": "visa_or_mastercard"}, "meta": {}}
+{"id": "banking-train-4181", "text": "Will I get Visa or MasterCard?", "labels": {"intent": "visa_or_mastercard"}, "meta": {}}
+{"id": "banking-train-4195", "text": "If I can, I would like to get both Mastercard and Visa from you.", "labels": {"intent": "visa_or_mastercard"}, "meta": {}}
+{"id": "banking-train-4200", "text": "I need to get visa and mastercard", "labels": {"intent": "visa_or_mastercard"}, "meta": {}}
+{"id": "banking-train-4211", "text": "Can I use a Visa or Mastercard?", "labels": {"intent": "visa_or_mastercard"}, "meta": {}}
+{"id": "banking-train-4216", "text": "Can I have a mastercard?", "labels": {"intent": "visa_or_mastercard"}, "meta": {}}
+{"id": "banking-train-4219", "text": "Can I get a Visa from you?", "labels": {"intent": "visa_or_mastercard"}, "meta": {}}
+{"id": "banking-train-4251", "text": "Could you tell me why my top up isn't showing in my wallet?", "labels": {"intent": "topping_up_by_card"}, "meta": {}}
+{"id": "banking-train-4262", "text": "When I tried to top up using my card, all of the money disappeared.", "labels": {"intent": "topping_up_by_card"}, "meta": {}}
+{"id": "banking-train-4271", "text": "Why can't I see the top up I made?", "labels": {"intent": "topping_up_by_card"}, "meta": {}}
+{"id": "banking-train-4285", "text": "How do I use a card to top up?", "labels": {"intent": "topping_up_by_card"}, "meta": {}}
+{"id": "banking-train-4296", "text": "Show me how can my friends top up my account.", "labels": {"intent": "topping_up_by_card"}, "meta": {}}
+{"id": "banking-train-432", "text": "I'm on holiday and I noticed a different amount for exchange rate.  Can you explain?", "labels": {"intent": "card_payment_wrong_exchange_rate"}, "meta": {}}
+{"id": "banking-train-4354", "text": "What are the disposable cards restrictions?", "labels": {"intent": "disposable_card_limits"}, "meta": {}}
+{"id": "banking-train-439", "text": "What if there is an error on the exchange rate?", "labels": {"intent": "card_payment_wrong_exchange_rate"}, "meta": {}}
+{"id": "banking-train-4400", "text": "What is the max amount of disposable cards I'm allowed.", "labels": {"intent": "disposable_card_limits"}, "meta": {}}
+{"id": "banking-train-4421", "text": "How many payments can I make using a virtual card?", "labels": {"intent": "disposable_card_limits"}, "meta": {}}
+{"id": "banking-train-4430", "text": "What is the maximum transactions for one disposable card?", "labels": {"intent": "disposable_card_limits"}, "meta": {}}
+{"id": "banking-train-4437", "text": "Is there a limit to using a disposable virtual card?", "labels": {"intent": "disposable_card_limits"}, "meta": {}}
+{"id": "banking-train-4441", "text": "How many disposable cards can I make in a day?", "labels": {"intent": "disposable_card_limits"}, "meta": {}}
+{"id": "banking-train-4467", "text": "Someone might be using my card that is not me.", "labels": {"intent": "compromised_card"}, "meta": {}}
+{"id": "banking-train-448", "text": "I think there has been a mistake on my exchange rate for this purchase.", "labels": {"intent": "card_payment_wrong_exchange_rate"}, "meta": {}}
+{"id": "banking-train-4511", "text": "I have transactions that I don't recognize - I think someone is using my card.", "labels": {"intent": "compromised_card"}, "meta": {}}
+{"id": "banking-train-4517", "text": "I froze my account, but how do I order a replacement card?", "labels": {"intent": "compromised_card"}, "meta": {}}
+{"id": "banking-train-4535", "text": "I think my card has been compromised in some way.", "labels": {"intent": "compromised_card"}, "meta": {}}
+{"id": "banking-train-4548", "text": "What ATMs take this card?", "labels": {"intent": "atm_support"}, "meta": {}}
+{"id": "banking-train-4556", "text": "How do I withdraw money?", "labels": {"intent": "atm_support"}, "meta": {}}
+{"id": "banking-train-4557", "text": "Can I use this card at any ATM?", "labels": {"intent": "atm_support"}, "meta": {}}
+{"id": "banking-train-4598", "text": "The card can be used at which ATMs?", "labels": {"intent": "atm_support"}, "meta": {}}
+{"id": "banking-train-4633", "text": "what is the word?", "labels": {"intent": "direct_debit_payment_not_recognised"}, "meta": {}}
+{"id": "banking-train-4693", "text": "I just noticed that I supposedly made a payment to a seller a while back. The problem is, I don't recognize the seller. There must be a way to see who it is or track the payment. Can you do that, because I don't remember this transaction?", "labels": {"intent": "direct_debit_payment_not_recognised"}, "meta": {}}
+{"id": "banking-train-4718", "text": "Hi, i was checking my old statements and found a discrepancy with a large amount transaction. I am sure it was not done by me. Please let me know if i could raise a dispute as its very late.", "labels": {"intent": "direct_debit_payment_not_recognised"}, "meta": {}}
+{"id": "banking-train-4728", "text": "I have a direct debit on my records that is strange and I need help.", "labels": {"intent": "direct_debit_payment_not_recognised"}, "meta": {}}
+{"id": "banking-train-4740", "text": "My account shows a direct debit charge that I have never seen before", "labels": {"intent": "direct_debit_payment_not_recognised"}, "meta": {}}
+{"id": "banking-train-4741", "text": "I might have been charged on my debit statement by fraud.", "labels": {"intent": "direct_debit_payment_not_recognised"}, "meta": {}}
+{"id": "banking-train-4745", "text": "I have gone through my statements and noticed there is a large payment that I did not make. Can i still dispute the payment? its been a while", "labels": {"intent": "direct_debit_payment_not_recognised"}, "meta": {}}
+{"id": "banking-train-4754", "text": "I think I was charged by mistake on my debit statement.", "labels": {"intent": "direct_debit_payment_not_recognised"}, "meta": {}}
+{"id": "banking-train-4785", "text": "I have not used my card all day, however, there is an unusual payment showing in my app.  I would like to have that amount reimbursed.", "labels": {"intent": "direct_debit_payment_not_recognised"}, "meta": {}}
+{"id": "banking-train-4832", "text": "I forgot my password to get into the app!", "labels": {"intent": "passcode_forgotten"}, "meta": {}}
+{"id": "banking-train-4834", "text": "I happened to forget my password", "labels": {"intent": "passcode_forgotten"}, "meta": {}}
+{"id": "banking-train-4845", "text": "I happened to forget my passcode", "labels": {"intent": "passcode_forgotten"}, "meta": {}}
+{"id": "banking-train-4856", "text": "I used to know my password, but not anymore.", "labels": {"intent": "passcode_forgotten"}, "meta": {}}
+{"id": "banking-train-4861", "text": "What are the steps for changing my passcode?", "labels": {"intent": "passcode_forgotten"}, "meta": {}}
+{"id": "banking-train-4957", "text": "The ATM keeps declining my Transaction . I tried two different ATMs already can you please check if everything is okay with my account?", "labels": {"intent": "declined_cash_withdrawal"}, "meta": {}}
+{"id": "banking-train-4963", "text": "Is my card working? It's the first time I tried using it I tried to get money out of an ATM, but got nothing.", "labels": {"intent": "declined_cash_withdrawal"}, "meta": {}}
+{"id": "banking-train-4984", "text": "I tried using my ATM card at your Notting Hill location today.  It did not work.  Am I doing something wrong?", "labels": {"intent": "declined_cash_withdrawal"}, "meta": {}}
+{"id": "banking-train-4995", "text": "Why can't I withdraw cash from this ATM?", "labels": {"intent": "declined_cash_withdrawal"}, "meta": {}}
+{"id": "banking-train-5039", "text": "atm refused to give me money", "labels": {"intent": "declined_cash_withdrawal"}, "meta": {}}
+{"id": "banking-train-5040", "text": "I was declined when I tried to withdraw cash!", "labels": {"intent": "declined_cash_withdrawal"}, "meta": {}}
+{"id": "banking-train-5051", "text": "The ATM wouldn't let me have my money.", "labels": {"intent": "declined_cash_withdrawal"}, "meta": {}}
+{"id": "banking-train-5070", "text": "This is the first time I've tried to get my money out of an ATM and it didn't work. Please give me my money", "labels": {"intent": "declined_cash_withdrawal"}, "meta": {}}
+{"id": "banking-train-5072", "text": "I tried to make a withdrawal from the ATM, but it was cancelled.", "labels": {"intent": "declined_cash_withdrawal"}, "meta": {}}
+{"id": "banking-train-5110", "text": "I have a payment that has not gone through yet", "labels": {"intent": "pending_card_payment"}, "meta": {}}
+{"id": "banking-train-5128", "text": "A card payment on my account is shown as pending.", "labels": {"intent": "pending_card_payment"}, "meta": {}}
+{"id": "banking-train-5134", "text": "Why is the payment on my card still pending?", "labels": {"intent": "pending_card_payment"}, "meta": {}}
+{"id": "banking-train-516", "text": "Are you sure this is the interbank exchange rate? This rate is really bad.", "labels": {"intent": "card_payment_wrong_exchange_rate"}, "meta": {}}
+{"id": "banking-train-5176", "text": "pending transaction?", "labels": {"intent": "pending_card_payment"}, "meta": {}}
+{"id": "banking-train-5188", "text": "I made a purchase this morning, and it is showing as pending.", "labels": {"intent": "pending_card_payment"}, "meta": {}}
+{"id": "banking-train-5192", "text": "Why would my payment for my card show as pending?", "labels": {"intent": "pending_card_payment"}, "meta": {}}
+{"id": "banking-train-5193", "text": "Why aren't my payment funds available to me?", "labels": {"intent": "pending_card_payment"}, "meta": {}}
+{"id": "banking-train-5230", "text": "My payment's stuck on pending.", "labels": {"intent": "pending_card_payment"}, "meta": {}}
+{"id": "banking-train-5266", "text": "I can not find my phone or it has been stolen.", "labels": {"intent": "lost_or_stolen_phone"}, "meta": {}}
+{"id": "banking-train-5275", "text": "I am not sure where my phone is.", "labels": {"intent": "lost_or_stolen_phone"}, "meta": {}}
+{"id": "banking-train-5288", "text": "phone is gone, what should i do", "labels": {"intent": "lost_or_stolen_phone"}, "meta": {}}
+{"id": "banking-train-5305", "text": "My phone has been lost or stolen", "labels": {"intent": "lost_or_stolen_phone"}, "meta": {}}
+{"id": "banking-train-5306", "text": "my phone has been stolen by someone", "labels": {"intent": "lost_or_stolen_phone"}, "meta": {}}
+{"id": "banking-train-5316", "text": "I don't have my mobile device and am unable to make the payment because I forgot my details.", "labels": {"intent": "lost_or_stolen_phone"}, "meta": {}}
+{"id": "banking-train-5378", "text": "Where do I go for a refund?", "labels": {"intent": "request_refund"}, "meta": {}}
+{"id": "banking-train-5432", "text": "Can I have my money refunded for an item", "labels": {"intent": "request_refund"}, "meta": {}}
+{"id": "banking-train-5455", "text": "I need a refund. This is not what i wanted.", "labels": {"intent": "request_refund"}, "meta": {}}
+{"id": "banking-train-5484", "text": "I need to refund my item, can you please help?", "labels": {"intent": "request_refund"}, "meta": {}}
+{"id": "banking-train-5505", "text": "Can you refund my purchase?", "labels": {"intent": "request_refund"}, "meta": {}}
+{"id": "banking-train-5512", "text": "I want to talk about an order that I placed a long time ago and have yet to receive. I demand a refund due to lack of delivery of the product!  I refuse to pay for something I never got.", "labels": {"intent": "request_refund"}, "meta": {}}
+{"id": "banking-train-5517", "text": "I want a refund for an item", "labels": {"intent": "request_refund"}, "meta": {}}
+{"id": "banking-train-5528", "text": "Can I get my money back on an item?", "labels": {"intent": "request_refund"}, "meta": {}}
+{"id": "banking-train-553", "text": "My rate of exchange was wrong.", "labels": {"intent": "card_payment_wrong_exchange_rate"}, "meta": {}}
+{"id": "banking-train-5542", "text": "Why was my transfer request decline?", "labels": {"intent": "declined_transfer"}, "meta": {}}
+{"id": "banking-train-5547", "text": "Why do you keep declining my transfers? It's been working well so far, but when I just tried to buy something, the card got declined. I tried it a few times, but same thing happened every try.", "labels": {"intent": "declined_transfer"}, "meta": {}}
+{"id": "banking-train-5552", "text": "Please check and let me know why my transfers are getting declined.", "labels": {"intent": "declined_transfer"}, "meta": {}}
+{"id": "banking-train-5607", "text": "Hi, during online shopping payment is getting declined yesterday and today as well. Please check the issue.", "labels": {"intent": "declined_transfer"}, "meta": {}}
+{"id": "banking-train-562", "text": "Exchange rate on a purchase was incorrect", "labels": {"intent": "card_payment_wrong_exchange_rate"}, "meta": {}}
+{"id": "banking-train-5626", "text": "Could not complete transfer, states 'declined'", "labels": {"intent": "declined_transfer"}, "meta": {}}
+{"id": "banking-train-5637", "text": "I received a \"declined\" message when doing a transfer", "labels": {"intent": "declined_transfer"}, "meta": {}}
+{"id": "banking-train-5657", "text": "I got a declining message during a transfer? please tell me why", "labels": {"intent": "declined_transfer"}, "meta": {}}
+{"id": "banking-train-5685", "text": "A refund is taking too long.", "labels": {"intent": "Refund_not_showing_up"}, "meta": {}}
+{"id": "banking-train-5703", "text": "I need my refund as soon as possible. What else do I have to do?", "labels": {"intent": "Refund_not_showing_up"}, "meta": {}}
+{"id": "banking-train-5717", "text": "I was supposed to get a refund but it is not showing up on my card", "labels": {"intent": "Refund_not_showing_up"}, "meta": {}}
+{"id": "banking-train-572", "text": "Why did they charge me an extra $1?", "labels": {"intent": "extra_charge_on_statement"}, "meta": {}}
+{"id": "banking-train-5721", "text": "I made a purchase a few weeks ago but wasn't happy with it so recently requested a refund from the supplier.  Can you check where the money is?", "labels": {"intent": "Refund_not_showing_up"}, "meta": {}}
+{"id": "banking-train-5728", "text": "Hello. I bought an item a while ago, and have since requested a refund.  However, upon checking my online statements, it seems that I haven't been issued a refund yet.  How can this be remedied?", "labels": {"intent": "Refund_not_showing_up"}, "meta": {}}
+{"id": "banking-train-5742", "text": "No refund showing in my statement.", "labels": {"intent": "Refund_not_showing_up"}, "meta": {}}
+{"id": "banking-train-5818", "text": "I don't see a refund in my account.", "labels": {"intent": "Refund_not_showing_up"}, "meta": {}}
+{"id": "banking-train-5830", "text": "When will a refund post to my account?", "labels": {"intent": "Refund_not_showing_up"}, "meta": {}}
+{"id": "banking-train-5869", "text": "My latest payment was declined! What happened! I was told everything had been resolved and was back to working order again.", "labels": {"intent": "declined_card_payment"}, "meta": {}}
+{"id": "banking-train-5876", "text": "When I use my card, it says decline?", "labels": {"intent": "declined_card_payment"}, "meta": {}}
+{"id": "banking-train-5882", "text": "is there a reason that my payment didnt go through", "labels": {"intent": "declined_card_payment"}, "meta": {}}
+{"id": "banking-train-5907", "text": "A shop I go to didn't let me pay.", "labels": {"intent": "declined_card_payment"}, "meta": {}}
+{"id": "banking-train-591", "text": "€1 was in my statement as an extra fee.", "labels": {"intent": "extra_charge_on_statement"}, "meta": {}}
+{"id": "banking-train-594", "text": "I see a $1 charge in a transaction.", "labels": {"intent": "extra_charge_on_statement"}, "meta": {}}
+{"id": "banking-train-5940", "text": "For some reason my card payment hasn't worked. what can I do to look into that?", "labels": {"intent": "declined_card_payment"}, "meta": {}}
+{"id": "banking-train-5965", "text": "My card payment won't work.", "labels": {"intent": "declined_card_payment"}, "meta": {}}
+{"id": "banking-train-5969", "text": "I know there's money in my account, why did my account decline me?", "labels": {"intent": "declined_card_payment"}, "meta": {}}
+{"id": "banking-train-5978", "text": "I have enough money in my account, so why is my card being declined?", "labels": {"intent": "declined_card_payment"}, "meta": {}}
+{"id": "banking-train-5990", "text": "I can't figure out why a transfer is still pending?", "labels": {"intent": "pending_transfer"}, "meta": {}}
+{"id": "banking-train-6007", "text": "How long do I have to wait for the transfer to be finalized?", "labels": {"intent": "pending_transfer"}, "meta": {}}
+{"id": "banking-train-6049", "text": "Hey I double checked that I have the correct account details already, they're right for sure. Transfer is still pending since forever. It's not that difficult to transfer money to another country in 2018 is it?", "labels": {"intent": "pending_transfer"}, "meta": {}}
+{"id": "banking-train-607", "text": "There is an odd 1£ charge that appears as pending on my statement. What's the reason for that? I haven't purchased anything for a pound.", "labels": {"intent": "extra_charge_on_statement"}, "meta": {}}
+{"id": "banking-train-6075", "text": "I finished my transfer. I am having an issue with it still pending. It has been a long time and i'm growing impatient", "labels": {"intent": "pending_transfer"}, "meta": {}}
+{"id": "banking-train-6083", "text": "I wanted to know why there is a transfer of mine pending.", "labels": {"intent": "pending_transfer"}, "meta": {}}
+{"id": "banking-train-6124", "text": "For what reason is my transfer still pending now?", "labels": {"intent": "pending_transfer"}, "meta": {}}
+{"id": "banking-train-6129", "text": "I have a transfer that was approved that I'm urgently waiting for. How long am I supposed to wait for it?", "labels": {"intent": "pending_transfer"}, "meta": {}}
+{"id": "banking-train-6138", "text": "Remove my account immediately.", "labels": {"intent": "terminate_account"}, "meta": {}}
+{"id": "banking-train-6159", "text": "What steps do I need to do to delete my account?", "labels": {"intent": "terminate_account"}, "meta": {}}
+{"id": "banking-train-6185", "text": "How can I delete my account?", "labels": {"intent": "terminate_account"}, "meta": {}}
+{"id": "banking-train-6187", "text": "Delete my account now please.", "labels": {"intent": "terminate_account"}, "meta": {}}
+{"id": "banking-train-620", "text": "Why do I see an extra fee on my statement?", "labels": {"intent": "extra_charge_on_statement"}, "meta": {}}
+{"id": "banking-train-6235", "text": "Delete my account please. Now!", "labels": {"intent": "terminate_account"}, "meta": {}}
+{"id": "banking-train-6246", "text": "What do I do now my credit card has been swallowed by the ATM?", "labels": {"intent": "card_swallowed"}, "meta": {}}
+{"id": "banking-train-6294", "text": "how to get new card after atm eats it", "labels": {"intent": "card_swallowed"}, "meta": {}}
+{"id": "banking-train-6295", "text": "My card was eaten by the cash machine what do I do?", "labels": {"intent": "card_swallowed"}, "meta": {}}
+{"id": "banking-train-6316", "text": "I think I was charged twice, please help!", "labels": {"intent": "transaction_charged_twice"}, "meta": {}}
+{"id": "banking-train-6323", "text": "What happens when I am charged twice?", "labels": {"intent": "transaction_charged_twice"}, "meta": {}}
+{"id": "banking-train-634", "text": "I noticed an extra pound charge?", "labels": {"intent": "extra_charge_on_statement"}, "meta": {}}
+{"id": "banking-train-6348", "text": "Please tell me why the same transaction is showing up on my account more than once.", "labels": {"intent": "transaction_charged_twice"}, "meta": {}}
+{"id": "banking-train-635", "text": "I have been charged an extra pound!", "labels": {"intent": "extra_charge_on_statement"}, "meta": {}}
+{"id": "banking-train-6377", "text": "I was charged multiple times for one transaction.", "labels": {"intent": "transaction_charged_twice"}, "meta": {}}
+{"id": "banking-train-6392", "text": "My account shows I have been charged twice for the same meal. How do I get the second payment voided and returned to me? I do not eat out much and my family is living paycheck to paycheck,  mostly. I cannot afford to spend more money than necessary, as is, so I must see to it that the cost be promptly credited back onto my card.", "labels": {"intent": "transaction_charged_twice"}, "meta": {}}
+{"id": "banking-train-6417", "text": "I noticed that my card was charged more than once for one thing.", "labels": {"intent": "transaction_charged_twice"}, "meta": {}}
+{"id": "banking-train-6434", "text": "There is a payment that I was charged two times for.", "labels": {"intent": "transaction_charged_twice"}, "meta": {}}
+{"id": "banking-train-6438", "text": "I need a transaction reversed from my account.", "labels": {"intent": "transaction_charged_twice"}, "meta": {}}
+{"id": "banking-train-6473", "text": "I have been charged twice for the same thing!", "labels": {"intent": "transaction_charged_twice"}, "meta": {}}
+{"id": "banking-train-6541", "text": "How can I find the source for my available funds and money?", "labels": {"intent": "verify_source_of_funds"}, "meta": {}}
+{"id": "banking-train-6547", "text": "Can you tell me how to tell where my funds come from?", "labels": {"intent": "verify_source_of_funds"}, "meta": {}}
+{"id": "banking-train-6549", "text": "is there a way to see where funds come from", "labels": {"intent": "verify_source_of_funds"}, "meta": {}}
+{"id": "banking-train-6561", "text": "How can I tell the source for my available funds?", "labels": {"intent": "verify_source_of_funds"}, "meta": {}}
+{"id": "banking-train-6577", "text": "Please explain to me how to know where my funds are from.", "labels": {"intent": "verify_source_of_funds"}, "meta": {}}
+{"id": "banking-train-6590", "text": "How can I verify my source of funds?", "labels": {"intent": "verify_source_of_funds"}, "meta": {}}
+{"id": "banking-train-6597", "text": "When will the money reach my  account?", "labels": {"intent": "transfer_timing"}, "meta": {}}
+{"id": "banking-train-6625", "text": "I have been waiting for my transfer, shouldn't it be here already?", "labels": {"intent": "transfer_timing"}, "meta": {}}
+{"id": "banking-train-6636", "text": "How long is the transfer?", "labels": {"intent": "transfer_timing"}, "meta": {}}
+{"id": "banking-train-6647", "text": "What is the time period for money to be transferred?", "labels": {"intent": "transfer_timing"}, "meta": {}}
+{"id": "banking-train-6704", "text": "When will my transfer arrive from Europe?", "labels": {"intent": "transfer_timing"}, "meta": {}}
+{"id": "banking-train-6708", "text": "what is the time frame for transfers", "labels": {"intent": "transfer_timing"}, "meta": {}}
+{"id": "banking-train-6722", "text": "I wanted to purchase something online but the payment was returned back to me. This has been going on for a couple of weeks. Please tell me what is going on here?", "labels": {"intent": "reverted_card_payment?"}, "meta": {}}
+{"id": "banking-train-6765", "text": "What should I do if my card payment was cancelled?", "labels": {"intent": "reverted_card_payment?"}, "meta": {}}
+{"id": "banking-train-6789", "text": "Why was a payment I made reverted?", "labels": {"intent": "reverted_card_payment?"}, "meta": {}}
+{"id": "banking-train-6796", "text": "What does it mean if it says my card payment has been cancelled?", "labels": {"intent": "reverted_card_payment?"}, "meta": {}}
+{"id": "banking-train-6799", "text": "Why is a payment I made reverted back to my account?", "labels": {"intent": "reverted_card_payment?"}, "meta": {}}
+{"id": "banking-train-6819", "text": "Why is my card payment cancelled?", "labels": {"intent": "reverted_card_payment?"}, "meta": {}}
+{"id": "banking-train-6822", "text": "I have cancelled payments to this card.", "labels": {"intent": "reverted_card_payment?"}, "meta": {}}
+{"id": "banking-train-6828", "text": "I tried to buy something online but my funds were transferred back to my account. What is happening?", "labels": {"intent": "reverted_card_payment?"}, "meta": {}}
+{"id": "banking-train-6884", "text": "What are the steps to change my PIN to something else?", "labels": {"intent": "change_pin"}, "meta": {}}
+{"id": "banking-train-6889", "text": "Do I have to go to the bank to change my PIN?", "labels": {"intent": "change_pin"}, "meta": {}}
+{"id": "banking-train-6904", "text": "Can I change my pin at an atm?", "labels": {"intent": "change_pin"}, "meta": {}}
+{"id": "banking-train-6937", "text": "Change my pin?", "labels": {"intent": "change_pin"}, "meta": {}}
+{"id": "banking-train-694", "text": "I'm pretty frustrated about a pound charge that keeps  showing up in my account statement. It's listed in the app as \"pending\", it never changes, and now I'm thinking someone's hacked my account!", "labels": {"intent": "extra_charge_on_statement"}, "meta": {}}
+{"id": "banking-train-6946", "text": "I think someone saw my PIN and I am on vacation in Spain, can I change it locally at an ATM?", "labels": {"intent": "change_pin"}, "meta": {}}
+{"id": "banking-train-6993", "text": "Can I change my pin at ATMs?  If so, what ones?", "labels": {"intent": "change_pin"}, "meta": {}}
+{"id": "banking-train-7045", "text": "I want a reason as to why my beneficiary is not allowed?", "labels": {"intent": "beneficiary_not_allowed"}, "meta": {}}
+{"id": "banking-train-7051", "text": "I wasn't able to do a transfer to an account", "labels": {"intent": "beneficiary_not_allowed"}, "meta": {}}
+{"id": "banking-train-7060", "text": "why didnt my account allow a transfer", "labels": {"intent": "beneficiary_not_allowed"}, "meta": {}}
+{"id": "banking-train-7098", "text": "I have to transfer money over to my mother, and I have tried numerous times and all that keeps happening is error messages.", "labels": {"intent": "beneficiary_not_allowed"}, "meta": {}}
+{"id": "banking-train-7131", "text": "Why was I denied the option to transfer money to a selected beneficiary?", "labels": {"intent": "beneficiary_not_allowed"}, "meta": {}}
+{"id": "banking-train-7147", "text": "Could you please explain why I received a message that my transfer is not possible? I've never had any problems making a transfer in the past.", "labels": {"intent": "beneficiary_not_allowed"}, "meta": {}}
+{"id": "banking-train-7157", "text": "I am having trouble transferring money to a beneficiery.", "labels": {"intent": "beneficiary_not_allowed"}, "meta": {}}
+{"id": "banking-train-7158", "text": "Why won't you take my transfer, I keep getting an error message.", "labels": {"intent": "beneficiary_not_allowed"}, "meta": {}}
+{"id": "banking-train-7168", "text": "I've been using my account while abroad for a while but only recently I've been charged a fee. Why am I only being charged a fee now.", "labels": {"intent": "transfer_fee_charged"}, "meta": {}}
+{"id": "banking-train-7183", "text": "I noticed additional charges when transferring?", "labels": {"intent": "transfer_fee_charged"}, "meta": {}}
+{"id": "banking-train-7186", "text": "I see a transfer fee, but to my understand, that should have been free, what happened?", "labels": {"intent": "transfer_fee_charged"}, "meta": {}}
+{"id": "banking-train-7205", "text": "Why is there a fee for my transfer?", "labels": {"intent": "transfer_fee_charged"}, "meta": {}}
+{"id": "banking-train-7222", "text": "Why were there additional charges when I transferred funds?", "labels": {"intent": "transfer_fee_charged"}, "meta": {}}
+{"id": "banking-train-7223", "text": "Are money transfers free?", "labels": {"intent": "transfer_fee_charged"}, "meta": {}}
+{"id": "banking-train-7233", "text": "I was informed that transfers were free. I noticed I have a fee but why?", "labels": {"intent": "transfer_fee_charged"}, "meta": {}}
+{"id": "banking-train-7276", "text": "Is it free to transfer money or is there a fee?", "labels": {"intent": "transfer_fee_charged"}, "meta": {}}
+{"id": "banking-train-7306", "text": "I transferred money to a receiver within the EU and they received a lesser amount than expected.  Now I will have to send additional money to the receiver in order to make up the difference.  I'm not sure what went wrong, can you please advise?", "labels": {"intent": "transfer_fee_charged"}, "meta": {}}
+{"id": "banking-train-7352", "text": "How can people transfer money to me?", "labels": {"intent": "receiving_money"}, "meta": {}}
+{"id": "banking-train-7372", "text": "Can I transfer my salary if its in GBP?", "labels": {"intent": "receiving_money"}, "meta": {}}
+{"id": "banking-train-7381", "text": "How can I receive money from my friend?", "labels": {"intent": "receiving_money"}, "meta": {}}
+{"id": "banking-train-74", "text": "I ordered a card and would like to know how to track the delivery progress of it.", "labels": {"intent": "card_arrival"}, "meta": {}}
+{"id": "banking-train-7406", "text": "Which foreign currencies can I get transferred into my account?", "labels": {"intent": "receiving_money"}, "meta": {}}
+{"id": "banking-train-7421", "text": "Will you accept my salary if it's in another currency?", "labels": {"intent": "receiving_money"}, "meta": {}}
+{"id": "banking-train-7436", "text": "Why wont the other bank take my money?? Is it not good enough?? There's sufficient funds but I keep getting denied a standard transfer. Ive tried 5 times!", "labels": {"intent": "failed_transfer"}, "meta": {}}
+{"id": "banking-train-7449", "text": "I have tried 5 times at this point to complete a transfer that's simply standard. What appears to be the problem? Is your system messed up?", "labels": {"intent": "failed_transfer"}, "meta": {}}
+{"id": "banking-train-7508", "text": "My transfer failed", "labels": {"intent": "failed_transfer"}, "meta": {}}
+{"id": "banking-train-7516", "text": "What may be the reason that my transfer did not go through?", "labels": {"intent": "failed_transfer"}, "meta": {}}
+{"id": "banking-train-7547", "text": "I'm trying to make a bank transfer but It's not going through. Could there not be enough funds to transfer or something? Have I done it too many times?", "labels": {"intent": "failed_transfer"}, "meta": {}}
+{"id": "banking-train-7551", "text": "I am trying to transfer money and something is going wrong.", "labels": {"intent": "failed_transfer"}, "meta": {}}
+{"id": "banking-train-7556", "text": "I'm getting an error when trying to make a payment. I want to purchase a flat but my mortgage payment needs to go through. Can you help me?", "labels": {"intent": "failed_transfer"}, "meta": {}}
+{"id": "banking-train-757", "text": "Why is the app showing a still pending message on a withdraw that has already been done?", "labels": {"intent": "pending_cash_withdrawal"}, "meta": {}}
+{"id": "banking-train-7606", "text": "I would like to know how to transfer money into my account.", "labels": {"intent": "transfer_into_account"}, "meta": {}}
+{"id": "banking-train-7613", "text": "I would like to transfer money into my account.", "labels": {"intent": "transfer_into_account"}, "meta": {}}
+{"id": "banking-train-7634", "text": "How can I deposit money to my account?", "labels": {"intent": "transfer_into_account"}, "meta": {}}
+{"id": "banking-train-7636", "text": "What are the steps for  making a transfer for topping up?", "labels": {"intent": "transfer_into_account"}, "meta": {}}
+{"id": "banking-train-765", "text": "I made a cash withdrawal earlier and it's showing as pending.  What does that mean?", "labels": {"intent": "pending_cash_withdrawal"}, "meta": {}}
+{"id": "banking-train-7657", "text": "show me how to transfer to my account", "labels": {"intent": "transfer_into_account"}, "meta": {}}
+{"id": "banking-train-7669", "text": "can i transfer money i the app", "labels": {"intent": "transfer_into_account"}, "meta": {}}
+{"id": "banking-train-7689", "text": "Where is the top-up verification code located?", "labels": {"intent": "verify_top_up"}, "meta": {}}
+{"id": "banking-train-7724", "text": "I can't see a verification code anywhere", "labels": {"intent": "verify_top_up"}, "meta": {}}
+{"id": "banking-train-7761", "text": "Can you tell me where to find my top-up verification code?", "labels": {"intent": "verify_top_up"}, "meta": {}}
+{"id": "banking-train-7765", "text": "What's up with verifying top-ups?", "labels": {"intent": "verify_top_up"}, "meta": {}}
+{"id": "banking-train-7776", "text": "Where's my top up code?", "labels": {"intent": "verify_top_up"}, "meta": {}}
+{"id": "banking-train-780", "text": "How are cash withdrawals pending?", "labels": {"intent": "pending_cash_withdrawal"}, "meta": {}}
+{"id": "banking-train-7803", "text": "why do i need to verify the top up?", "labels": {"intent": "verify_top_up"}, "meta": {}}
+{"id": "banking-train-7809", "text": "Would I have to pay anything if I need an additional card?", "labels": {"intent": "getting_spare_card"}, "meta": {}}
+{"id": "banking-train-7815", "text": "How can I create another card linked to this account?", "labels": {"intent": "getting_spare_card"}, "meta": {}}
+{"id": "banking-train-7845", "text": "I want to give a second card for this account to my daughter, would this be possible?", "labels": {"intent": "getting_spare_card"}, "meta": {}}
+{"id": "banking-train-7852", "text": "I'd like to have extra cards. Will I have to pay for that?", "labels": {"intent": "getting_spare_card"}, "meta": {}}
+{"id": "banking-train-7853", "text": "How do I get a spare card?", "labels": {"intent": "getting_spare_card"}, "meta": {}}
+{"id": "banking-train-7923", "text": "I need a second card, can I have more than one?", "labels": {"intent": "getting_spare_card"}, "meta": {}}
+{"id": "banking-train-7958", "text": "How can I add physical money to my card?", "labels": {"intent": "top_up_by_cash_or_cheque"}, "meta": {}}
+{"id": "banking-train-7977", "text": "where do I go to top up with cash?", "labels": {"intent": "top_up_by_cash_or_cheque"}, "meta": {}}
+{"id": "banking-train-7991", "text": "i would like to top up with check", "labels": {"intent": "top_up_by_cash_or_cheque"}, "meta": {}}
+{"id": "banking-train-801", "text": "How long does it typically take for a pending ATM withdrawal to clear?", "labels": {"intent": "pending_cash_withdrawal"}, "meta": {}}
+{"id": "banking-train-8010", "text": "What physical locations can I use cash to top up?", "labels": {"intent": "top_up_by_cash_or_cheque"}, "meta": {}}
+{"id": "banking-train-8018", "text": "Where would I find top up by cash deposit?", "labels": {"intent": "top_up_by_cash_or_cheque"}, "meta": {}}
+{"id": "banking-train-8026", "text": "How can I fill up my gas tank using a check?", "labels": {"intent": "top_up_by_cash_or_cheque"}, "meta": {}}
+{"id": "banking-train-8047", "text": "How much does it cost for a physical card?", "labels": {"intent": "order_physical_card"}, "meta": {}}
+{"id": "banking-train-8054", "text": "Can you tell me exactly what fees I will expect to see in regards to your cards?", "labels": {"intent": "order_physical_card"}, "meta": {}}
+{"id": "banking-train-8066", "text": "Please tell me how I can receive a physical card", "labels": {"intent": "order_physical_card"}, "meta": {}}
+{"id": "banking-train-8082", "text": "Is it possible to order a card?", "labels": {"intent": "order_physical_card"}, "meta": {}}
+{"id": "banking-train-8101", "text": "What do I need to do to get a card?", "labels": {"intent": "order_physical_card"}, "meta": {}}
+{"id": "banking-train-814", "text": "Why is the pending status on my cash withdrawal taking so long?", "labels": {"intent": "pending_cash_withdrawal"}, "meta": {}}
+{"id": "banking-train-8161", "text": "I would like to have a physical card to carry around and use. How can I get one?", "labels": {"intent": "order_physical_card"}, "meta": {}}
+{"id": "banking-train-8181", "text": "My disposable virtual card isn't working.", "labels": {"intent": "virtual_card_not_working"}, "meta": {}}
+{"id": "banking-train-8187", "text": "i cannot get virtual card to work", "labels": {"intent": "virtual_card_not_working"}, "meta": {}}
+{"id": "banking-train-8215", "text": "I think when I withdrew money when out of country the exchange rate was wrong.", "labels": {"intent": "wrong_exchange_rate_for_cash_withdrawal"}, "meta": {}}
+{"id": "banking-train-8220", "text": "The exchange rate is incorrect for my cash withdrawal transaction.", "labels": {"intent": "wrong_exchange_rate_for_cash_withdrawal"}, "meta": {}}
+{"id": "banking-train-8239", "text": "I was abroad and needed some cash, but I think the wrong exchange rate was applied to the transaction.", "labels": {"intent": "wrong_exchange_rate_for_cash_withdrawal"}, "meta": {}}
+{"id": "banking-train-8300", "text": "how come my withdrawal rate is wrong for my cash withdrawal", "labels": {"intent": "wrong_exchange_rate_for_cash_withdrawal"}, "meta": {}}
+{"id": "banking-train-8301", "text": "I had the wrong exchange rate applied to some cash I got abroad.", "labels": {"intent": "wrong_exchange_rate_for_cash_withdrawal"}, "meta": {}}
+{"id": "banking-train-8315", "text": "I tried withdrawing money in another country and the exchange rate was wrong.", "labels": {"intent": "wrong_exchange_rate_for_cash_withdrawal"}, "meta": {}}
+{"id": "banking-train-8323", "text": "Can i get money in my home currency at my ATM ?I am on holiday and bit concerned because i do not have any cash with me .Is it possible to withdraw without any additional cost.", "labels": {"intent": "wrong_exchange_rate_for_cash_withdrawal"}, "meta": {}}
+{"id": "banking-train-8345", "text": "I withdrew cash and I think the exchange rate is wrong.", "labels": {"intent": "wrong_exchange_rate_for_cash_withdrawal"}, "meta": {}}
+{"id": "banking-train-8378", "text": "How can I get disposable virtual cards?", "labels": {"intent": "get_disposable_virtual_card"}, "meta": {}}
+{"id": "banking-train-8384", "text": "When will you be taking orders for disposable virtual cards?", "labels": {"intent": "get_disposable_virtual_card"}, "meta": {}}
+{"id": "banking-train-8386", "text": "How does a disposable virtual card work?", "labels": {"intent": "get_disposable_virtual_card"}, "meta": {}}
+{"id": "banking-train-8409", "text": "Where do I get a disposable card", "labels": {"intent": "get_disposable_virtual_card"}, "meta": {}}
+{"id": "banking-train-8436", "text": "Can I use a disposable virtual card for any purchase?", "labels": {"intent": "get_disposable_virtual_card"}, "meta": {}}
+{"id": "banking-train-847", "text": "I tried to take out some money from an ATM earlier today and it was declined. Looking on my screen now, I still see that it's pending for that amount. I didn't actually get that money, so I don't want it processed on my account.", "labels": {"intent": "pending_cash_withdrawal"}, "meta": {}}
+{"id": "banking-train-8498", "text": "I don't think that my top-up worked.", "labels": {"intent": "top_up_failed"}, "meta": {}}
+{"id": "banking-train-8500", "text": "I did a bank transfer to top up, but the money is not available.", "labels": {"intent": "top_up_failed"}, "meta": {}}
+{"id": "banking-train-8501", "text": "What reasons would a topup fail?", "labels": {"intent": "top_up_failed"}, "meta": {}}
+{"id": "banking-train-8505", "text": "Why has my top-up failed?", "labels": {"intent": "top_up_failed"}, "meta": {}}
+{"id": "banking-train-8528", "text": "How do I know if my top up worked?", "labels": {"intent": "top_up_failed"}, "meta": {}}
+{"id": "banking-train-8530", "text": "My top-up was declined", "labels": {"intent": "top_up_failed"}, "meta": {}}
+{"id": "banking-train-8586", "text": "Hello, I tried to top up with my card, but it didn't work. I just got it a couple days before and it works fine. What's the deal? Can you check into this?", "labels": {"intent": "top_up_failed"}, "meta": {}}
+{"id": "banking-train-86", "text": "Where is my new card if I haven't received it yet?", "labels": {"intent": "card_arrival"}, "meta": {}}
+{"id": "banking-train-8617", "text": "After I transferred money the balance remained the same.", "labels": {"intent": "balance_not_updated_after_bank_transfer"}, "meta": {}}
+{"id": "banking-train-8635", "text": "How long before a bank transfer shows up in the account?", "labels": {"intent": "balance_not_updated_after_bank_transfer"}, "meta": {}}
+{"id": "banking-train-8646", "text": "Is there a longer processing time for international bank transfers?", "labels": {"intent": "balance_not_updated_after_bank_transfer"}, "meta": {}}
+{"id": "banking-train-8679", "text": "Can you check if my money has reached my account since it is not showing up yet?", "labels": {"intent": "balance_not_updated_after_bank_transfer"}, "meta": {}}
+{"id": "banking-train-8695", "text": "Where is the transfer that I did?", "labels": {"intent": "balance_not_updated_after_bank_transfer"}, "meta": {}}
+{"id": "banking-train-8707", "text": "I just transferred some money into my account and do not see it updated yet, can you assist?", "labels": {"intent": "balance_not_updated_after_bank_transfer"}, "meta": {}}
+{"id": "banking-train-8731", "text": "Bank transfer to account did not show up, please help?", "labels": {"intent": "balance_not_updated_after_bank_transfer"}, "meta": {}}
+{"id": "banking-train-8732", "text": "How long does it take for money to transfer?", "labels": {"intent": "balance_not_updated_after_bank_transfer"}, "meta": {}}
+{"id": "banking-train-8741", "text": "I can't see a transfer to my account I made.", "labels": {"intent": "balance_not_updated_after_bank_transfer"}, "meta": {}}
+{"id": "banking-train-878", "text": "Why has my deposit in the ATM not cleared yet?", "labels": {"intent": "pending_cash_withdrawal"}, "meta": {}}
+{"id": "banking-train-8831", "text": "I think someone may have cloned my card or something.  My card isn't lost but I just saw a charge of $500 cash withdraw.  Can you help me?", "labels": {"intent": "cash_withdrawal_not_recognised"}, "meta": {}}
+{"id": "banking-train-8832", "text": "My card shows a cash withdrawal I don't recognize.", "labels": {"intent": "cash_withdrawal_not_recognised"}, "meta": {}}
+{"id": "banking-train-8870", "text": "There are incorrect charges on my account, there was a WD that was made by someone else.  I still have my card though.", "labels": {"intent": "cash_withdrawal_not_recognised"}, "meta": {}}
+{"id": "banking-train-8877", "text": "My identity has been stolen. I still have my physical card but there are charges I didn't make on my account. How do I cancel this card or dispute the charges?", "labels": {"intent": "cash_withdrawal_not_recognised"}, "meta": {}}
+{"id": "banking-train-8905", "text": "Some cash has been withdrawn but I didn't do it.", "labels": {"intent": "cash_withdrawal_not_recognised"}, "meta": {}}
+{"id": "banking-train-8913", "text": "What do I do when a charge has been made that I did not make?", "labels": {"intent": "cash_withdrawal_not_recognised"}, "meta": {}}
+{"id": "banking-train-8931", "text": "I have a cash withdrawal that I don't recognize.", "labels": {"intent": "cash_withdrawal_not_recognised"}, "meta": {}}
+{"id": "banking-train-8937", "text": "My app says I made a withdrawal, but I didn't.", "labels": {"intent": "cash_withdrawal_not_recognised"}, "meta": {}}
+{"id": "banking-train-8982", "text": "If I exchange currencies on a regular basis, is there a discount?", "labels": {"intent": "exchange_charge"}, "meta": {}}
+{"id": "banking-train-899", "text": "How many different currencies can I have my money in?", "labels": {"intent": "fiat_currency_support"}, "meta": {}}
+{"id": "banking-train-8990", "text": "Are there any extras for exchanging currency?", "labels": {"intent": "exchange_charge"}, "meta": {}}
+{"id": "banking-train-8998", "text": "I've been to several different countries, can I exchange the cash with a discount for a large transaction?", "labels": {"intent": "exchange_charge"}, "meta": {}}
+{"id": "banking-train-9007", "text": "What is the cost for currency exchanges?", "labels": {"intent": "exchange_charge"}, "meta": {}}
+{"id": "banking-train-901", "text": "What currencies do you offer?", "labels": {"intent": "fiat_currency_support"}, "meta": {}}
+{"id": "banking-train-9023", "text": "What is the rate for exchange fees?", "labels": {"intent": "exchange_charge"}, "meta": {}}
+{"id": "banking-train-9031", "text": "Will I be charged for exchanging foreign currencies?", "labels": {"intent": "exchange_charge"}, "meta": {}}
+{"id": "banking-train-9079", "text": "how much does it cost to add money", "labels": {"intent": "top_up_by_card_charge"}, "meta": {}}
+{"id": "banking-train-9101", "text": "When I add money to my international card do you charge a fee to do so?", "labels": {"intent": "top_up_by_card_charge"}, "meta": {}}
+{"id": "banking-train-9121", "text": "is it free to add money to my card", "labels": {"intent": "top_up_by_card_charge"}, "meta": {}}
+{"id": "banking-train-9128", "text": "what is the fee for topping up by card?", "labels": {"intent": "top_up_by_card_charge"}, "meta": {}}
+{"id": "banking-train-9130", "text": "Will I get charged fees when I add money with an international card?", "labels": {"intent": "top_up_by_card_charge"}, "meta": {}}
+{"id": "banking-train-9164", "text": "Are there fees for adding money with an International card?", "labels": {"intent": "top_up_by_card_charge"}, "meta": {}}
+{"id": "banking-train-9215", "text": "How can my new card be activated?", "labels": {"intent": "activate_my_card"}, "meta": {}}
+{"id": "banking-train-9235", "text": "When are you going to activate my card?", "labels": {"intent": "activate_my_card"}, "meta": {}}
+{"id": "banking-train-9240", "text": "My new card just arrived, how can I activate it?", "labels": {"intent": "activate_my_card"}, "meta": {}}
+{"id": "banking-train-9243", "text": "I'm not able to activate my card how do I fix this problem?", "labels": {"intent": "activate_my_card"}, "meta": {}}
+{"id": "banking-train-9248", "text": "What is the procedure for activating this card?", "labels": {"intent": "activate_my_card"}, "meta": {}}
+{"id": "banking-train-9258", "text": "I would like to activate my card what do I need to do?", "labels": {"intent": "activate_my_card"}, "meta": {}}
+{"id": "banking-train-9265", "text": "I would like to have assistance with activating my card.", "labels": {"intent": "activate_my_card"}, "meta": {}}
+{"id": "banking-train-9312", "text": "Could you please tell me how to activate my new card?", "labels": {"intent": "activate_my_card"}, "meta": {}}
+{"id": "banking-train-9348", "text": "why has a cash withdrawal charged me?", "labels": {"intent": "cash_withdrawal_charge"}, "meta": {}}
+{"id": "banking-train-9390", "text": "I was told that withdrawing cash from the ATM is free, but I'm charged a fee. Why is this?", "labels": {"intent": "cash_withdrawal_charge"}, "meta": {}}
+{"id": "banking-train-9391", "text": "Why are fees charged for cash withdrawals? I went to withdraw some money earlier today after shopping. There's a new fee that there.", "labels": {"intent": "cash_withdrawal_charge"}, "meta": {}}
+{"id": "banking-train-9399", "text": "Why is it I am charged an extra fee when I use the ATM?", "labels": {"intent": "cash_withdrawal_charge"}, "meta": {}}
+{"id": "banking-train-9403", "text": "Why am I being charged to make cash withdrawals? I thought they were supposed to be free!", "labels": {"intent": "cash_withdrawal_charge"}, "meta": {}}
+{"id": "banking-train-9447", "text": "I got charged fees for withdrawing cash!", "labels": {"intent": "cash_withdrawal_charge"}, "meta": {}}
+{"id": "banking-train-9478", "text": "to cash withdrawals charge me?", "labels": {"intent": "cash_withdrawal_charge"}, "meta": {}}
+{"id": "banking-train-9506", "text": "Why did withdrawing money cost me extra?", "labels": {"intent": "cash_withdrawal_charge"}, "meta": {}}
+{"id": "banking-train-9509", "text": "I withdrew money and got a fee, please explain", "labels": {"intent": "cash_withdrawal_charge"}, "meta": {}}
+{"id": "banking-train-9532", "text": "In a month, my card will reach its expiration date, am I required to request the next card?", "labels": {"intent": "card_about_to_expire"}, "meta": {}}
+{"id": "banking-train-9537", "text": "How can I replace an expired card?", "labels": {"intent": "card_about_to_expire"}, "meta": {}}
+{"id": "banking-train-9548", "text": "What do I do if my card is about to expire?", "labels": {"intent": "card_about_to_expire"}, "meta": {}}
+{"id": "banking-train-958", "text": "What country's money can I hold currency in?", "labels": {"intent": "fiat_currency_support"}, "meta": {}}
+{"id": "banking-train-9612", "text": "Soon my card will expire, how do I get a new one?", "labels": {"intent": "card_about_to_expire"}, "meta": {}}
+{"id": "banking-train-9631", "text": "My card expires soon", "labels": {"intent": "card_about_to_expire"}, "meta": {}}
+{"id": "banking-train-9637", "text": "want to get a new card in china", "labels": {"intent": "card_about_to_expire"}, "meta": {}}
+{"id": "banking-train-9644", "text": "Hi, I have an apple watch. How do I use it to top up my card?", "labels": {"intent": "apple_pay_or_google_pay"}, "meta": {}}
+{"id": "banking-train-9647", "text": "Can I deposit money using Apple Pay?", "labels": {"intent": "apple_pay_or_google_pay"}, "meta": {}}
+{"id": "banking-train-9670", "text": "Can I use top-up with Apple pay?", "labels": {"intent": "apple_pay_or_google_pay"}, "meta": {}}
+{"id": "banking-train-9677", "text": "Why is top up not working for my apple pay app", "labels": {"intent": "apple_pay_or_google_pay"}, "meta": {}}
+{"id": "banking-train-9696", "text": "need help with google pay top up", "labels": {"intent": "apple_pay_or_google_pay"}, "meta": {}}
+{"id": "banking-train-9721", "text": "Can I top up my account with Google Pay?", "labels": {"intent": "apple_pay_or_google_pay"}, "meta": {}}
+{"id": "banking-train-977", "text": "Can you make exchanges using the EUR?", "labels": {"intent": "fiat_currency_support"}, "meta": {}}
+{"id": "banking-train-9777", "text": "What am I going to need in order to verify my identity?", "labels": {"intent": "verify_my_identity"}, "meta": {}}
+{"id": "banking-train-9790", "text": "How can I verify my identity?", "labels": {"intent": "verify_my_identity"}, "meta": {}}
+{"id": "banking-train-98", "text": "I would like to track a card sent to me, how do I do that?", "labels": {"intent": "card_arrival"}, "meta": {}}
+{"id": "banking-train-9811", "text": "Can you tell me what i need for the identity check?", "labels": {"intent": "verify_my_identity"}, "meta": {}}
+{"id": "banking-train-9851", "text": "Tell me what the steps for the identity checks are", "labels": {"intent": "verify_my_identity"}, "meta": {}}
+{"id": "banking-train-9859", "text": "How do I go about verifying my identity?", "labels": {"intent": "verify_my_identity"}, "meta": {}}
+{"id": "banking-train-9885", "text": "Do you provide cards to people not in the UK?", "labels": {"intent": "country_support"}, "meta": {}}
+{"id": "banking-train-9894", "text": "What countries do your accounts send and receive to?", "labels": {"intent": "country_support"}, "meta": {}}
+{"id": "banking-train-991", "text": "Is my fiat currency supported for both hold and exchange?", "labels": {"intent": "fiat_currency_support"}, "meta": {}}
+{"id": "banking-train-9912", "text": "Is it possible for a person who lives in the US to get a card?", "labels": {"intent": "country_support"}, "meta": {}}
+{"id": "banking-train-9940", "text": "I would like to get your card in EU. Is that possible?", "labels": {"intent": "country_support"}, "meta": {}}
+{"id": "banking-train-9945", "text": "How do I find out what countries you service and what countries you do not?", "labels": {"intent": "country_support"}, "meta": {}}
+{"id": "banking-train-9998", "text": "You provide support in what countries?", "labels": {"intent": "country_support"}, "meta": {}}
+{"id": "banking-train-9999", "text": "What countries are you supporting?", "labels": {"intent": "country_support"}, "meta": {}}

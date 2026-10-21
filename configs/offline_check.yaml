@@ -1,0 +1,8 @@
+# Free: runs only the local baseline. Use it to check the pipeline and report
+# without any API key.
+name: offline-check
+dataset: clinc150
+splits: [calibration, eval]
+max_cost_usd: 0.0
+arms:
+  - {name: baseline, kind: baseline, model: baseline-tfidf-logreg}

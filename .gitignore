@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+# Re-downloadable sources; the frozen splits in data/processed are committed.
+data/raw/
+# Call cache: can hold API responses for in-house data. Never commit it.
+results/.cache.sqlite
+.pytest_cache/
+.ruff_cache/

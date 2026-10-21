@@ -1,0 +1,24 @@
+# USD per million tokens. Cost per call is computed from the token counts each API
+# returns, using these prices. Update a row when a provider changes its price, and
+# keep `source` and `as_of` so the report can show where each number came from.
+#
+# Cache prices only matter when an arm sets `prompt_cache: true`. When a model has
+# no explicit cache prices, the harness uses 1.25x input for cache writes and
+# 0.1x input for cache reads; check the provider's pricing page before relying on it.
+
+jev-1.13.0: {input: 0.042, output: 0.0, source: "https://docs.typesafe.ai/models", as_of: "2026-10-21"}
+jev-1.14.0: {input: 0.042, output: 0.0, source: "https://docs.typesafe.ai/models", as_of: "2026-10-21"}
+jev-latest: {input: 0.042, output: 0.0, source: "https://docs.typesafe.ai/models", as_of: "2026-10-21"}
+jev-preview: {input: 0.042, output: 0.0, source: "https://docs.typesafe.ai/models", as_of: "2026-10-21"}
+
+claude-haiku-5-5: {input: 0.10, output: 0.50, source: "Anthropic API pricing", as_of: "2026-10-06"}
+claude-haiku-4-5: {input: 1.00, output: 5.00, source: "Anthropic API pricing", as_of: "2026-10-06"}
+claude-sonnet-5-5: {input: 2.00, output: 10.00, cache_read: 0.20, source: "Anthropic API pricing", as_of: "2026-10-06"}
+claude-opus-5-5: {input: 4.00, output: 20.00, cache_read: 0.20, source: "Anthropic API pricing", as_of: "2026-10-06"}
+
+# OpenAI arms are optional. Fill in the model IDs and prices from
+# https://openai.com/api/pricing before enabling them in a run config.
+# gpt-5.6-terra: {input: 0.0, output: 0.0, source: "https://openai.com/api/pricing", as_of: ""}
+# gpt-5.6-mini: {input: 0.0, output: 0.0, source: "https://openai.com/api/pricing", as_of: ""}
+
+baseline-tfidf-logreg: {input: 0.0, output: 0.0, source: "runs locally", as_of: ""}

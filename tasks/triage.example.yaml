@@ -1,0 +1,37 @@
+# Template for the in-house ticket / email triage set (use case 2).
+# Copy to tasks/triage.yaml, adjust labels and descriptions, then:
+#   uv run jev-eval prepare triage --source data/raw/triage/items.jsonl --task tasks/triage.yaml
+# Each line of items.jsonl:
+#   {"id": "t-0001", "text": "<subject + body>", "labels": {"category": "billing", "priority": "high", "team": "finance", "needs_human": "no"}}
+# The first field is used to stratify the splits. Every arm sees exactly these
+# instructions, labels and descriptions.
+name: triage
+context: "Support tickets and emails sent to a B2B software company, in Dutch, French or English."
+fields:
+  - name: category
+    instruction: "What is the ticket about?"
+    labels: [billing, bug, access, feature_request, how_to, other]
+    descriptions:
+      billing: "Invoices, payments, refunds, contract or pricing questions"
+      bug: "Something in the product is broken or behaves wrongly"
+      access: "Login, passwords, SSO, permissions, user accounts"
+      feature_request: "Asks for something the product does not do yet"
+      how_to: "Asks how to use an existing feature"
+      other: "None of the categories above"
+    out_of_scope_label: other
+  - name: priority
+    instruction: "How urgent is the ticket for the customer?"
+    labels: [low, medium, high]
+    descriptions:
+      low: "Can wait; no work is blocked"
+      medium: "Should be handled this week; work is slowed down"
+      high: "Needs action today; production or many users are blocked"
+  - name: team
+    instruction: "Which team should handle it?"
+    labels: [finance, support, engineering, product]
+  - name: needs_human
+    instruction: "Does a person need to read this before any automated reply?"
+    labels: ["yes", "no"]
+    descriptions:
+      "yes": "Legal threat, angry escalation, security incident, or anything ambiguous"
+      "no": "A routine request an automated flow can answer"

@@ -1,0 +1,12 @@
+# E3 many classes: CLINC150 cut down to 77 intents (+ out-of-scope).
+name: stress-clinc150-classes-77
+dataset: clinc150
+splits: [calibration, eval]
+concurrency: 8
+max_cost_usd: 30.0
+stress: {max_classes: 77}
+arms:
+  - {name: jev, kind: jev, model: jev-1.13.0}
+  - {name: haiku-5.5, kind: anthropic, model: claude-haiku-5-5, params: {effort: low}}
+  - {name: opus-5.5, kind: anthropic, model: claude-opus-5-5, params: {effort: low}}
+  - {name: baseline, kind: baseline, model: baseline-tfidf-logreg}

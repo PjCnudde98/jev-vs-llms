@@ -1,0 +1,30 @@
+{
+  "run_id": "offline-check",
+  "config": "configs/offline_check.yaml",
+  "started": "2026-10-21T08:34:42.923203+00:00",
+  "packages": {
+    "jev-eval": "0.1.0",
+    "typesafe-sdk": "0.7.5",
+    "anthropic": "1.17.0",
+    "openai": "3.35.1"
+  },
+  "task": "clinc150",
+  "n_labels": {
+    "intent": 151
+  },
+  "arms": {
+    "baseline": {
+      "kind": "baseline",
+      "model": "baseline-tfidf-logreg",
+      "params": {},
+      "model_versions": [
+        "baseline-tfidf-logreg"
+      ],
+      "fingerprint": "e6f5bf0fbb31197d",
+      "new_spend_usd": 0.0,
+      "wall_clock_s": 1.36
+    }
+  },
+  "finished": "2026-10-21T08:34:53.483213+00:00",
+  "new_spend_usd": 0.0
+}
